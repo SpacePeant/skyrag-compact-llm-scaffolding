@@ -1,0 +1,50 @@
+{"id": "q01", "domain": "computer_science", "query": "I want to learn data science in 6 months"}
+{"id": "q02", "domain": "computer_science", "query": "Machine learning and deep learning path with Python"}
+{"id": "q03", "domain": "computer_science", "query": "Full-stack web development with Python and JavaScript"}
+{"id": "q04", "domain": "computer_science", "query": "Cybersecurity, network defense, and ethical hacking"}
+{"id": "q05", "domain": "computer_science", "query": "Cloud computing infrastructure and DevOps deployment"}
+{"id": "cs06", "domain": "computer_science", "query": "I am a backend developer and want to move into data engineering with SQL and Spark"}
+{"id": "cs07", "domain": "computer_science", "query": "Teach me mobile app development from scratch, Android first"}
+{"id": "cs08", "domain": "computer_science", "query": "I want to understand databases properly - relational design, indexing, and query tuning"}
+{"id": "math01", "domain": "mathematics", "query": "I need to relearn calculus before starting an engineering degree"}
+{"id": "math02", "domain": "mathematics", "query": "Linear algebra and probability, enough to follow machine learning papers"}
+{"id": "math03", "domain": "mathematics", "query": "I want to learn statistics for interpreting research studies, not for programming"}
+{"id": "math04", "domain": "mathematics", "query": "Discrete mathematics and logic for someone starting computer science"}
+{"id": "math05", "domain": "mathematics", "query": "Help me build up to differential equations from high school algebra"}
+{"id": "biz01", "domain": "business_finance", "query": "I want to learn financial accounting well enough to read a company's annual report"}
+{"id": "biz02", "domain": "business_finance", "query": "Digital marketing and social media strategy for a small business owner"}
+{"id": "biz03", "domain": "business_finance", "query": "I am starting a company and need entrepreneurship and fundraising fundamentals"}
+{"id": "biz04", "domain": "business_finance", "query": "Project management from the basics through to agile delivery"}
+{"id": "biz05", "domain": "business_finance", "query": "Corporate finance and investment analysis for a career change into banking"}
+{"id": "biz06", "domain": "business_finance", "query": "Supply chain and operations management for a manufacturing role"}
+{"id": "health01", "domain": "health_medicine", "query": "I want to understand nutrition and healthy eating on solid evidence"}
+{"id": "health02", "domain": "health_medicine", "query": "Public health and epidemiology basics for a non-clinician"}
+{"id": "health03", "domain": "health_medicine", "query": "Introduction to psychology and mental health for a support worker"}
+{"id": "health04", "domain": "health_medicine", "query": "Anatomy and physiology as preparation for a nursing programme"}
+{"id": "health05", "domain": "health_medicine", "query": "I want to learn about global health systems and healthcare policy"}
+{"id": "comm01", "domain": "communication_leadership", "query": "I want to become a confident public speaker and presenter"}
+{"id": "comm02", "domain": "communication_leadership", "query": "Negotiation and persuasion skills for someone new to management"}
+{"id": "comm03", "domain": "communication_leadership", "query": "How do I become a better leader of a small technical team"}
+{"id": "comm04", "domain": "communication_leadership", "query": "Business writing and professional communication for non-native English speakers"}
+{"id": "comm05", "domain": "communication_leadership", "query": "Conflict resolution and difficult conversations at work"}
+{"id": "sci01", "domain": "science_engineering", "query": "I want to learn climate science and the energy transition"}
+{"id": "sci02", "domain": "science_engineering", "query": "Introductory physics and mechanics for an adult returning to study"}
+{"id": "sci03", "domain": "science_engineering", "query": "Molecular biology and genetics from the beginning"}
+{"id": "sci04", "domain": "science_engineering", "query": "Electrical engineering fundamentals - circuits, signals, and electronics"}
+{"id": "sci05", "domain": "science_engineering", "query": "Organic chemistry, enough to prepare for a medical school entrance exam"}
+{"id": "arts01", "domain": "arts_humanities", "query": "I want to learn music theory and start composing"}
+{"id": "arts02", "domain": "arts_humanities", "query": "Modern world history, from the industrial revolution to the present day"}
+{"id": "arts03", "domain": "arts_humanities", "query": "Introduction to philosophy and ethical reasoning"}
+{"id": "arts04", "domain": "arts_humanities", "query": "Creative writing and storytelling for someone who wants to write fiction"}
+{"id": "arts05", "domain": "arts_humanities", "query": "Photography and visual design for a complete beginner"}
+{"id": "edu01", "domain": "education", "query": "I am a new teacher and want to learn classroom teaching methods"}
+{"id": "edu02", "domain": "education", "query": "Instructional design and building online courses"}
+{"id": "edu03", "domain": "education", "query": "How do I teach mathematics to primary school children effectively"}
+{"id": "edu04", "domain": "education", "query": "Educational assessment and measuring student learning"}
+{"id": "law01", "domain": "law_policy", "query": "Introduction to law and legal reasoning for a non-lawyer"}
+{"id": "law02", "domain": "law_policy", "query": "Human rights and international humanitarian law"}
+{"id": "law03", "domain": "law_policy", "query": "Public policy analysis and governance for a civil service career"}
+{"id": "law04", "domain": "law_policy", "query": "Sustainability, environmental policy, and corporate responsibility"}
+{"id": "lang01", "domain": "language", "query": "I want to improve my English grammar and academic writing"}
+{"id": "lang02", "domain": "language", "query": "Learn Chinese from beginner level for business travel"}
+{"id": "lang03", "domain": "language", "query": "English for professional communication in a technical workplace"}

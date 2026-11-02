@@ -1,0 +1,202 @@
+{
+ "q01": {
+  "text": "I want to learn data science in 6 months, preferably with a prerequisite level of beginner and a duration of 6 months.",
+  "schema_ok": true
+ },
+ "q02": {
+  "text": "I am looking for a course that covers the prerequisites of machine learning and deep learning, with a duration of at least 3 months and a prerequisite level of intermediate. The course should cover the basics of machine learning and deep learning, including data preprocessing, model selection, and hyperparameter tuning. I want to learn how to implement machine learning and deep learning algorithms using Python and apply them to real-world problems.",
+  "schema_ok": true
+ },
+ "q03": {
+  "text": "I'm looking for a full-stack web development course that covers both Python and JavaScript programming. The course should be suitable for beginners and intermediate learners, with a duration of 3-6 months. I want to learn the basics of web development, including front-end and back-end development, and be able to build a simple web application by the end of the course.",
+  "schema_ok": true
+ },
+ "q04": {
+  "text": "I am looking for a course that covers the basics of cybersecurity, including network defense and ethical hacking principles. The course should be at a beginner level and last for 6-12 weeks. I want to learn the fundamentals of cybersecurity and be able to apply them in a real-world setting.",
+  "schema_ok": true
+ },
+ "q05": {
+  "text": "I am looking for a course that covers cloud computing infrastructure and DevOps deployment. The course should be at a beginner level and last for 6-12 months. I want to learn the basics of cloud infrastructure and how to deploy applications using DevOps tools.",
+  "schema_ok": true
+ },
+ "cs06": {
+  "text": "I am a backend developer looking to transition into data engineering roles that utilize SQL and Spark, requiring a prerequisite level of intermediate to advanced programming skills and a duration of 3-6 months to complete.",
+  "schema_ok": true
+ },
+ "cs07": {
+  "text": "I am a beginner looking for a comprehensive course on mobile app development, specifically focusing on Android first. The course should cover the basics of programming and mobile app development, and should be suitable for someone with no prior experience. I am looking for a course that can be completed within 3-6 months.",
+  "schema_ok": true
+ },
+ "cs08": {
+  "text": "I want to understand databases properly, specifically relational design, indexing, and query tuning for a beginner level, and I'm looking for courses that last between 2-6 months.",
+  "schema_ok": true
+ },
+ "math01": {
+  "text": "I need to relearn calculus before starting an engineering degree. I'm looking for courses that cover the prerequisite math concepts for engineering programs. I'm interested in online courses with a duration of 3-6 months.",
+  "schema_ok": true
+ },
+ "math02": {
+  "text": "I am looking for a course that covers the basics of linear algebra and probability, with a focus on mathematical concepts and techniques. The course should be at a prerequisite level of high school algebra and geometry, and should last for 6-12 weeks. I want to gain a solid understanding of linear algebra and probability to be able to follow machine learning papers and research.",
+  "schema_ok": true
+ },
+ "math03": {
+  "text": "I am looking for a course on statistics that focuses on interpreting research studies, specifically for non-technical users. The course should cover the basics of statistics and how to apply them to research study analysis. I am interested in a course with a duration of 6-12 weeks and a prerequisite level of beginner.",
+  "schema_ok": true
+ },
+ "math04": {
+  "text": "I'm a beginner in computer science and I'm looking for a course that covers discrete mathematics and logic. The course should be suitable for someone with no prior experience in the field and should last around 3-6 months. I want to gain a solid understanding of the fundamentals of computer science and be able to apply them in real-world scenarios.",
+  "schema_ok": true
+ },
+ "math05": {
+  "text": "I'm looking for a course that starts with high school algebra and builds up to differential equations over a duration of 6-12 months, assuming a prerequisite level of high school algebra. The course should cover precalculus and calculus as intermediate steps. I want to ensure the course is comprehensive and well-structured, with a clear progression from algebra to differential equations.",
+  "schema_ok": true
+ },
+ "biz01": {
+  "text": "I want to learn financial accounting well enough to read a company's annual report, which I expect to take 3-6 months to complete, assuming a prerequisite level of intermediate accounting knowledge.",
+  "schema_ok": true
+ },
+ "biz02": {
+  "text": "I am a small business owner looking for a comprehensive digital marketing strategy that includes social media marketing. The strategy should be tailored to my specific business needs and have a duration of at least 6 months. I am looking for a prerequisite level of intermediate to advanced knowledge in digital marketing.",
+  "schema_ok": true
+ },
+ "biz03": {
+  "text": "I am starting a company and need to learn entrepreneurship and fundraising fundamentals, which should take around 1-3 months to complete, with a prerequisite level of beginner, and cover topics such as business planning, financial management, and marketing strategies.",
+  "schema_ok": true
+ },
+ "biz04": {
+  "text": "I am looking for a course that covers project management from the basics through to agile delivery. The course should be suitable for beginners and intermediate learners, with a duration of 6-12 months. I want to gain a comprehensive understanding of project management principles and agile methodologies.",
+  "schema_ok": true
+ },
+ "biz05": {
+  "text": "I am looking for a course that covers corporate finance and investment analysis, with a focus on banking. The course should be suitable for a career change and have a duration of 6-12 months. I am looking for a prerequisite level of intermediate to advanced.",
+  "schema_ok": true
+ },
+ "biz06": {
+  "text": "I am looking for a course that covers supply chain and operations management specifically for a manufacturing role. The course should be at a beginner level and last for 6-12 months. I want to learn the fundamentals of supply chain management, operations planning, and logistics to advance my career in manufacturing.",
+  "schema_ok": true
+ },
+ "health01": {
+  "text": "I am looking for courses that cover the basics of nutrition and healthy eating, specifically those that are grounded in solid evidence and research. I am interested in courses that are suitable for beginners and intermediate learners, with a duration of 4-6 weeks. I would like the courses to be self-paced and include interactive elements, such as quizzes and discussions.",
+  "schema_ok": true
+ },
+ "health02": {
+  "text": "I'm a non-clinician looking for a beginner-level online course that covers the fundamentals of public health and epidemiology, with a duration of 2-6 months.",
+  "schema_ok": true
+ },
+ "health03": {
+  "text": "I am a support worker looking for a course that covers the basics of psychology and mental health. The course should be suitable for beginners and last around 6-12 months. I want to gain a good understanding of how to support individuals with mental health issues.",
+  "schema_ok": true
+ },
+ "health04": {
+  "text": "I am looking for courses that cover anatomy and physiology as a prerequisite for a nursing programme. The courses should be of a level that is suitable for a beginner and should last for a duration of 6-12 months. I want to gain a solid understanding of the subject matter before pursuing a nursing degree.",
+  "schema_ok": true
+ },
+ "health05": {
+  "text": "I am looking for courses that cover global health systems and healthcare policy at the undergraduate or graduate level, with a duration of 3-6 months or 1-2 years.",
+  "schema_ok": true
+ },
+ "comm01": {
+  "text": "I am looking for a course that will help me become a confident public speaker and presenter. The course should be suitable for beginners and intermediate learners, with a duration of 6-12 weeks. I want to learn how to effectively communicate with my audience, handle nervousness, and deliver engaging presentations.",
+  "schema_ok": true
+ },
+ "comm02": {
+  "text": "I'm looking for courses that teach negotiation and persuasion skills for someone new to management. The courses should be suitable for a beginner and have a duration of 6-12 months. I want to learn how to effectively communicate and lead a team in a management role.",
+  "schema_ok": true
+ },
+ "comm03": {
+  "text": "I'm looking for courses or training programs that cater to individuals with a prerequisite level of 1-2 years of experience in team management. The duration of the program should be around 6-12 months, with a focus on practical skills and real-world applications. I want to learn how to motivate and guide my team to achieve their goals and improve overall team performance.",
+  "schema_ok": true
+ },
+ "comm04": {
+  "text": "I am a non-native English speaker looking for courses on business writing and professional communication. I am interested in courses that cater to my level of English proficiency and provide a duration of 3-6 months. I would like to improve my business writing and communication skills to enhance my career prospects.",
+  "schema_ok": true
+ },
+ "comm05": {
+  "text": "I'm looking for courses that cover conflict resolution and difficult conversations at work, specifically at the intermediate level, with a duration of 2-4 hours.",
+  "schema_ok": true
+ },
+ "sci01": {
+  "text": "I want to learn about climate science and the energy transition, specifically at a beginner level, with a course duration of 3-6 months.",
+  "schema_ok": true
+ },
+ "sci02": {
+  "text": "I am an adult looking to return to study and I need introductory physics and mechanics courses that can be completed within a duration of 6-12 months, with a prerequisite level of high school physics or equivalent.",
+  "schema_ok": true
+ },
+ "sci03": {
+  "text": "I am looking for courses that cover the fundamentals of molecular biology and genetics, starting from the basics and progressing to advanced topics. The prerequisite level for these courses should be introductory to intermediate. I am expecting the courses to last for a duration of 3-6 months.",
+  "schema_ok": true
+ },
+ "sci04": {
+  "text": "This query is for students with a prerequisite level of introductory college courses and a duration of 12-16 weeks. It covers the basics of electrical engineering, including circuit analysis, signal processing, and electronics. The course aims to provide a solid foundation for further studies in electrical engineering.",
+  "schema_ok": true
+ },
+ "sci05": {
+  "text": "I am looking for a course that covers the basics of organic chemistry, including prerequisite level material, and is long enough to prepare me for a medical school entrance exam, which typically takes 3-6 months to prepare for.",
+  "schema_ok": true
+ },
+ "arts01": {
+  "text": "I am a beginner looking for online courses that teach music theory and composition. I want to learn the basics of music theory and composition in 3-6 months. I am looking for courses that are suitable for beginners and provide a comprehensive understanding of music theory and composition.",
+  "schema_ok": true
+ },
+ "arts02": {
+  "text": "A comprehensive study of modern world history, covering the industrial revolution to the present day, with a focus on key events, cultural movements, and global interactions.",
+  "schema_ok": true
+ },
+ "arts03": {
+  "text": "I am looking for a course that covers the basics of philosophy and ethical reasoning, with a duration of 6-12 weeks and a prerequisite level of introductory. The course should provide a comprehensive understanding of philosophical concepts and their application to real-world ethical dilemmas. I am interested in a self-paced online course with interactive modules and assessments.",
+  "schema_ok": true
+ },
+ "arts04": {
+  "text": "I'm looking for a course that covers the basics of creative writing and storytelling, specifically focusing on writing fiction. The course should be suitable for beginners and intermediate learners, with a duration of 6-12 weeks. I want to learn how to develop engaging characters, plot structures, and writing styles, and eventually write a complete novel.",
+  "schema_ok": true
+ },
+ "arts05": {
+  "text": "I am a complete beginner looking for a course that covers the basics of photography and visual design. The course should be suitable for someone with no prior experience and should last for a duration of at least 3 months. I want to learn the fundamental concepts of photography and visual design in a structured and comprehensive manner.",
+  "schema_ok": true
+ },
+ "edu01": {
+  "text": "I am a new teacher looking for a comprehensive course on classroom teaching methods that can be completed within 3-6 months, with a prerequisite level of beginner, and covers topics such as lesson planning, classroom management, and student engagement.",
+  "schema_ok": true
+ },
+ "edu02": {
+  "text": "I am looking for courses that cover instructional design and building online courses. The courses should be at a beginner level and last between 2-4 weeks. I want to learn the fundamentals of creating engaging online content and designing effective learning experiences.",
+  "schema_ok": true
+ },
+ "edu03": {
+  "text": "I am looking for information on how to teach mathematics to primary school children effectively. The prerequisite level for this information is a basic understanding of mathematics education. I am interested in learning about teaching methods and curriculum design that can be implemented over a duration of 1-3 months.",
+  "schema_ok": true
+ },
+ "edu04": {
+  "text": "I am looking for educational resources that cover the topic of educational assessment and measuring student learning. The resources should be suitable for a prerequisite level of high school or higher and should have a duration of 1-3 hours. I want to find resources that provide a comprehensive understanding of the subject matter.",
+  "schema_ok": true
+ },
+ "law01": {
+  "text": "I am a non-lawyer looking for an introduction to law and legal reasoning. The course should have a prerequisite level of beginner and a duration of 6-12 weeks. I want to learn the fundamentals of law and legal reasoning in a structured and comprehensive manner.",
+  "schema_ok": true
+ },
+ "law02": {
+  "text": "This query is for a course that covers the intersection of human rights and international humanitarian law. The course should be at a prerequisite level of at least a bachelor's degree and should last for a duration of 6-12 weeks. The course should provide a comprehensive understanding of the relationship between human rights and international humanitarian law.",
+  "schema_ok": true
+ },
+ "law03": {
+  "text": "I am looking for a course that covers public policy analysis and governance as prerequisites for a career in civil service. The course should last for 6-12 months and provide a comprehensive understanding of policy analysis and governance. I am interested in a course that is suitable for intermediate level students.",
+  "schema_ok": true
+ },
+ "law04": {
+  "text": "I am looking for courses that cover the basics of sustainability, environmental policy, and corporate responsibility. The courses should be suitable for intermediate level students and last for 6-12 weeks. I want to learn about the principles and practices of sustainability, environmental policy, and corporate responsibility in a business context.",
+  "schema_ok": true
+ },
+ "lang01": {
+  "text": "I am a beginner looking to improve my English grammar and academic writing skills over the next 3-6 months with a course that covers the basics of sentence structure, vocabulary, and essay writing.",
+  "schema_ok": true
+ },
+ "lang02": {
+  "text": "I am looking for a Chinese language course that is suitable for a beginner level learner, with a focus on language skills required for business travel. The course should be designed to help learners develop a solid foundation in the language, with a duration of at least 3 months. I would like to know the prerequisites for the course, such as prior language learning experience or proficiency level.",
+  "schema_ok": true
+ },
+ "lang03": {
+  "text": "I am looking for a course that teaches English for professional communication in a technical workplace. The course should be suitable for intermediate to advanced learners and last for 6-12 weeks. I want to improve my technical communication skills to effectively collaborate with colleagues and clients.",
+  "schema_ok": true
+ }
+}

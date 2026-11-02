@@ -1,0 +1,5 @@
+    matched on query_id: n=50  (of 200 and 150 rows)
+    invention_itt            0.3857 ->   0.1335  delta=-0.2522 [-0.3067, -0.1934]     dz=+1.212 p=0.0000 n=50
+    invention_both_spoke     0.3857 ->   0.0883  delta=-0.2974 [-0.3456, -0.2455]     dz=+1.602 p=0.0000 n=50
+    retrieved               96.6350 -> 288.3800  delta=+191.7450 [+165.0833, +218.6800] dz=-1.973 p=0.0000 n=50
+    TOST on invention_itt, margin +/-0.05

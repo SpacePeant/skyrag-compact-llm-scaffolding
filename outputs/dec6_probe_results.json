@@ -1,0 +1,322 @@
+[
+  {
+    "test": "json_object",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "provider": "deepinfra",
+    "status_code": 200,
+    "elapsed_s": 93.125,
+    "success": true,
+    "is_valid_json": true,
+    "content_preview": "{\n  \"expansions\": [\n    \"Machine Learning with Python\",\n    \"Python Machine Learning\",\n    \"Learn Machine Learning with Python\",\n    \"Machine Learning using Python\",\n    \"Python for Machine Learning\"\n",
+    "parsed_keys": [
+      "expansions",
+      "step_back"
+    ],
+    "error": null,
+    "raw": {
+      "id": "gen-1788143887-oS3NoCpdBJvYsHjxXCCc",
+      "object": "chat.completion",
+      "created": 1788143887,
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "provider": "DeepInfra",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"expansions\": [\n    \"Machine Learning with Python\",\n    \"Python Machine Learning\",\n    \"Learn Machine Learning with Python\",\n    \"Machine Learning using Python\",\n    \"Python for Machine Learning\"\n  ],\n  \"step_back\": \"Learn machine learning in Python\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 59,
+        "total_tokens": 121,
+        "cost": 3.6e-06,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 3.6e-06,
+          "upstream_inference_prompt_cost": 1.24e-06,
+          "upstream_inference_completions_cost": 2.36e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "test": "json_schema",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "provider": "deepinfra",
+    "status_code": 404,
+    "elapsed_s": 0.185,
+    "success": false,
+    "is_valid_json": false,
+    "conforms_to_schema": false,
+    "content_preview": null,
+    "parsed_keys": null,
+    "error": "{\"error\":{\"message\":\"No endpoints found for meta-llama/llama-3.1-8b-instruct.\",\"code\":404},\"user_id\":\"REDACTED\"}",
+    "raw": {}
+  },
+  {
+    "test": "prompt_and_parse_baseline",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "provider": "deepinfra",
+    "status_code": 200,
+    "elapsed_s": 2.93,
+    "success": true,
+    "is_parseable": true,
+    "content_preview": "{\"platform\": \"coursera\", \"keywords\": [{\"keyword\": \"Python\", \"copied_verbatim\": true}, {\"keyword\": \"Data Science\", \"copied_verbatim\": true}, {\"keyword\": \"Machine Learning\", \"copied_verbatim\": true}, {\"",
+    "parsed_keys": [
+      "platform",
+      "keywords"
+    ],
+    "error": null,
+    "raw": {
+      "id": "gen-1788143894-E1wk5Bm98Z1RcOodsWLg",
+      "object": "chat.completion",
+      "created": 1788143894,
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "provider": "DeepInfra",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\"platform\": \"coursera\", \"keywords\": [{\"keyword\": \"Python\", \"copied_verbatim\": true}, {\"keyword\": \"Data Science\", \"copied_verbatim\": true}, {\"keyword\": \"Machine Learning\", \"copied_verbatim\": true}, {\"keyword\": \"Data Analysis\", \"copied_verbatim\": true}, {\"keyword\": \"Data Visualization\", \"copied_verbatim\": true}]}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 77,
+        "completion_tokens": 87,
+        "total_tokens": 164,
+        "cost": 5.02e-06,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.02e-06,
+          "upstream_inference_prompt_cost": 1.54e-06,
+          "upstream_inference_completions_cost": 3.48e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "test": "json_object",
+    "model": "meta-llama/llama-3.1-70b-instruct",
+    "provider": "deepinfra",
+    "status_code": 200,
+    "elapsed_s": 2.643,
+    "success": true,
+    "is_valid_json": true,
+    "content_preview": "{\n  \"expansions\": [\n    \"Python machine learning tutorials\",\n    \"Machine learning with Python courses\",\n    \"Python data science courses\",\n    \"Machine learning certification Python\",\n    \"Python mac",
+    "parsed_keys": [
+      "expansions",
+      "step_back"
+    ],
+    "error": null,
+    "raw": {
+      "id": "gen-1788143898-7HN9RwkZWJ0aSaMGJIUe",
+      "object": "chat.completion",
+      "created": 1788143898,
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "provider": "DeepInfra",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"expansions\": [\n    \"Python machine learning tutorials\",\n    \"Machine learning with Python courses\",\n    \"Python data science courses\",\n    \"Machine learning certification Python\",\n    \"Python machine learning online courses\",\n    \"Machine learning with Python tutorials\"\n  ],\n  \"step_back\": \"You can try searching for more general topics like 'Machine learning courses' or 'Python tutorials' to get a broader range of results.\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 90,
+        "total_tokens": 152,
+        "cost": 6.08e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 6.08e-05,
+          "upstream_inference_prompt_cost": 2.48e-05,
+          "upstream_inference_completions_cost": 3.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "test": "json_schema",
+    "model": "meta-llama/llama-3.1-70b-instruct",
+    "provider": "deepinfra",
+    "status_code": 200,
+    "elapsed_s": 5.271,
+    "success": true,
+    "is_valid_json": true,
+    "conforms_to_schema": true,
+    "content_preview": "{\n  \"platform\": \"coursera\",\n\t\"keywords\": [\n\t\t{\n\t\t\t\"keyword\": \"Python\",\n\t\t\t\"copied_verbatim\": true\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Data Science\",\n\t\t\t\"copied_verbatim\": true\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Machine Lear",
+    "parsed_keys": [
+      "platform",
+      "keywords"
+    ],
+    "error": null,
+    "raw": {
+      "id": "gen-1788143901-DN3yXz32lfWD9SxSLqJo",
+      "object": "chat.completion",
+      "created": 1788143901,
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "provider": "DeepInfra",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"platform\": \"coursera\",\n\t\"keywords\": [\n\t\t{\n\t\t\t\"keyword\": \"Python\",\n\t\t\t\"copied_verbatim\": true\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Data Science\",\n\t\t\t\"copied_verbatim\": true\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Machine Learning\",\n\t\t\t\"copied_verbatim\": false\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Data Analysis\",\n\t\t\t\"copied_verbatim\": false\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Data Visualization\",\n\t\t\t\"copied_verbatim\": false\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Statistics\",\n\t\t\t\"copied_verbatim\": false\n\t\t},\n\t\t{\n\t\t\t\"keyword\": \"Programming\",\n\t\t\t\"copied_verbatim\": false\n\t\t}\n\t]\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 47,
+        "completion_tokens": 206,
+        "total_tokens": 253,
+        "cost": 0.0001012,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001012,
+          "upstream_inference_prompt_cost": 1.88e-05,
+          "upstream_inference_completions_cost": 8.24e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "test": "prompt_and_parse_baseline",
+    "model": "meta-llama/llama-3.1-70b-instruct",
+    "provider": "deepinfra",
+    "status_code": 200,
+    "elapsed_s": 4.016,
+    "success": true,
+    "is_parseable": true,
+    "content_preview": "```json\n{\"platform\": \"coursera\", \"keywords\": [{\"keyword\": \"Python\", \"copied_verbatim\": true}, {\"keyword\": \"Data Science\", \"copied_verbatim\": true}, {\"keyword\": \"Machine Learning\", \"copied_verbatim\": f",
+    "parsed_keys": [
+      "platform",
+      "keywords"
+    ],
+    "error": null,
+    "raw": {
+      "id": "gen-1788143910-7cA14VkXtXPBk4pPkKOU",
+      "object": "chat.completion",
+      "created": 1788143910,
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "provider": "DeepInfra",
+      "system_fingerprint": null,
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "```json\n{\"platform\": \"coursera\", \"keywords\": [{\"keyword\": \"Python\", \"copied_verbatim\": true}, {\"keyword\": \"Data Science\", \"copied_verbatim\": true}, {\"keyword\": \"Machine Learning\", \"copied_verbatim\": false}, {\"keyword\": \"Data Analysis\", \"copied_verbatim\": false}, {\"keyword\": \"Data Visualization\", \"copied_verbatim\": false}, {\"keyword\": \"Pandas\", \"copied_verbatim\": false}, {\"keyword\": \"NumPy\", \"copied_verbatim\": false}, {\"keyword\": \"Matplotlib\", \"copied_verbatim\": false}, {\"keyword\": \"Scikit-learn\", \"copied_verbatim\": false}]}\n```",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 77,
+        "completion_tokens": 153,
+        "total_tokens": 230,
+        "cost": 9.2e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 9.2e-05,
+          "upstream_inference_prompt_cost": 3.08e-05,
+          "upstream_inference_completions_cost": 6.12e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  }
+]

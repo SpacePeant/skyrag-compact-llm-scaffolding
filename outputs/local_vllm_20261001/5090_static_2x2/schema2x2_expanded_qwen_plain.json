@@ -1,0 +1,202 @@
+{
+ "q01": {
+  "text": "This course is designed for beginners aiming to learn data science within a 6-month period, covering essential topics such as data manipulation, statistical analysis, machine learning, and data visualization. Participants will gain hands-on experience with Python or R programming languages and tools like pandas, NumPy, and Jupyter Notebooks, preparing them to analyze and interpret complex data sets effectively.",
+  "schema_ok": null
+ },
+ "q02": {
+  "text": "This course path focuses on machine learning and deep learning techniques using Python, suitable for learners with a basic understanding of programming. The path spans approximately 12 weeks and covers essential skills including data preprocessing, model training and evaluation, neural network architectures, and practical applications of deep learning. Topics include linear regression, logistic regression, decision trees, support vector machines, convolutional neural networks, and recurrent neural networks.",
+  "schema_ok": null
+ },
+ "q03": {
+  "text": "This course covers full-stack web development using Python and JavaScript, suitable for intermediate-level learners with a basic understanding of programming concepts. The course duration is approximately 12 weeks and includes topics such as backend development with Python frameworks like Flask or Django, frontend development with JavaScript and popular libraries like React, and integrating the frontend and backend to create dynamic web applications. Students will gain hands-on experience in building, deploying, and maintaining full-stack web applications.",
+  "schema_ok": null
+ },
+ "q04": {
+  "text": "This course covers advanced topics in cybersecurity, network defense, and ethical hacking, suitable for intermediate-level learners with a foundational understanding of computer networks and basic cybersecurity concepts. The course is designed to be completed in 12 weeks and will provide in-depth knowledge of network security principles, threat analysis, and ethical hacking techniques, including hands-on experience with penetration testing tools and methods to defend against cyber threats.",
+  "schema_ok": null
+ },
+ "q05": {
+  "text": "This course covers the fundamentals of cloud computing infrastructure and DevOps deployment, suitable for intermediate-level learners with basic knowledge of computer science and cloud services. The course is designed to be completed in approximately 8 weeks and will provide hands-on experience with cloud platforms, automation tools, and best practices for deploying applications in a DevOps environment. Key topics include cloud architecture, virtualization, containerization, continuous integration/continuous deployment (CI/CD) pipelines, and monitoring and scaling cloud-based applications.",
+  "schema_ok": null
+ },
+ "cs06": {
+  "text": "This course is designed for intermediate-level backend developers aiming to transition into data engineering roles, focusing on SQL and Apache Spark. Over a duration of 12 weeks, learners will master essential data engineering skills, including advanced SQL queries, data manipulation techniques, big data processing with Spark, and ETL workflows. Key topics covered will include database design, data warehousing, Spark architecture, and hands-on projects to build a robust portfolio.",
+  "schema_ok": null
+ },
+ "cs07": {
+  "text": "This course is designed for beginners with no prior programming experience and aims to teach mobile app development, focusing initially on Android. Over a duration of approximately 12 weeks, learners will master fundamental concepts and skills including Android Studio setup, Java and Kotlin programming languages, user interface design, basic app functionality, and deployment. Key topics covered will include app architecture, database management, network communication, and user authentication.",
+  "schema_ok": null
+ },
+ "cs08": {
+  "text": "This course is designed for intermediate-level learners who wish to gain a comprehensive understanding of relational databases, including database design principles, indexing techniques, and query optimization. The course spans approximately 4 weeks and covers essential topics such as normalization, schema design, index selection, and performance tuning strategies to enhance query execution efficiency.",
+  "schema_ok": null
+ },
+ "math01": {
+  "text": "This course is designed for learners looking to relearn calculus with a focus on foundational concepts and advanced problem-solving techniques, suitable for students preparing to start an engineering degree. Prerequisites include a basic understanding of algebra and trigonometry. The course, which spans approximately 8 weeks, covers essential topics such as limits, derivatives, integrals, and their applications, equipping students with the necessary skills to succeed in their engineering studies.",
+  "schema_ok": null
+ },
+ "math02": {
+  "text": "This course covers essential topics in linear algebra and probability, designed for learners with a basic understanding of mathematics, aiming to equip students with the necessary skills to follow and understand machine learning papers. The course, which spans approximately 12 weeks, delves into vector spaces, matrices, eigenvalues, probability distributions, and statistical inference, providing a solid foundation for advanced studies in machine learning.",
+  "schema_ok": null
+ },
+ "math03": {
+  "text": "This course is designed for intermediate-level learners who wish to gain a solid understanding of statistical methods for interpreting research studies, without focusing on programming. The course will span approximately 8 weeks and will cover essential topics such as descriptive statistics, inferential statistics, hypothesis testing, regression analysis, and the interpretation of statistical results in various research contexts. By the end of the course, students will be able to critically analyze and interpret statistical data from research studies.",
+  "schema_ok": null
+ },
+ "math04": {
+  "text": "This course is designed for beginners in computer science and introduces fundamental concepts in discrete mathematics and logic, including set theory, logic gates, Boolean algebra, and graph theory. Prerequisites include a basic understanding of high school mathematics. The course is structured to last approximately 12 weeks, providing a comprehensive foundation in essential mathematical tools and logical reasoning skills necessary for further studies in computer science.",
+  "schema_ok": null
+ },
+ "math05": {
+  "text": "This course is designed for students with a solid foundation in high school algebra and aims to progressively build up to the study of differential equations over a duration of 12 weeks. Key topics include advanced algebra, precalculus, and an introduction to calculus, with a focus on developing skills in functions, limits, derivatives, integrals, and their applications. By the end of the course, students will be well-prepared to tackle differential equations and their real-world applications.",
+  "schema_ok": null
+ },
+ "biz01": {
+  "text": "This course is designed for beginners and aims to provide a comprehensive understanding of financial accounting, enabling learners to read and interpret a company's annual report effectively. Over a duration of 8 weeks, students will cover essential topics including financial statements, accounting principles, financial ratios, and analysis techniques. By the end of the course, participants will be able to understand and evaluate a company's financial health and performance based on the information presented in its annual report.",
+  "schema_ok": null
+ },
+ "biz02": {
+  "text": "This course is designed for small business owners at an intermediate level, focusing on developing digital marketing and social media strategy skills over a duration of 8 weeks. Key topics include understanding digital marketing fundamentals, creating effective social media content, leveraging platforms like Facebook, Instagram, and Twitter, analyzing audience data, and implementing SEO strategies to enhance online visibility. Students will learn to develop a comprehensive social media calendar, measure campaign success, and integrate digital marketing efforts with overall business goals.",
+  "schema_ok": null
+ },
+ "biz03": {
+  "text": "This course, designed for beginners with no prior experience in entrepreneurship or fundraising, covers the essential fundamentals needed to start a company. Over a duration of 8 weeks, students will learn key skills including business planning, market analysis, developing a value proposition, and effective fundraising strategies. Topics include identifying business opportunities, creating a business model, understanding financial statements, and crafting compelling pitches for investors.",
+  "schema_ok": null
+ },
+ "biz04": {
+  "text": "This course covers project management fundamentals through to agile delivery methods, suitable for beginners with no prior experience. Spanning approximately 20 hours of study, the course will equip learners with essential skills in project planning, risk management, stakeholder engagement, and agile methodologies such as Scrum and Kanban. Topics include project initiation, scope definition, time and cost management, quality assurance, and the transition to agile practices.",
+  "schema_ok": null
+ },
+ "biz05": {
+  "text": "This course is designed for individuals looking to transition into a career in banking, focusing on corporate finance and investment analysis. Prerequisites include a basic understanding of financial concepts and mathematics. The course, which spans 12 weeks, covers key topics such as financial statement analysis, valuation techniques, capital budgeting, risk management, and investment strategies, equipping students with the necessary skills to succeed in the banking sector.",
+  "schema_ok": null
+ },
+ "biz06": {
+  "text": "This course is designed for individuals seeking to enhance their understanding of supply chain and operations management specifically for manufacturing roles, suitable for those with a foundational background in business or engineering. The course, which spans approximately 8 weeks, covers key topics including demand forecasting, inventory management, production planning, supply chain optimization, and lean manufacturing principles, equipping students with the skills to improve operational efficiency and effectiveness in a manufacturing setting.",
+  "schema_ok": null
+ },
+ "health01": {
+  "text": "This course, designed for beginners with no prior knowledge required, spans 8 weeks and focuses on understanding nutrition and healthy eating based on solid scientific evidence. You will learn about macronutrients, micronutrients, dietary guidelines, and evidence-based practices for maintaining a healthy diet. The course covers topics such as the role of different food groups, the impact of nutrition on health, and practical strategies for making informed dietary choices.",
+  "schema_ok": null
+ },
+ "health02": {
+  "text": "This course provides an introduction to public health and epidemiology fundamentals, suitable for individuals with a high school diploma or equivalent. Over a duration of 8 weeks, learners will explore key concepts such as disease surveillance, risk factors, public health interventions, and the epidemiological approach to understanding population health. Specific skills developed include analyzing public health data, understanding the impact of environmental and social factors on health, and interpreting epidemiological studies.",
+  "schema_ok": null
+ },
+ "health03": {
+  "text": "This course provides an introduction to psychology and mental health, suitable for support workers at an intermediate level, lasting approximately 12 weeks. It covers key topics including the fundamentals of psychology, common mental health disorders, communication and support techniques, and ethical considerations in mental health support. Students will develop skills in understanding psychological concepts, recognizing signs of mental health issues, and providing effective support to individuals in need.",
+  "schema_ok": null
+ },
+ "health04": {
+  "text": "This course provides an in-depth study of human anatomy and physiology, designed as essential preparation for nursing students. Prerequisites include a high school diploma or equivalent, with a basic understanding of biology recommended. The course, lasting approximately 12 weeks, covers key topics such as cell biology, tissue types, organ systems, and homeostasis, equipping students with the foundational knowledge necessary for a successful nursing career.",
+  "schema_ok": null
+ },
+ "health05": {
+  "text": "This course, designed for intermediate-level learners with a basic understanding of healthcare systems, explores global health systems and healthcare policy over a duration of 12 weeks. Key topics include the structure and function of healthcare systems worldwide, the impact of policy on public health outcomes, and case studies of successful healthcare reforms. Students will develop skills in analyzing healthcare policies, comparing international health systems, and understanding the socio-economic factors that influence global health.",
+  "schema_ok": null
+ },
+ "comm01": {
+  "text": "This course is designed for beginners and early-level speakers aiming to develop confidence in public speaking and presenting. Over a duration of 8 weeks, participants will learn essential skills such as effective communication, audience engagement, speech organization, and delivery techniques. Key topics include understanding your audience, overcoming stage fright, using visual aids, and crafting compelling narratives.",
+  "schema_ok": null
+ },
+ "comm02": {
+  "text": "This course is designed for individuals who are new to management and aims to develop essential negotiation and persuasion skills. Prerequisites include basic understanding of workplace communication. The course, lasting approximately 8 weeks, covers topics such as understanding negotiation styles, building persuasive arguments, effective communication strategies, and conflict resolution techniques to enhance managerial effectiveness.",
+  "schema_ok": null
+ },
+ "comm03": {
+  "text": "This course is designed for intermediate-level professionals aiming to enhance their leadership skills in managing small technical teams, spanning over 8 weeks. It covers essential topics such as effective communication, team motivation, technical project management, conflict resolution, and fostering a collaborative work environment. Participants will develop the ability to lead by example, delegate tasks efficiently, and foster innovation within their teams.",
+  "schema_ok": null
+ },
+ "comm04": {
+  "text": "This course is designed for non-native English speakers aiming to enhance their business writing and professional communication skills. Prerequisites include a basic understanding of English and familiarity with professional settings. The course, which spans 8 weeks, covers essential topics such as formal writing styles, email etiquette, report writing, presentation skills, and effective communication strategies in a business context.",
+  "schema_ok": null
+ },
+ "comm05": {
+  "text": "This course, designed for intermediate-level professionals, covers essential skills in conflict resolution and navigating difficult conversations in a workplace setting over a duration of 8 weeks. Key topics include identifying conflict triggers, effective communication strategies, active listening techniques, and conflict resolution methods. Participants will learn how to de-escalate tense situations, manage emotions, and foster a collaborative work environment.",
+  "schema_ok": null
+ },
+ "sci01": {
+  "text": "This course, designed for intermediate-level learners with a basic understanding of environmental science or physics, spans 12 weeks and covers essential topics in climate science and the energy transition, including greenhouse gas emissions, renewable energy technologies, climate models, and policy frameworks. Students will develop skills in analyzing climate data, understanding the impacts of climate change, and evaluating energy transition strategies.",
+  "schema_ok": null
+ },
+ "sci02": {
+  "text": "This course is designed for adults returning to study and provides an introductory overview of physics and mechanics, suitable for beginners. The course covers fundamental topics including motion, forces, energy, and simple harmonic motion, and is structured to last approximately 12 weeks, with a total of 30 hours of study time, including lectures, problem-solving sessions, and homework. Students will develop a solid understanding of basic physical principles and their applications.",
+  "schema_ok": null
+ },
+ "sci03": {
+  "text": "This course provides an introductory overview of molecular biology and genetics, suitable for beginners with no prior background in the field. Spanning approximately 12 weeks, the course covers fundamental concepts such as DNA structure and replication, gene expression, genetic engineering, and the basics of genetic inheritance. Students will develop a solid understanding of molecular biology techniques and genetic principles, preparing them for more advanced studies in biology and related fields.",
+  "schema_ok": null
+ },
+ "sci04": {
+  "text": "This course provides an introduction to the fundamental concepts of electrical engineering, covering circuits, signals, and electronics. Aimed at beginners with no prior background in electrical engineering, the course is designed to be completed in 8 weeks. Students will learn to analyze and design basic electrical circuits, understand signal processing, and explore the principles of electronics, including Ohm's law, Kirchhoff's laws, and the operation of key electronic components.",
+  "schema_ok": null
+ },
+ "sci05": {
+  "text": "This course provides an in-depth introduction to organic chemistry, suitable for students preparing for medical school entrance exams. Prerequisites include a solid understanding of general chemistry and basic high school biology. The course, which spans approximately 12 weeks, covers essential topics such as structure and bonding, stereochemistry, reaction mechanisms, and spectroscopy, equipping students with the necessary skills to excel in their medical school applications.",
+  "schema_ok": null
+ },
+ "arts01": {
+  "text": "This course is designed for beginners looking to learn fundamental music theory and basic composition skills. Over the course of 12 weeks, students will explore key concepts such as musical notation, scales, chords, and harmonies, and will apply these skills to create simple compositions. No prior musical experience is required, making it an ideal starting point for those new to music.",
+  "schema_ok": null
+ },
+ "arts02": {
+  "text": "This course covers modern world history from the Industrial Revolution to the present day, suitable for intermediate-level learners with a basic understanding of world history. The course is designed to last approximately 12 weeks and will delve into key topics such as industrialization, imperialism, world wars, the Cold War, decolonization, globalization, and contemporary issues like climate change and technological advancements. Students will develop skills in analyzing historical sources, understanding causal relationships, and critically evaluating historical narratives.",
+  "schema_ok": null
+ },
+ "arts03": {
+  "text": "This course provides an introduction to the fundamental concepts and historical developments in philosophy, focusing on ethical reasoning. Aimed at beginners with no prior background in philosophy, the course spans approximately 8 weeks and covers key topics such as moral theories, ethical dilemmas, and the philosophical foundations of ethics, equipping students with the skills to analyze and construct ethical arguments.",
+  "schema_ok": null
+ },
+ "arts04": {
+  "text": "This course is designed for beginners and intermediate writers interested in developing their skills in creative writing and storytelling for fiction. Over the course of 12 weeks, students will explore key elements such as character development, plot construction, narrative voice, and world-building, with a focus on crafting engaging and compelling fictional narratives. No prior writing experience is required, but a passion for reading and writing is essential.",
+  "schema_ok": null
+ },
+ "arts05": {
+  "text": "This beginner-level course in Photography and Visual Design is designed for individuals with no prior experience in either field. The course will span approximately 8 weeks, covering fundamental skills such as camera operation, composition, lighting, and color theory, as well as essential topics including basic design principles, visual storytelling, and digital editing techniques using popular software tools.",
+  "schema_ok": null
+ },
+ "edu01": {
+  "text": "This course is designed for new teachers aiming to master essential classroom teaching methods, with a prerequisite of having completed an undergraduate degree in education or a related field. The course, which spans 8 weeks, covers key topics including lesson planning, classroom management, assessment techniques, and interactive teaching strategies, equipping participants with the skills needed to effectively engage and educate their students.",
+  "schema_ok": null
+ },
+ "edu02": {
+  "text": "This course covers the fundamentals of instructional design and the practical aspects of building online courses, suitable for beginners with a basic understanding of educational theory. The course is designed to last approximately 8 weeks and will equip learners with skills in needs assessment, instructional analysis, and the use of various online tools and platforms for course development. Key topics include learning theories, instructional strategies, multimedia integration, and assessment methods for online education.",
+  "schema_ok": null
+ },
+ "edu03": {
+  "text": "This course is designed for educators and parents aiming to effectively teach mathematics to primary school children (ages 5-11). Prerequisites include a basic understanding of mathematical concepts up to the elementary level. The course, lasting approximately 8 weeks, covers essential topics such as number sense, basic arithmetic operations, geometry, and problem-solving strategies, with a focus on engaging and interactive teaching methods.",
+  "schema_ok": null
+ },
+ "edu04": {
+  "text": "This course, designed for educators and advanced learners with a foundational understanding of educational theory, focuses on the comprehensive assessment of student learning and the development of effective measurement tools. Spanning approximately 12 weeks, the course covers key topics including formative and summative assessment strategies, standardized testing, rubric development, and data analysis techniques to inform instructional practices. Students will gain skills in designing valid and reliable assessments, interpreting assessment data, and using assessment results to enhance student learning outcomes.",
+  "schema_ok": null
+ },
+ "law01": {
+  "text": "This course provides an introduction to law and legal reasoning tailored for non-lawyers, suitable for beginners with no prior legal knowledge. Spanning approximately 4 weeks, the course covers fundamental legal concepts, the structure of the legal system, basic legal reasoning, and key areas of law such as contracts, torts, property, and criminal law. Students will develop an understanding of legal terminology, the ability to analyze legal problems, and the skills to navigate basic legal issues in everyday life.",
+  "schema_ok": null
+ },
+ "law02": {
+  "text": "This course explores the fundamental principles of human rights and international humanitarian law, suitable for intermediate-level learners with a basic understanding of international law. Spanning approximately 12 weeks, the course covers key topics including the Universal Declaration of Human Rights, Geneva Conventions, war crimes, and the rights of refugees and prisoners of war, with a focus on developing critical analysis skills and an understanding of legal frameworks protecting human rights in conflict and peacetime scenarios.",
+  "schema_ok": null
+ },
+ "law03": {
+  "text": "This course is designed for individuals aiming to enter or advance in a civil service career, focusing on public policy analysis and governance. Prerequisites include a basic understanding of government structures and processes, and the course is suitable for intermediate learners. Spanning 12 weeks, the course covers key topics such as policy formulation, implementation, evaluation, and governance frameworks, with a strong emphasis on analytical skills, ethical considerations, and the impact of public policies on society.",
+  "schema_ok": null
+ },
+ "law04": {
+  "text": "This course explores sustainability, environmental policy, and corporate responsibility, suitable for intermediate-level learners with a basic understanding of environmental science or business management. Spanning approximately 12 weeks, the course covers key topics including sustainable business practices, policy frameworks, environmental impact assessments, corporate social responsibility, and green technologies, equipping students with the knowledge to contribute effectively to sustainable development initiatives.",
+  "schema_ok": null
+ },
+ "lang01": {
+  "text": "This course is designed for intermediate-level English learners aiming to enhance their grammar and academic writing skills. Over a duration of 12 weeks, students will cover essential grammar rules, academic writing techniques, and vocabulary expansion, preparing them for advanced academic writing tasks and examinations.",
+  "schema_ok": null
+ },
+ "lang02": {
+  "text": "This course is designed for beginners aiming to enhance their Chinese language skills for business travel, covering essential topics such as greetings, introductions, ordering food, understanding public transportation, and basic business etiquette. The course will span 8 weeks, providing a comprehensive introduction to Mandarin Chinese, including pronunciation, vocabulary, and simple sentence structures, with a focus on practical applications in a business travel context.",
+  "schema_ok": null
+ },
+ "lang03": {
+  "text": "This course is designed for intermediate-level English speakers aiming to enhance their professional communication skills in a technical workplace. Over a duration of 12 weeks, participants will develop proficiency in technical writing, effective communication in meetings, and professional email etiquette. Key topics include technical vocabulary, report writing, presentation skills, and understanding workplace culture and protocols.",
+  "schema_ok": null
+ }
+}

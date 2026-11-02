@@ -1,0 +1,119 @@
+# Key figures, regenerated
+
+  s_l0: 3 pass(es)
+  s_l1: 3 pass(es)
+  s_l2: 3 pass(es)
+  i_l0: 3 pass(es)
+  i_l1: 3 pass(es)
+  i_l2: 3 pass(es)
+
+### STATIC L0 -> L1  (quoted in 4.7.1 item 1&2, 5.1, 6.4, 7, abstract)
+    matched on query_id: n=50  (of 150 and 150 rows)
+    invention_itt            0.6666 ->   0.5552  delta=-0.1114 [-0.1812, -0.0432]     dz=+0.441 p=0.0035 n=50
+    invention_both_spoke     0.6477 ->   0.4691  delta=-0.1785 [-0.2507, -0.1079]     dz=+0.679 p=0.0000 n=50
+    retrieved               78.9333 ->  69.6400  delta=-9.2933 [-29.1667, +9.8067]    dz=+0.129 p=0.3127 n=50
+    keywords_emitted        73.8933 ->  33.1200  delta=-40.7733 [-51.5333, -30.9067]   dz=+1.096 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=0.9541 (lower 0.0000, upper 0.9541)
+
+### INJECT L0 -> L1  (quoted in 4.7.1 item 1&2, 6.4, 7, abstract)
+    matched on query_id: n=50  (of 150 and 150 rows)
+    invention_itt            0.3860 ->   0.3812  delta=-0.0048 [-0.0885, +0.0823]     dz=+0.016 p=0.8035 n=50
+    invention_both_spoke     0.3750 ->   0.2022  delta=-0.1728 [-0.2400, -0.1036]     dz=+0.699 p=0.0000 n=49
+    retrieved              149.9267 ->  59.3000  delta=-90.6267 [-115.8333, -67.3400]  dz=+1.014 p=0.0000 n=50
+    keywords_emitted        67.9067 ->  22.1933  delta=-45.7133 [-52.7667, -39.0000]   dz=+1.821 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=0.1496 (lower 0.1050, upper 0.1496)
+
+### 8B A2 -> 70B A1  (quoted in 4.1, abstract, 7)
+    matched on query_id: n=50  (of 150 and 200 rows)
+    invention_itt            0.6666 ->   0.3857  delta=-0.2809 [-0.3365, -0.2245]     dz=+1.377 p=0.0000 n=50
+    invention_both_spoke     0.6477 ->   0.3857  delta=-0.2620 [-0.3188, -0.2048]     dz=+1.268 p=0.0000 n=50
+    retrieved               78.9333 ->  96.6350  delta=+17.7017 [+0.2983, +34.1100]    dz=-0.290 p=0.0109 n=50
+    keywords_emitted        73.8933 ->  44.4800  delta=-29.4133 [-39.3117, -19.8350]   dz=+0.830 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### 8B A2 -> Qwen A2  (quoted in 4.2)
+    matched on query_id: n=50  (of 150 and 150 rows)
+    invention_itt            0.6666 ->   0.4629  delta=-0.2037 [-0.2698, -0.1365]     dz=+0.832 p=0.0000 n=50
+    invention_both_spoke     0.6477 ->   0.4629  delta=-0.1848 [-0.2481, -0.1189]     dz=+0.782 p=0.0000 n=50
+    retrieved               78.9333 ->  60.0067  delta=-18.9267 [-37.5400, -0.6333]    dz=+0.283 p=0.0489 n=50
+    keywords_emitted        73.8933 ->  27.9200  delta=-45.9733 [-55.5200, -37.0133]   dz=+1.362 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### Qwen A2 -> 70B A1  (quoted in 4.2)
+    matched on query_id: n=50  (of 150 and 200 rows)
+    invention_itt            0.4629 ->   0.3857  delta=-0.0772 [-0.1301, -0.0248]     dz=+0.402 p=0.0106 n=50
+    invention_both_spoke     0.4629 ->   0.3857  delta=-0.0772 [-0.1301, -0.0248]     dz=+0.402 p=0.0106 n=50
+    retrieved               60.0067 ->  96.6350  delta=+36.6283 [+25.5633, +48.1150]   dz=-0.900 p=0.0000 n=50
+    keywords_emitted        27.9200 ->  44.4800  delta=+16.5600 [+11.9667, +21.1900]   dz=-0.982 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=0.8389 (lower 0.0000, upper 0.8389)
+
+### Qwen A2 -> Qwen A3  (quoted in 4.3, Table 5, 6.4, 7, abstract)
+    matched on query_id: n=50  (of 150 and 148 rows)
+    invention_itt            0.4629 ->   0.2805  delta=-0.1824 [-0.2425, -0.1219]     dz=+0.836 p=0.0000 n=50
+    invention_both_spoke     0.4629 ->   0.2768  delta=-0.1861 [-0.2443, -0.1277]     dz=+0.883 p=0.0000 n=50
+    retrieved               60.0067 -> 106.0433  delta=+46.0367 [+32.6000, +59.4200]   dz=-0.941 p=0.0000 n=50
+    keywords_emitted        27.9200 ->  31.0000  delta=+3.0800 [-0.0067, +6.1233]     dz=-0.275 p=0.0500 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### 70B A1 -> Qwen A3  (quoted in 4.3, 7)
+    matched on query_id: n=50  (of 200 and 148 rows)
+    invention_itt            0.3857 ->   0.2805  delta=-0.1052 [-0.1639, -0.0420]     dz=+0.466 p=0.0003 n=50
+    invention_both_spoke     0.3857 ->   0.2768  delta=-0.1089 [-0.1653, -0.0499]     dz=+0.510 p=0.0003 n=50
+    retrieved               96.6350 -> 106.0433  delta=+9.4083 [-4.9417, +23.7033]    dz=-0.181 p=0.1992 n=50
+    keywords_emitted        44.4800 ->  31.0000  delta=-13.4800 [-18.6700, -8.5417]    dz=+0.734 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=0.9550 (lower 0.0000, upper 0.9550)
+
+### Selection-bias test, stamped injection L0 vs L1  (quoted in 4.7.2)
+    Arm 3 passes: 3; queries: 50
+      Arm 3 silent on >=1 pass : n= 23  Arm 2 As-Treated mean=0.3669
+      Arm 3 answered every pass: n= 27  Arm 2 As-Treated mean=0.3729
+      difference (silent - answered) = -0.0061   Welch t=-0.126  p=0.9006
+      reading: no evidence of selection; an absence of evidence, not evidence of absence
+
+### Qwen inject A2 -> A3  (quoted in 4.7.5, 7, abstract)
+    matched on query_id: n=50  (of 145 and 150 rows)
+    invention_itt            0.2439 ->   0.0821  delta=-0.1618 [-0.2063, -0.1187]     dz=+1.008 p=0.0000 n=50
+    invention_both_spoke     0.2439 ->   0.0821  delta=-0.1618 [-0.2063, -0.1187]     dz=+1.008 p=0.0000 n=50
+    retrieved               81.5167 ->  77.6067  delta=-3.9100 [-13.8467, +5.3533]    dz=+0.111 p=0.7806 n=50
+    keywords_emitted        28.2700 ->  23.7667  delta=-4.5033 [-6.9967, -2.0533]     dz=+0.497 p=0.0029 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### Qwen A2 static -> inject  (quoted in 4.7.5)
+    matched on query_id: n=50  (of 150 and 145 rows)
+    invention_itt            0.4629 ->   0.2439  delta=-0.2190 [-0.2691, -0.1685]     dz=+1.187 p=0.0000 n=50
+    invention_both_spoke     0.4629 ->   0.2439  delta=-0.2190 [-0.2691, -0.1685]     dz=+1.187 p=0.0000 n=50
+    retrieved               60.0067 ->  81.5167  delta=+21.5100 [+11.3967, +31.3033]   dz=-0.581 p=0.0001 n=50
+    keywords_emitted        27.9200 ->  28.2700  delta=+0.3500 [-2.2233, +2.7267]     dz=-0.039 p=0.5527 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### Qwen A3 static -> inject  (quoted in 4.7.5)
+    matched on query_id: n=50  (of 148 and 150 rows)
+    invention_itt            0.2805 ->   0.0821  delta=-0.1984 [-0.2602, -0.1403]     dz=+0.897 p=0.0000 n=50
+    invention_both_spoke     0.2768 ->   0.0821  delta=-0.1947 [-0.2541, -0.1384]     dz=+0.920 p=0.0000 n=50
+    retrieved              106.0433 ->  77.6067  delta=-28.4367 [-45.8567, -11.3200]   dz=+0.451 p=0.0020 n=50
+    keywords_emitted        31.0000 ->  23.7667  delta=-7.2333 [-10.9300, -3.6033]    dz=+0.533 p=0.0007 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### 70B A1 -> Qwen inject A3  (quoted in 4.7.5, 7)
+    matched on query_id: n=50  (of 200 and 150 rows)
+    invention_itt            0.3857 ->   0.0821  delta=-0.3036 [-0.3523, -0.2575]     dz=+1.753 p=0.0000 n=50
+    invention_both_spoke     0.3857 ->   0.0821  delta=-0.3036 [-0.3523, -0.2575]     dz=+1.753 p=0.0000 n=50
+    retrieved               96.6350 ->  77.6067  delta=-19.0283 [-35.0317, -3.9883]    dz=+0.334 p=0.0429 n=50
+    keywords_emitted        44.4800 ->  23.7667  delta=-20.7133 [-25.9083, -15.8567]   dz=+1.141 p=0.0000 n=50
+    NOT SHOWN EQUIVALENT   p=1.0000 (lower 0.0000, upper 1.0000)
+
+### Table 6 (regenerate and paste over the table in the manuscript)
+| Context Scaffolding | Format Scaffolding Level | Invalid Keyword Rate (ITT) | Invalid Keyword Rate (As-Treated, Macro) | Mean Courses Retrieved | Passes |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Static Top-1,000 Window** | Level 0: Unassisted (Arm 2) | **66.66%** | 65.02% | 78.9 | 3 |
+|  | Level 1: Bare Schema Spec (Arm 3) | **55.52%** | 46.19% | 69.6 | 3 |
+|  | Level 2: Schema + Exemplar (Arm 3) | **67.63%** | 58.85% | 48.3 | 3 |
+| **Dynamic Candidate Injection** | Level 0: Unassisted (Arm 2) | **38.60%** | 36.92% | 149.9 | 3 |
+|  | Level 1: Bare Schema Spec (Arm 3) | **38.12%** | 21.34% | 59.3 | 3 |
+  note: 1 row(s) in fact_20260923_v5fp8_i_l2_r3 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: sci01
+|  | Level 2: Schema + Exemplar (Arm 3) | **30.65%** | 22.89% | 90.4 | 3 |
+
+All six cells: `--sweep-version v5`, `--serving-precision fp8`, provider `deepinfra`, `benchmarks/queries_v1.jsonl`, temperature 0. One payload shape across the whole table, so the context axis is not confounded with the payload version.
+
+### Interaction equivalence (quoted in 7)
+  run: scripts/analyze_factorial.py --repeats-per-cell <n> --cell ...

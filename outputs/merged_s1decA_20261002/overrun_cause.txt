@@ -1,0 +1,19 @@
+Why selection calls fail under the schema (static window, 3 passes x 50 queries x 2 platform calls = 300 calls per cell).
+Two routes. BUDGET OVERRUN: the reply is cut off after exceeding its completion budget; entries counted in the retained
+cut-off text (selection_cutoff_raw). CAP VIOLATION: the reply completes but fails validation (selection_violation_detail).
+Supersedes the 2026-10-02 first version of this file, which classified cap violations only and so missed the overruns.
+Hosted flat own-rewrite (factorial s_a3) predates both columns and is omitted.
+
+| cell | silent runs | overrun calls | of those, >40 entries already written | median entries at cut-off | violation calls | of those, over the 40 cap | median items |
+|---|---|---|---|---|---|---|---|
+| hosted LLaMA array, baseline rewrite | 82/150 | 140 | 140/140 | 154.5 | 87 | 86 | 46.0 |
+| hosted LLaMA array, own rewrite | 82/150 | 128 | 126/128 | 147.5 | 95 | 94 | 45.0 |
+| hosted LLaMA flat, baseline rewrite | 42/150 | 66 | 66/66 | 345.0 | 81 | 79 | 45 |
+| 5090 LLaMA array, baseline rewrite | 45/150 | 91 | 91/91 | 164 | 71 | 66 | 45.0 |
+| 5090 LLaMA array, own rewrite | 67/150 | 121 | 121/121 | 158 | 72 | 72 | 45.0 |
+| 5090 LLaMA flat, baseline rewrite | 15/150 | 33 | 33/33 | 344 | 57 | 57 | 45 |
+| 5090 LLaMA flat, own rewrite | 9/150 | 26 | 26/26 | 371.0 | 32 | 32 | 45.0 |
+| 5090 Qwen array, baseline rewrite | 11/150 | 9 | 9/9 | 150 | 50 | 50 | 45.5 |
+| 5090 Qwen array, own rewrite | 9/150 | 15 | 15/15 | 153 | 43 | 43 | 45 |
+| 5090 Qwen flat, baseline rewrite | 4/150 | 22 | 22/22 | 367.5 | 17 | 17 | 46 |
+| 5090 Qwen flat, own rewrite | 8/150 | 27 | 27/27 | 326 | 20 | 20 | 47.5 |

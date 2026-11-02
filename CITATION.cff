@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "When Scaffolding Beats Scale: code and benchmark"
+abstract: "Code, analysis scripts, the 50-query benchmark and the per-query results for the study \"When Scaffolding Beats Scale: A Compact Language Model Against an Unassisted Larger Model in Catalogue-Grounded Course Recommendation\"."
+type: software
+authors:
+  - given-names: "Sean"
+    family-names: "Matthew"
+    affiliation: "Universitas Ciputra Surabaya"
+  - given-names: "Adi"
+    family-names: "Suryaputra"
+    affiliation: "Universitas Ciputra Surabaya"
+repository-code: "https://github.com/SpacePeant/skyrag-compact-llm-scaffolding"
+license: MIT

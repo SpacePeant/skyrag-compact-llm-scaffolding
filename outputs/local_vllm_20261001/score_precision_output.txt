@@ -1,0 +1,29 @@
+raw replies at the 3,000-char storage cap: 48
+
+| model | precision | condition | ITT invalid | as-treated | silent | ok/viol/unparse/overrun |
+| llama | bf16 | arm2 | 0.5746 | 0.5381 | 3 | 70/0/0/16 |
+| llama | bf16 | pv | 0.5549 | 0.5135 | 4 | 72/14/0/11 |
+| llama | fp8 | arm2 | 0.6042 | 0.5586 | 3 | 55/0/0/18 |
+| llama | fp8 | pv | 0.5505 | 0.5087 | 4 | 77/12/0/8 |
+| qwen | bf16 | arm2 | 0.4632 | 0.4632 | 0 | 100/0/0/0 |
+| qwen | bf16 | pv | 0.5511 | 0.5511 | 0 | 89/6/0/5 |
+| qwen | fp8 | arm2 | 0.4721 | 0.4721 | 0 | 98/0/0/1 |
+| qwen | fp8 | pv | 0.4855 | 0.4855 | 0 | 89/4/0/7 |
+
+bf16 minus fp8:
+- llama arm2: -0.0536 (n=23), 95% CI (-0.1068, -0.0041)
+- llama pv: +0.0151 (n=44), 95% CI (-0.0425, 0.0797)
+- qwen arm2: -0.0003 (n=49), 95% CI (-0.0381, 0.0366)
+- qwen pv: +0.0656 (n=50), 95% CI (0.024, 0.1117)
+
+Qwen minus LLaMA, same precision:
+- bf16 arm2: -0.1126 (n=38), 95% CI (-0.1923, -0.0329)
+- bf16 pv: +0.0005 (n=47), 95% CI (-0.0861, 0.0855)
+- fp8 arm2: -0.1243 (n=28), 95% CI (-0.2217, -0.0234)
+- fp8 pv: -0.0599 (n=47), 95% CI (-0.1337, 0.0138)
+
+pv minus arm2 (schema effect):
+- llama bf16: -0.0285 (n=36), 95% CI (-0.1042, 0.0463)
+- llama fp8: -0.0594 (n=28), 95% CI (-0.1497, 0.0326)
+- qwen bf16: +0.0879 (n=50), 95% CI (0.0519, 0.1255)
+- qwen fp8: +0.0234 (n=49), 95% CI (-0.0209, 0.0645)

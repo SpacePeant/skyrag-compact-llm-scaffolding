@@ -1,0 +1,309 @@
+{
+  "probe": "L2 seed probe + L3 divergence probe",
+  "model": "meta-llama/llama-3.1-70b-instruct",
+  "provider": "deepinfra",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "prompt": "List eight distinct subfields of machine learning. For each, give the name followed by a one-sentence description of what problem it solves. Number them 1 to 8.",
+  "index_caveat": "first_char_divergence and first_word_divergence are character and whitespace-word indices, NOT BPE token indices. Llama 3.1's tokenizer is gated and is not a project dependency.",
+  "l2_seed_probe": {
+    "seeds": [
+      34,
+      99
+    ],
+    "identical": false,
+    "calls": [
+      {
+        "label": "seed34",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: Computer vision solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: NLP solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Reinforcement Learning**: Reinforcement learning solves the problem of training agents to make decisions in complex, uncertain environments through trial and error.\n4. **Time Series Analysis**: Time series analysis solves the problem of analyzing and forecasting data that changes over time, such as stock prices or weather patterns.\n5. **Recommendation Systems**: Recommendation systems solve the problem of suggesting relevant items to users based on their past behavior and preferences.\n6. **Anomaly Detection**: Anomaly detection solves the problem of identifying unusual patterns or data points that do not fit expected norms.\n7. **Clustering**: Clustering solves the problem of grouping similar data points together to identify patterns or structure in the data.\n8. **Generative Models**: Generative models solve the problem of generating new data that is similar to existing data, such as generating new images or text.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 276,
+        "finish_reason": "stop",
+        "latency_ms": 49929.54,
+        "chars": 1469
+      },
+      {
+        "label": "seed99",
+        "seed": 99,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Speech Recognition**: It solves the problem of enabling computers to recognize and transcribe spoken language.\n4. **Robotics**: It solves the problem of enabling computers to control and interact with physical devices, such as robots and autonomous vehicles.\n5. **Time Series Analysis**: It solves the problem of enabling computers to analyze and make predictions about data that changes over time, such as stock prices or weather patterns.\n6. **Reinforcement Learning**: It solves the problem of enabling computers to learn from trial and error, such as playing games or controlling complex systems.\n7. **Anomaly Detection**: It solves the problem of enabling computers to identify unusual patterns or outliers in data, such as detecting credit card fraud or network intrusions.\n8. **Recommendation Systems**: It solves the problem of enabling computers to suggest relevant items, such as products or content, based on user behavior and preferences.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of these areas.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 281,
+        "finish_reason": "stop",
+        "latency_ms": 7247.67,
+        "chars": 1475
+      }
+    ],
+    "pairs": [
+      {
+        "pair": [
+          "seed34",
+          "seed99"
+        ],
+        "identical": false,
+        "first_char_divergence": 130,
+        "first_word_divergence": 20,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          276,
+          281
+        ]
+      }
+    ],
+    "verdict": "indeterminate_underpowered",
+    "verdict_requires": "L3's same-seed baseline. A cross-seed pair is only interpretable when same-seed repeats agree.",
+    "corrected_2026_08_25": "field seed_is_honoured=True removed: it inferred a seed effect from a cross-seed difference without checking the same-seed baseline."
+  },
+  "l3_divergence_probe": {
+    "repeats": 5,
+    "seed": 34,
+    "distinct_replies": 5,
+    "all_identical": false,
+    "prompt_tokens_stable": true,
+    "calls": [
+      {
+        "label": "rep1",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Speech Recognition**: It solves the problem of enabling computers to recognize and transcribe spoken language.\n4. **Robotics**: It solves the problem of enabling computers to control and interact with physical devices, such as robots.\n5. **Time Series Analysis**: It solves the problem of enabling computers to analyze and make predictions about data that changes over time.\n6. **Reinforcement Learning**: It solves the problem of enabling computers to learn from trial and error by interacting with an environment.\n7. **Generative Adversarial Networks**: It solves the problem of enabling computers to generate new data that is similar to existing data, such as images or text.\n8. **Transfer Learning**: It solves the problem of enabling computers to apply knowledge learned from one task to a different task, such as applying knowledge of image recognition to a new image recognition task.\n\nNote that these subfields are not mutually exclusive, and many machine learning tasks involve a combination of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 270,
+        "finish_reason": "stop",
+        "latency_ms": 6921.11,
+        "chars": 1411
+      },
+      {
+        "label": "rep2",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Reinforcement Learning**: It solves the problem of training agents to make decisions in complex, uncertain environments by trial and error.\n4. **Time Series Analysis**: It solves the problem of analyzing and making predictions about data that changes over time, such as stock prices or weather patterns.\n5. **Clustering**: It solves the problem of grouping similar data points together, such as customers or images, to identify patterns or relationships.\n6. **Anomaly Detection**: It solves the problem of identifying unusual or abnormal data points that do not fit expected patterns.\n7. **Recommendation Systems**: It solves the problem of suggesting items to users based on their past behavior and preferences.\n8. **Generative Models**: It solves the problem of generating new data that is similar to existing data, such as images or text, by learning patterns and relationships in the data.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of two or more of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 280,
+        "finish_reason": "stop",
+        "latency_ms": 6934.6,
+        "chars": 1437
+      },
+      {
+        "label": "rep3",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Reinforcement Learning**: It solves the problem of enabling computers to learn from trial and error by taking actions in an environment to achieve a goal.\n4. **Time Series Analysis**: It solves the problem of analyzing and making predictions from data that varies over time.\n5. **Clustering**: It solves the problem of grouping similar data points together to identify patterns and structure in the data.\n6. **Anomaly Detection**: It solves the problem of identifying data points that are significantly different from the rest of the data.\n7. **Recommendation Systems**: It solves the problem of suggesting items to users based on their past behavior and preferences.\n8. **Generative Models**: It solves the problem of generating new data that is similar to existing data, such as generating new images or text.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 262,
+        "finish_reason": "stop",
+        "latency_ms": 7206.82,
+        "chars": 1340
+      },
+      {
+        "label": "rep4",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Reinforcement Learning**: It solves the problem of enabling computers to learn from trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties.\n4. **Time Series Analysis**: It solves the problem of analyzing and making predictions about data that changes over time, such as stock prices or weather patterns.\n5. **Clustering**: It solves the problem of grouping similar data points together, such as customers or images, to identify patterns or relationships.\n6. **Anomaly Detection**: It solves the problem of identifying data points that are significantly different from the rest, such as outliers or errors.\n7. **Recommendation Systems**: It solves the problem of suggesting items to users based on their past behavior and preferences, such as product recommendations or movie suggestions.\n8. **Generative Models**: It solves the problem of generating new data that is similar to existing data, such as generating new images or text that is similar to existing images or text.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of two or more of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 302,
+        "finish_reason": "stop",
+        "latency_ms": 7603.4,
+        "chars": 1573
+      },
+      {
+        "label": "rep5",
+        "seed": 34,
+        "text": "Here are 8 subfields of machine learning, each with a one-sentence description of the problem it solves:\n\n1. **Computer Vision**: It solves the problem of enabling computers to understand and interpret visual data from images and videos.\n2. **Natural Language Processing (NLP)**: It solves the problem of enabling computers to understand and generate human language, such as text and speech.\n3. **Speech Recognition**: It solves the problem of enabling computers to recognize and transcribe spoken language.\n4. **Robotics**: It solves the problem of enabling computers to control and interact with physical devices, such as robots and autonomous vehicles.\n5. **Time Series Analysis**: It solves the problem of enabling computers to analyze and make predictions about data that changes over time, such as stock prices or weather patterns.\n6. **Reinforcement Learning**: It solves the problem of enabling computers to learn from trial and error, such as playing games or controlling robots.\n7. **Generative Models**: It solves the problem of enabling computers to generate new data, such as images or text, that is similar to existing data.\n8. **Anomaly Detection**: It solves the problem of enabling computers to identify unusual patterns or outliers in data, such as detecting credit card fraud or network intrusions.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of two or more of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 285,
+        "finish_reason": "stop",
+        "latency_ms": 7432.25,
+        "chars": 1464
+      }
+    ],
+    "pairs": [
+      {
+        "pair": [
+          "rep1",
+          "rep2"
+        ],
+        "identical": false,
+        "first_char_divergence": 270,
+        "first_word_divergence": 40,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          270,
+          280
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep3"
+        ],
+        "identical": false,
+        "first_char_divergence": 270,
+        "first_word_divergence": 40,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          270,
+          262
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 270,
+        "first_word_divergence": 40,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          270,
+          302
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 270,
+        "first_word_divergence": 40,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          270,
+          285
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep3"
+        ],
+        "identical": false,
+        "first_char_divergence": 448,
+        "first_word_divergence": 68,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          280,
+          262
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 448,
+        "first_word_divergence": 68,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          280,
+          302
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 397,
+        "first_word_divergence": 61,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          280,
+          285
+        ]
+      },
+      {
+        "pair": [
+          "rep3",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 500,
+        "first_word_divergence": 77,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          262,
+          302
+        ]
+      },
+      {
+        "pair": [
+          "rep3",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 397,
+        "first_word_divergence": 61,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          262,
+          285
+        ]
+      },
+      {
+        "pair": [
+          "rep4",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 397,
+        "first_word_divergence": 61,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          302,
+          285
+        ]
+      }
+    ]
+  }
+}

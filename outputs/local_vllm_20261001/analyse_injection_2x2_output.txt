@@ -1,0 +1,35 @@
+A. Share of keywords found verbatim in the expanded query the selector saw
+| model | condition | invented copied | valid copied |
+|---|---|---|---|
+| llama | arm2 | 396/582 = 68.0% | 1087/2905 = 37.4% |
+| llama | pv | 352/414 = 85.0% | 986/1817 = 54.3% |
+| llama | arm2_s1 | 72/225 = 32.0% | 407/1749 = 23.3% |
+| llama | pv_s1 | 61/128 = 47.7% | 450/1525 = 29.5% |
+| qwen | arm2 | 296/376 = 78.7% | 715/1736 = 41.2% |
+| qwen | pv | 214/290 = 73.8% | 640/989 = 64.7% |
+| qwen | arm2_s1 | 20/49 = 40.8% | 309/1135 = 27.2% |
+| qwen | pv_s1 | 44/154 = 28.6% | 274/1041 = 26.3% |
+
+B. Retrieval ceiling: courses per query, sum of min(7, frequency) over kept keywords, both platforms (silent = 0)
+llama: arm2 252.3, pv 155.9, arm2_s1 147.9, pv_s1 130.7
+   pv - arm2: -96.4 courses, 95% CI (-137.6, -58.5)
+   arm2_s1 - arm2: -104.4 courses, 95% CI (-144.6, -69.0)
+   pv_s1 - arm2: -121.6 courses, 95% CI (-161.9, -83.5)
+   pv_s1 - arm2_s1: -17.2 courses, 95% CI (-39.8, 4.1)
+qwen: arm2 160.0, pv 82.8, arm2_s1 100.3, pv_s1 84.1
+   pv - arm2: -77.2 courses, 95% CI (-111.6, -44.7)
+   arm2_s1 - arm2: -59.7 courses, 95% CI (-92.3, -31.1)
+   pv_s1 - arm2: -75.9 courses, 95% CI (-105.3, -48.2)
+   pv_s1 - arm2_s1: -16.1 courses, 95% CI (-29.3, -3.1)
+
+ITT invalid rate (harness scorer; silent = 1.0)
+llama: arm2 0.1752 (silent 0), pv 0.1818 (silent 0), arm2_s1 0.0905 (silent 0), pv_s1 0.0728 (silent 0)
+   pv - arm2: +0.0066, 95% CI (-0.0351, 0.0470)
+   arm2_s1 - arm2: -0.0847, 95% CI (-0.1328, -0.0373)
+   pv_s1 - arm2: -0.1025, 95% CI (-0.1572, -0.0520)
+   pv_s1 - arm2_s1: -0.0177, 95% CI (-0.0602, 0.0215)
+qwen: arm2 0.2198 (silent 0), pv 0.2354 (silent 1), arm2_s1 0.0448 (silent 0), pv_s1 0.1699 (silent 2)
+   pv - arm2: +0.0156, 95% CI (-0.0412, 0.0778)
+   arm2_s1 - arm2: -0.1750, 95% CI (-0.2184, -0.1336)
+   pv_s1 - arm2: -0.0499, 95% CI (-0.1157, 0.0232)
+   pv_s1 - arm2_s1: +0.1250, 95% CI (0.0605, 0.1982)

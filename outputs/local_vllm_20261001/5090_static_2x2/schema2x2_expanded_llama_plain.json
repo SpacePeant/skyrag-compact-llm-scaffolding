@@ -1,0 +1,202 @@
+{
+ "q01": {
+  "text": "\"Data Science Fundamentals\" is a 6-month course designed for learners with a strong foundation in programming (prerequisite: Python programming skills) and basic statistics. This course covers essential skills and topics in data science, including data wrangling, visualization, and machine learning using popular libraries such as Pandas, NumPy, Matplotlib, and Scikit-learn. Students will learn to work with large datasets, develop predictive models, and communicate insights effectively through data storytelling. By the end of the course, learners will be able to apply data science techniques to real-world problems and make informed decisions using data-driven insights.",
+  "schema_ok": null
+ },
+ "q02": {
+  "text": "This course is a comprehensive introduction to machine learning and deep learning using Python, covering the fundamental concepts, techniques, and tools required to build intelligent systems. Prerequisites include a strong foundation in Python programming and basic knowledge of linear algebra, calculus, and probability. Students will learn to implement supervised and unsupervised learning algorithms, neural networks, and convolutional and recurrent neural networks, as well as deploy and evaluate machine learning models using popular libraries such as TensorFlow and Keras. The target duration of this course is approximately 12 weeks, with a focus on developing skills in data preprocessing, feature engineering, model selection, and hyperparameter tuning.",
+  "schema_ok": null
+ },
+ "q03": {
+  "text": "In this comprehensive course, students will gain hands-on experience in full-stack web development using Python and JavaScript, covering both front-end and back-end development. Prerequisites include a basic understanding of programming fundamentals and familiarity with Python or JavaScript. Through a combination of lectures, coding exercises, and project-based learning, students will develop skills in topics such as Flask or Django for Python back-end development, React or Angular for JavaScript front-end development, database management with MySQL or MongoDB, and API integration. This course is designed to be completed in approximately 12-16 weeks, with a total of 180-240 hours of instruction.",
+  "schema_ok": null
+ },
+ "q04": {
+  "text": "In this comprehensive course, students will develop a deep understanding of cybersecurity principles, network defense strategies, and ethical hacking techniques. Building on a foundation of basic computer systems and networking concepts, this intermediate-level course covers advanced topics such as threat analysis, vulnerability assessment, and penetration testing. Students will learn to identify and mitigate potential security risks, design secure network architectures, and employ ethical hacking methods to test and improve system defenses. The course is designed to be completed in approximately 12 weeks, with a focus on developing practical skills in security tools, protocols, and best practices.",
+  "schema_ok": null
+ },
+ "q05": {
+  "text": "This course covers the design, implementation, and management of cloud computing infrastructure and DevOps deployment strategies, focusing on scalability, security, and high availability. Prerequisites include a basic understanding of computer systems, networking, and software development. Students will learn to deploy and manage cloud-based infrastructure using tools such as AWS, Azure, or Google Cloud, and develop skills in DevOps practices including continuous integration, continuous delivery, and continuous monitoring. The target duration of this course is approximately 12 weeks, with a mix of lectures, hands-on labs, and project-based learning.",
+  "schema_ok": null
+ },
+ "cs06": {
+  "text": "\"Data Engineering with SQL and Spark\" is a course designed for backend developers looking to transition into data engineering. Prerequisites include a strong foundation in programming and SQL, as well as experience with data structures and algorithms. This course covers the skills and topics necessary to work with big data, including data warehousing, ETL (Extract, Transform, Load) processes, and data processing with Apache Spark, with a focus on SQL for data querying and manipulation. The target duration of this course is approximately 12 weeks, with a mix of lectures, hands-on exercises, and projects to help learners develop expertise in data engineering with SQL and Spark.",
+  "schema_ok": null
+ },
+ "cs07": {
+  "text": "\"Develop Android Mobile Apps from Scratch\" is a comprehensive course designed for beginners, requiring no prior programming experience. This course covers the fundamentals of mobile app development, including Java programming, Android Studio, user interface design, and app testing. Students will learn to create fully functional Android apps, mastering skills in Android SDK, layout management, and data storage, as well as understanding the Android app development lifecycle. The course is expected to last approximately 12 weeks, with a total of 180 hours of instruction.",
+  "schema_ok": null
+ },
+ "cs08": {
+  "text": "In this comprehensive course, students will gain a deep understanding of database fundamentals, focusing on relational database design principles, indexing techniques, and query optimization strategies. Prerequisites include a basic understanding of computer systems and data structures, as well as prior experience with a programming language. Through a combination of lectures, hands-on exercises, and case studies, students will learn to design efficient database schemas, implement effective indexing methods, and tune queries for optimal performance. This course is designed to be completed in approximately 12 weeks, with a total of 120 hours of instruction.",
+  "schema_ok": null
+ },
+ "math01": {
+  "text": "\"Calculus Review for Engineering Fundamentals\" is a foundational course designed for students entering an engineering degree program, requiring a prerequisite of high school mathematics or equivalent. This intensive 12-week course covers essential skills and topics in differential and integral calculus, including limits, derivatives, applications of derivatives, and basic integration techniques, as well as multivariable calculus and vector calculus. Through a combination of lectures, assignments, and problem-solving exercises, students will develop a strong understanding of calculus concepts and their practical applications in engineering fields. By the end of the course, students will be able to analyze and solve complex mathematical problems, prepare for advanced engineering coursework, and apply calculus principles to real-world engineering challenges.",
+  "schema_ok": null
+ },
+ "math02": {
+  "text": "This course covers the fundamental concepts of linear algebra and probability, providing a solid foundation for understanding machine learning techniques. Prerequisites include a basic understanding of calculus and programming fundamentals. Topics will include vector spaces, linear transformations, eigenvalues and eigenvectors, probability distributions, conditional probability, and Bayes' theorem, as well as an introduction to statistical inference and hypothesis testing. Upon completion, students will be able to apply linear algebra and probability concepts to analyze and interpret machine learning models, and critically evaluate research papers in the field. The target duration for this course is approximately 12 weeks.",
+  "schema_ok": null
+ },
+ "math03": {
+  "text": "In this course, students will develop a foundational understanding of statistical concepts and methods for interpreting research studies, without requiring prior programming experience. Prerequisites include a basic understanding of algebra and a familiarity with research design and methodology. Through a combination of lectures, discussions, and case studies, students will learn to apply statistical techniques, including hypothesis testing, confidence intervals, and regression analysis, to critically evaluate research findings and draw meaningful conclusions. The course will cover topics such as data visualization, statistical inference, and research ethics, with a focus on practical application and interpretation of statistical results.",
+  "schema_ok": null
+ },
+ "math04": {
+  "text": "This course covers the fundamental principles of discrete mathematics and logic, providing a solid foundation for students entering the field of computer science. Prerequisites include a basic understanding of algebra and mathematical reasoning. Students will develop skills in propositional and predicate logic, set theory, and combinatorics, as well as learn to apply these concepts to solve problems in computer science, including algorithms, data structures, and programming. The course is designed to be completed in 12 weeks, with a target duration of 3-4 hours of study per week.",
+  "schema_ok": null
+ },
+ "math05": {
+  "text": "Course Title: Pre-Calculus and Differential Equations Fundamentals\n\nThis course is designed for students with a strong foundation in high school algebra, aiming to bridge the gap to differential equations. Through a combination of lectures, discussions, and problem-solving exercises, students will develop essential skills in pre-calculus, including functions, limits, and calculus prerequisites such as derivatives and integrals. By the end of the course, students will have a solid understanding of mathematical modeling, linear algebra, and differential equations, preparing them for advanced calculus and applications in physics, engineering, and other fields. The target duration for this course is approximately 12 weeks, with a total of 48 contact hours.",
+  "schema_ok": null
+ },
+ "biz01": {
+  "text": "In this course, students will develop a comprehensive understanding of financial accounting principles and practices, enabling them to effectively read and analyze a company's annual report. Prerequisites include a basic understanding of accounting concepts and a prior course in financial management or equivalent experience. Through a combination of lectures, case studies, and hands-on exercises, students will learn to prepare and interpret financial statements, including balance sheets, income statements, and cash flow statements, as well as understand key accounting concepts such as accruals, depreciation, and inventory valuation. This course is designed to be completed in approximately 12 weeks, with a target of 45 hours of instruction.",
+  "schema_ok": null
+ },
+ "biz02": {
+  "text": "In this comprehensive course, small business owners will learn to develop and execute effective digital marketing and social media strategies to reach and engage their target audience. Prerequisites include basic computer skills and a fundamental understanding of business operations. Through a combination of lectures, discussions, and hands-on exercises, students will gain the skills and knowledge necessary to create and implement a digital marketing plan, including social media advertising, content creation, and analytics, as well as develop a comprehensive understanding of search engine optimization (SEO), email marketing, and influencer marketing. This course is designed to be completed in approximately 6-8 weeks, with a total of 12-16 hours of instruction.",
+  "schema_ok": null
+ },
+ "biz03": {
+  "text": "In this course, \"Entrepreneurship and Fundraising Fundamentals,\" students will gain a comprehensive understanding of the essential skills and knowledge required to launch and sustain a successful startup. Prerequisites include a basic understanding of business principles and a willingness to learn. This course covers topics such as market analysis, business planning, financial modeling, and fundraising strategies, with a focus on developing effective pitches, building a strong network, and securing investment. Through a combination of lectures, case studies, and interactive exercises, students will learn to navigate the entrepreneurial landscape and develop the skills necessary to secure funding and drive business growth.",
+  "schema_ok": null
+ },
+ "biz04": {
+  "text": "This course covers the fundamentals of project management, from planning and execution to agile delivery methods. Prerequisites include a basic understanding of business operations and prior experience with project coordination. Students will develop skills in project scope definition, resource allocation, risk management, and team collaboration, as well as learn to apply agile frameworks such as Scrum and Kanban. The course targets a duration of 12 weeks, with a focus on hands-on application and real-world case studies.",
+  "schema_ok": null
+ },
+ "biz05": {
+  "text": "This course is designed for individuals seeking a career change into banking, focusing on corporate finance and investment analysis. Prerequisites include a strong foundation in finance, accounting, and mathematics, typically acquired through a bachelor's degree in a related field. Students will develop skills in financial modeling, investment appraisal, and portfolio management, as well as gain a deep understanding of financial markets, instruments, and regulations. The target duration of this course is approximately 12-16 weeks, covering topics such as time value of money, capital budgeting, and risk management.",
+  "schema_ok": null
+ },
+ "biz06": {
+  "text": "This course covers the fundamental principles of supply chain and operations management, focusing on the strategic and tactical aspects of managing production and supply chain processes in a manufacturing setting. Prerequisites include a basic understanding of business operations and management principles, as well as proficiency in Microsoft Office or equivalent software. Students will develop skills in supply chain design, inventory management, production planning, and logistics, as well as learn to apply tools such as lean manufacturing, six sigma, and total quality management to optimize operational efficiency and reduce costs. The target duration of this course is approximately 12 weeks, with a mix of lectures, case studies, and group projects to facilitate hands-on learning and application of concepts.",
+  "schema_ok": null
+ },
+ "health01": {
+  "text": "In this course, students will develop a comprehensive understanding of nutrition and healthy eating principles grounded in scientific evidence. Prerequisites include a basic understanding of human biology and prior knowledge of nutrition is not required. Through lectures, discussions, and case studies, students will learn to critically evaluate the scientific literature on nutrition, identify evidence-based recommendations for healthy eating, and develop skills in nutrition assessment, planning, and counseling. This course targets a duration of 12 weeks and covers topics such as macronutrient metabolism, energy balance, and the role of diet in chronic disease prevention.",
+  "schema_ok": null
+ },
+ "health02": {
+  "text": "This course provides a comprehensive introduction to public health and epidemiology fundamentals, tailored for non-clinical professionals. Prerequisites include a basic understanding of health sciences and statistics. Students will develop skills in disease surveillance, outbreak investigation, and data analysis, as well as learn key concepts such as population health, health disparities, and disease prevention. The course covers topics including epidemiological study designs, biostatistics, and data interpretation, with a target duration of 6 weeks.",
+  "schema_ok": null
+ },
+ "health03": {
+  "text": "This course provides an introduction to the fundamental principles of psychology and mental health, equipping support workers with the knowledge and skills necessary to effectively support individuals with mental health needs. Prerequisites include a basic understanding of human behavior and a willingness to engage with complex topics. Through a combination of theoretical foundations and practical applications, students will develop skills in assessing mental health needs, understanding the impact of trauma and adversity, and promoting recovery and well-being. The course targets a duration of 12 weeks, with a focus on topics such as cognitive-behavioral theory, attachment and relationships, and mental health policy and legislation.",
+  "schema_ok": null
+ },
+ "health04": {
+  "text": "This course, \"Foundations of Human Anatomy and Physiology,\" is designed for students preparing to enter a nursing program, requiring a prerequisite level of high school biology or equivalent. Over the course of 12 weeks, students will develop a comprehensive understanding of the structure and function of the human body, including the integumentary, skeletal, muscular, nervous, and circulatory systems, as well as the endocrine, respiratory, digestive, and urinary systems. Key skills and topics covered include the ability to identify and describe the major organs and systems, understand the relationships between structure and function, and apply anatomical knowledge to physiological processes. By the end of the course, students will be well-prepared to succeed in a nursing program and will have a solid foundation in the principles of human anatomy and physiology.",
+  "schema_ok": null
+ },
+ "health05": {
+  "text": "In this course, students will explore the complexities of global health systems and healthcare policy, examining the social, economic, and political factors that shape healthcare delivery and access worldwide. Prerequisites include a foundational understanding of public health principles and a basic knowledge of global health issues. Through a combination of lectures, case studies, and group discussions, students will develop skills in health policy analysis, program evaluation, and cross-cultural communication, as well as gain a deeper understanding of topics such as healthcare financing, health workforce development, and global health governance. This course is designed to be completed in 6 weeks.",
+  "schema_ok": null
+ },
+ "comm01": {
+  "text": "In this course, \"Effective Public Speaking and Presentation,\" students will develop the skills and confidence necessary to deliver engaging and persuasive presentations. Prerequisites include a high school diploma or equivalent, and a basic understanding of communication principles. Through a combination of lectures, group discussions, and hands-on practice, students will learn to craft compelling messages, manage nervousness and body language, and effectively engage their audience. The course will cover topics such as presentation structure, vocal variety, and visual aids, with a target duration of 12 weeks. By the end of the course, students will be able to design and deliver confident and effective presentations in a variety of settings.",
+  "schema_ok": null
+ },
+ "comm02": {
+  "text": "This course, \"Effective Negotiation and Persuasion for Emerging Leaders,\" is designed for individuals with a foundational understanding of business principles and practices, typically acquired through completion of a bachelor's degree or equivalent experience. Students will develop essential skills in negotiation and persuasion, including active listening, assertive communication, and strategic planning, to effectively manage conflicts, build strong relationships, and drive business results. Through a combination of lectures, case studies, and interactive exercises, participants will learn to analyze complex situations, identify key stakeholders, and craft compelling arguments to achieve their goals. The target duration of this course is approximately 6 weeks, with 2-3 hours of coursework per week.",
+  "schema_ok": null
+ },
+ "comm03": {
+  "text": "In this course, \"Effective Leadership for Technical Teams,\" students will develop the skills and knowledge necessary to excel as a leader of a small technical team. Prerequisites include a bachelor's degree and 2+ years of experience in a technical field, as well as a basic understanding of project management principles. Through a combination of lectures, discussions, and hands-on exercises, students will learn how to communicate effectively, motivate team members, and make informed technical decisions, with a focus on topics such as team dynamics, conflict resolution, and technical leadership strategies. This 6-week course is designed to be completed in approximately 12-15 hours of study per week, and will culminate in a final project that applies the skills and knowledge learned to a real-world scenario.",
+  "schema_ok": null
+ },
+ "comm04": {
+  "text": "In this course, \"Effective Business Writing for International Professionals,\" students will develop essential skills in business writing and professional communication tailored for non-native English speakers. Prerequisites include intermediate-level English proficiency and prior experience with basic business concepts. Through a combination of lectures, discussions, and writing exercises, students will learn to craft clear and concise business emails, reports, and proposals, as well as master the art of presenting ideas and negotiating effectively in a global business environment. The course targets a duration of 6 weeks, with a focus on practical application and real-world scenarios.",
+  "schema_ok": null
+ },
+ "comm05": {
+  "text": "In this course, students will develop essential skills in conflict resolution and difficult conversations at work, building on a foundation of effective communication and interpersonal skills. Prerequisites include a basic understanding of workplace dynamics and communication principles. Through interactive discussions, case studies, and role-playing exercises, learners will explore topics such as active listening, assertive expression, and problem-solving strategies to manage conflicts and navigate challenging conversations. This 12-hour course is designed to equip participants with the skills and confidence to address workplace conflicts and difficult conversations in a constructive and respectful manner.",
+  "schema_ok": null
+ },
+ "sci01": {
+  "text": "In this course, students will explore the fundamental principles of climate science and the global energy transition, developing a comprehensive understanding of the complex relationships between human activities, greenhouse gas emissions, and the Earth's climate system. Prerequisites include a basic understanding of high school-level physics and mathematics. Through lectures, discussions, and hands-on activities, students will gain skills in data analysis, climate modeling, and energy policy evaluation, as well as learn about topics such as carbon capture and storage, renewable energy technologies, and sustainable development strategies. This course is designed to be completed in 12 weeks, providing a thorough introduction to the field of climate science and the energy transition.",
+  "schema_ok": null
+ },
+ "sci02": {
+  "text": "\"Foundations of Physics and Mechanics\" is a beginner-level course designed for adult learners returning to study, requiring no prior knowledge of physics or mathematics. This 12-week course covers fundamental concepts in mechanics, including kinematics, dynamics, and energy, as well as introductory topics in physics such as motion, forces, and Newton's laws. Students will develop skills in problem-solving, data analysis, and scientific reasoning, and will learn to apply mathematical models to real-world problems in physics and engineering. By the end of the course, learners will be able to describe and analyze physical systems, and will have a solid foundation for further study in physics, engineering, or related fields.",
+  "schema_ok": null
+ },
+ "sci03": {
+  "text": "This course provides a comprehensive introduction to the fundamental principles of molecular biology and genetics, covering the basics of DNA structure and function, gene expression, and genetic inheritance. Prerequisites include a basic understanding of high school biology and chemistry. Through lectures, discussions, and hands-on laboratory exercises, students will develop skills in DNA sequencing, PCR, and gene cloning, as well as analyze the molecular mechanisms underlying genetic diseases and develop strategies for genetic engineering. The course is designed to be completed in 12 weeks, with a target of 45 hours of instruction.",
+  "schema_ok": null
+ },
+ "sci04": {
+  "text": "In this course, students will gain a comprehensive understanding of electrical engineering fundamentals, covering the essential topics of circuits, signals, and electronics. Prerequisites include a strong foundation in algebra and trigonometry, as well as basic programming skills. Through a combination of theoretical and practical instruction, students will develop skills in circuit analysis, signal processing, and electronic device design, including topics such as Kirchhoff's laws, impedance, and operational amplifiers. This course is designed to be completed in approximately 12 weeks, with a target duration of 120 hours of instruction.",
+  "schema_ok": null
+ },
+ "sci05": {
+  "text": "This course covers the fundamental principles of organic chemistry, providing a comprehensive review of key concepts and skills necessary for success on medical school entrance exams. Prerequisites include a strong foundation in general chemistry and a basic understanding of chemical bonding and reactions. Students will develop skills in identifying and synthesizing organic compounds, understanding reaction mechanisms, and applying stereochemistry and spectroscopy concepts to solve problems. The course is designed to be completed in approximately 12 weeks, with a target of 120 hours of instruction, and is ideal for pre-medical students seeking to enhance their knowledge of organic chemistry.",
+  "schema_ok": null
+ },
+ "arts01": {
+  "text": "In this comprehensive music theory course, students will develop a solid understanding of the fundamental principles and concepts necessary for music composition, including chord progressions, scales, modes, rhythm, and harmony. Prerequisites include basic music literacy and a fundamental understanding of music notation. Through a combination of lectures, discussions, and hands-on exercises, students will learn to analyze and create music, developing skills in composition, arrangement, and music production. This course is designed to be completed in 12 weeks, providing students with a thorough foundation in music theory and composition.",
+  "schema_ok": null
+ },
+ "arts02": {
+  "text": "In this comprehensive course, students will explore the pivotal events and transformations that have shaped the modern world from the Industrial Revolution to the present day, covering key topics such as imperialism, world wars, decolonization, the Cold War, and globalization. Prerequisites include a strong foundation in world history, typically acquired through a high school or introductory college course. This 12-week course will equip students with the skills to analyze complex historical narratives, identify causal relationships, and evaluate the impact of global events on contemporary society, ultimately fostering a nuanced understanding of the interconnectedness of modern world history.",
+  "schema_ok": null
+ },
+ "arts03": {
+  "text": "In this introductory course, students will explore the fundamental principles and concepts of philosophy, including the nature of reality, knowledge, and ethics. Through a critical examination of classic and contemporary philosophical theories, students will develop essential skills in logical reasoning, argumentation, and critical thinking. Prerequisites include a high school diploma or equivalent, and no prior knowledge of philosophy is required. This course is designed to be completed in 6 weeks, with a focus on developing a solid foundation in ethical reasoning, moral principles, and the application of philosophical theories to real-world issues.",
+  "schema_ok": null
+ },
+ "arts04": {
+  "text": "In this intermediate-level course, students will develop their creative writing and storytelling skills through the craft of fiction writing. Building on foundational writing skills, this course will explore the techniques of plot development, character creation, and narrative structure, as well as the art of crafting compelling dialogue and descriptive language. Students will learn to apply these skills through the writing of short stories and other forms of fiction, with a focus on developing their unique voice and style. This 12-week course is designed to help students produce a portfolio of original fiction and is ideal for those with some writing experience looking to take their skills to the next level.",
+  "schema_ok": null
+ },
+ "arts05": {
+  "text": "\"Discover the fundamentals of photography and visual design in this comprehensive course, designed for complete beginners. Prerequisites include no prior experience in photography or visual design, making this an ideal starting point for those new to the field. Through a combination of lectures, hands-on exercises, and project-based learning, students will develop essential skills in camera operation, composition, lighting, and visual storytelling, as well as learn industry-standard software such as Adobe Creative Cloud. This 12-week course will cover topics including the exposure triangle, color theory, and visual design principles, culminating in a final project that showcases students' newfound skills and creativity.\"",
+  "schema_ok": null
+ },
+ "edu01": {
+  "text": "\"Effective Classroom Teaching Methods\" is a foundational course designed for new educators, requiring no prior teaching experience. This 6-week course covers essential skills and topics, including lesson planning, classroom management, differentiated instruction, and assessment strategies. Students will learn how to create engaging learning environments, develop effective communication skills, and cultivate a growth mindset in their students. By the end of the course, participants will be equipped with the knowledge and confidence to implement evidence-based teaching practices in their own classrooms.",
+  "schema_ok": null
+ },
+ "edu02": {
+  "text": "In this course, students will develop the skills and knowledge necessary to design and build engaging online courses, with a focus on instructional design principles, adult learning theory, and interactive multimedia elements. Prerequisites include a basic understanding of educational technology and prior experience with course development. Through a combination of lectures, discussions, and hands-on activities, students will learn to create effective learning objectives, select suitable assessment methods, and utilize popular learning management systems to deliver online content. The target duration of this course is approximately 6 weeks, with a total of 45 hours of instruction.",
+  "schema_ok": null
+ },
+ "edu03": {
+  "text": "In this course, \"Effective Mathematics Instruction for Primary School Children,\" students will develop the skills and knowledge necessary to teach mathematics to students in grades K-5. Prerequisites include a bachelor's degree in education or a related field, as well as a basic understanding of mathematical concepts and instructional design. This course will cover topics such as number sense, algebraic thinking, geometry, and data analysis, with a focus on creating engaging lesson plans, assessing student understanding, and promoting problem-solving skills. Through a combination of lectures, discussions, and hands-on activities, students will learn how to tailor their instruction to meet the diverse needs of primary school students and create a supportive learning environment that fosters mathematical confidence and fluency. The target duration of this course is approximately 6 weeks.",
+  "schema_ok": null
+ },
+ "edu04": {
+  "text": "In this course, students will develop a comprehensive understanding of educational assessment and measurement techniques to evaluate student learning outcomes. Prerequisites include a bachelor's degree in education or a related field, as well as foundational knowledge in statistics and research methods. Through a combination of theoretical foundations and practical applications, students will learn to design, implement, and analyze assessments that align with learning objectives, including skills in test development, item analysis, and data interpretation. This course is designed to be completed in approximately 6 weeks, targeting the development of skills in educational measurement, validity and reliability, and assessment literacy.",
+  "schema_ok": null
+ },
+ "law01": {
+  "text": "This course provides an introduction to the fundamentals of law and legal reasoning, tailored for non-law professionals. Prerequisites include a basic understanding of English and a high school diploma or equivalent. Students will develop skills in legal research, critical thinking, and analytical writing, as they explore key topics such as the US legal system, tort law, contract law, and constitutional law. The course is designed to be completed in approximately 12 weeks, with a target of 120 hours of instruction.",
+  "schema_ok": null
+ },
+ "law02": {
+  "text": "This course explores the fundamental principles and concepts of human rights and international humanitarian law, examining the key international instruments and institutions that govern these areas. Prerequisites include a basic understanding of international law and a strong foundation in critical thinking and analytical skills. Through a combination of lectures, case studies, and group discussions, students will develop the skills to analyze complex human rights and humanitarian law issues, identify relevant international norms and standards, and apply these principles to real-world scenarios. The target duration of this course is 6 weeks, with a total of 45 hours of instruction.",
+  "schema_ok": null
+ },
+ "law03": {
+  "text": "In this course, students will develop essential skills in public policy analysis and governance to excel in a civil service career. Prerequisites include a bachelor's degree and foundational knowledge of public administration, statistics, and research methods. Through a combination of lectures, case studies, and group projects, students will learn to analyze policy frameworks, evaluate program effectiveness, and develop evidence-based recommendations for public sector decision-making. The course will cover topics such as policy design, implementation, and evaluation, as well as the role of governance in shaping public policy, with a target duration of 12 weeks.",
+  "schema_ok": null
+ },
+ "law04": {
+  "text": "In this course, students will explore the principles and practices of sustainability, environmental policy, and corporate responsibility, developing a comprehensive understanding of the complex relationships between business, society, and the environment. Prerequisites include a foundational understanding of business principles and environmental science. Through a combination of lectures, case studies, and group discussions, students will gain skills in environmental impact assessment, stakeholder engagement, and sustainable business strategy, as well as learn about key topics such as climate change mitigation, green supply chain management, and corporate social responsibility reporting. This course is designed to be completed in 6 weeks, providing students with a thorough understanding of the concepts and tools necessary to drive sustainable business practices.",
+  "schema_ok": null
+ },
+ "lang01": {
+  "text": "In this intermediate-level course, students will develop and refine their English grammar skills, focusing on complex sentence structures, verb tenses, and nuanced use of modifiers. Through a combination of lectures, discussions, and writing workshops, participants will also enhance their academic writing abilities, learning to craft clear, concise, and well-organized essays and reports. By the end of the course, students will be able to effectively communicate complex ideas, analyze and synthesize information, and produce well-written, error-free texts. This 12-week course is designed for students with a solid foundation in English grammar and vocabulary, and is ideal for those preparing for graduate studies or seeking to improve their professional writing skills.",
+  "schema_ok": null
+ },
+ "lang02": {
+  "text": "\"Chinese for Business Travelers: Beginner Level\" is a 6-week course designed for individuals with no prior knowledge of the Chinese language. This course covers essential skills and topics, including basic Chinese characters, pronunciation, and grammar, as well as business-related vocabulary and phrases, such as introductions, directions, and basic transactions. Students will learn to communicate effectively in everyday business situations, including ordering food, making reservations, and navigating cultural differences. By the end of the course, students will be able to hold basic conversations and read simple Chinese texts, preparing them for successful business travel in China.",
+  "schema_ok": null
+ },
+ "lang03": {
+  "text": "This course focuses on developing English language skills for effective professional communication in a technical workplace, covering topics such as technical writing, presentation, and collaboration. Prerequisites include a strong foundation in English language skills, equivalent to a minimum of intermediate level. Students will learn to write and communicate technical information clearly and concisely, as well as navigate complex technical discussions and meetings, and develop skills in active listening, negotiation, and conflict resolution. The course is designed to be completed in 6 weeks, with a target of 60 hours of instruction.",
+  "schema_ok": null
+ }
+}

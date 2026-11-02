@@ -1,0 +1,309 @@
+{
+  "probe": "L2 seed probe + L3 divergence probe",
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "provider": "deepinfra",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "prompt": "List eight distinct subfields of machine learning. For each, give the name followed by a one-sentence description of what problem it solves. Number them 1 to 8.",
+  "index_caveat": "first_char_divergence and first_word_divergence are character and whitespace-word indices, NOT BPE token indices. Llama 3.1's tokenizer is gated and is not a project dependency.",
+  "l2_seed_probe": {
+    "seeds": [
+      34,
+      99
+    ],
+    "identical": true,
+    "calls": [
+      {
+        "label": "seed34",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 54764.73,
+        "chars": 1832
+      },
+      {
+        "label": "seed99",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 13317.71,
+        "chars": 1832
+      }
+    ],
+    "pairs": [
+      {
+        "pair": [
+          "seed34",
+          "seed99"
+        ],
+        "identical": true,
+        "first_char_divergence": null,
+        "first_word_divergence": null,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          336
+        ]
+      }
+    ],
+    "verdict": "indeterminate_underpowered",
+    "verdict_requires": "L3's same-seed baseline. A cross-seed pair is only interpretable when same-seed repeats agree.",
+    "corrected_2026_08_25": "field seed_is_honoured=False removed: it inferred a seed effect from a cross-seed difference without checking the same-seed baseline."
+  },
+  "l3_divergence_probe": {
+    "repeats": 5,
+    "seed": 34,
+    "distinct_replies": 3,
+    "all_identical": false,
+    "prompt_tokens_stable": true,
+    "calls": [
+      {
+        "label": "rep1",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 16109.75,
+        "chars": 1832
+      },
+      {
+        "label": "rep2",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 17271.23,
+        "chars": 1832
+      },
+      {
+        "label": "rep3",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between inputs and outputs based on labeled training data, so that the model can make predictions on new, unseen data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns, relationships, or structure in data without prior knowledge of the expected output, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning to make decisions in an environment where the goal is to maximize a reward signal, often used in robotics, game playing, or autonomous systems.\n4. **Deep Learning**: This subfield solves the problem of learning complex, hierarchical representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, or time series forecasting.\n5. **Transfer Learning**: This subfield solves the problem of leveraging knowledge gained from one task or domain to improve performance on a different, but related, task or domain, often used for adapting pre-trained models to new datasets or tasks.\n6. **Active Learning**: This subfield solves the problem of selecting the most informative samples from a large dataset to query or label, often used for reducing the need for labeled data, improving model performance, or speeding up the learning process.\n7. **Explainable Machine Learning**: This subfield solves the problem of providing transparent, interpretable, and understandable explanations for the decisions made by machine learning models, often used for building trust, identifying biases, or improving model performance.\n8. **Multi-Task Learning**: This subfield solves the problem of learning multiple related tasks simultaneously, often used for improving model performance, reducing overfitting, or leveraging shared knowledge across tasks.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 380,
+        "finish_reason": "stop",
+        "latency_ms": 13259.07,
+        "chars": 2048
+      },
+      {
+        "label": "rep4",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and their corresponding output labels, allowing the model to make predictions on new, unseen data.\n2. **Unsupervised Learning**: This subfield solves the problem of identifying patterns or structure in input data without prior knowledge of the output labels, often used for clustering or dimensionality reduction.\n3. **Reinforcement Learning**: This subfield solves the problem of learning to make decisions in an environment where the model receives rewards or penalties for its actions, allowing it to optimize its behavior over time.\n4. **Deep Learning**: This subfield solves the problem of learning complex, high-level representations of data using multi-layer neural networks, often used for image and speech recognition.\n5. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, and machine translation.\n6. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image segmentation, and facial recognition.\n7. **Transfer Learning**: This subfield solves the problem of adapting a pre-trained model to a new task or dataset, allowing for faster learning and improved performance on a variety of tasks.\n8. **Explainable AI (XAI)**: This subfield solves the problem of understanding and interpreting the decisions made by machine learning models, often used to improve transparency, accountability, and trust in AI systems.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 335,
+        "finish_reason": "stop",
+        "latency_ms": 20018.34,
+        "chars": 1792
+      },
+      {
+        "label": "rep5",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 12606.44,
+        "chars": 1832
+      }
+    ],
+    "pairs": [
+      {
+        "pair": [
+          "rep1",
+          "rep2"
+        ],
+        "identical": true,
+        "first_char_divergence": null,
+        "first_word_divergence": null,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          336
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep3"
+        ],
+        "identical": false,
+        "first_char_divergence": 219,
+        "first_word_divergence": 31,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          380
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 230,
+        "first_word_divergence": 34,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          335
+        ]
+      },
+      {
+        "pair": [
+          "rep1",
+          "rep5"
+        ],
+        "identical": true,
+        "first_char_divergence": null,
+        "first_word_divergence": null,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          336
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep3"
+        ],
+        "identical": false,
+        "first_char_divergence": 219,
+        "first_word_divergence": 31,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          380
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 230,
+        "first_word_divergence": 34,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          335
+        ]
+      },
+      {
+        "pair": [
+          "rep2",
+          "rep5"
+        ],
+        "identical": true,
+        "first_char_divergence": null,
+        "first_word_divergence": null,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          336,
+          336
+        ]
+      },
+      {
+        "pair": [
+          "rep3",
+          "rep4"
+        ],
+        "identical": false,
+        "first_char_divergence": 219,
+        "first_word_divergence": 31,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          380,
+          335
+        ]
+      },
+      {
+        "pair": [
+          "rep3",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 219,
+        "first_word_divergence": 31,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          380,
+          336
+        ]
+      },
+      {
+        "pair": [
+          "rep4",
+          "rep5"
+        ],
+        "identical": false,
+        "first_char_divergence": 230,
+        "first_word_divergence": 34,
+        "prompt_tokens_match": true,
+        "prompt_tokens": [
+          46,
+          46
+        ],
+        "completion_tokens": [
+          335,
+          336
+        ]
+      }
+    ]
+  }
+}

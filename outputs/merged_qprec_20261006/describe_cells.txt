@@ -1,0 +1,731 @@
+######## outputs/merged_qprec_20261006/fp8_s_a2
+
+### fp8_s_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.4637  95% CI=[0.4127, 0.5146]       n=50/50
+    invention_both_spoke       mean=   0.4637  95% CI=[0.4127, 0.5146]       n=50/50
+    near_miss_rate             mean=   0.0208  95% CI=[0.0141, 0.0283]       n=50/50
+    out_of_window_rate         mean=   0.1373  95% CI=[0.1178, 0.1574]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3098  95% CI=[0.2604, 0.3617]       n=50/50
+    grounding                  mean=   0.9999  95% CI=[0.9998, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.2023  95% CI=[0.1626, 0.2472]       n=50/50
+    retrieved                  mean=  64.7000  95% CI=[54.4200, 75.2200]     n=50/50
+    keywords_emitted           mean=  31.3067  95% CI=[29.1733, 33.5733]     n=50/50
+    cited                      mean=   8.5333  95% CI=[7.4667, 10.1267]      n=50/50
+    overrun                    total=5
+    schema_violation           total=0
+    platforms_lost             total=14
+    near_miss                  total=99
+    out_of_window              total=632
+    invention_itt by pass  r1=0.4756(n=50)  r2=0.4405(n=50)  r3=0.4749(n=50)
+      spread across passes 0.0351   sd=0.0201
+######## outputs/merged_qprec_20261006/bf16_s_a2
+
+### bf16_s_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=150   mutes=1
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.4948  95% CI=[0.4501, 0.5390]       n=50/50
+    invention_both_spoke       mean=   0.4893  95% CI=[0.4416, 0.5346]       n=50/50
+    near_miss_rate             mean=   0.0274  95% CI=[0.0180, 0.0377]       n=50/50
+    out_of_window_rate         mean=   0.1382  95% CI=[0.1190, 0.1585]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3242  95% CI=[0.2712, 0.3810]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.2158  95% CI=[0.1704, 0.2682]       n=50/50
+    retrieved                  mean=  59.5600  95% CI=[49.9400, 69.4733]     n=50/50
+    keywords_emitted           mean=  31.4267  95% CI=[28.7067, 34.4400]     n=50/50
+    cited                      mean=   8.0400  95% CI=[7.3800, 8.7267]       n=50/50
+    overrun                    total=5
+    schema_violation           total=0
+    platforms_lost             total=22
+    near_miss                  total=128
+    out_of_window              total=629
+    invention_itt by pass  r1=0.4855(n=50)  r2=0.4915(n=50)  r3=0.5075(n=50)
+      spread across passes 0.0221   sd=0.0114
+######## outputs/s1dec5090_qwen_s_a2
+  note: 1 row(s) in s1dec5090_qwen_s_a2 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: biz06
+
+### s1dec5090_qwen_s_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=149   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.4731  95% CI=[0.4266, 0.5193]       n=50/50
+    invention_both_spoke       mean=   0.4731  95% CI=[0.4266, 0.5193]       n=50/50
+    near_miss_rate             mean=   0.0269  95% CI=[0.0182, 0.0364]       n=50/50
+    out_of_window_rate         mean=   0.1432  95% CI=[0.1248, 0.1624]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3213  95% CI=[0.2700, 0.3758]       n=50/50
+    grounding                  mean=   0.9993  95% CI=[0.9980, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.2166  95% CI=[0.1728, 0.2689]       n=50/50
+    retrieved                  mean=  63.4733  95% CI=[52.9600, 74.3467]     n=50/50
+    keywords_emitted           mean=  32.6967  95% CI=[29.6467, 36.0000]     n=50/50
+    cited                      mean=   8.4200  95% CI=[7.8267, 9.0667]       n=50/50
+    overrun                    total=3
+    schema_violation           total=0
+    platforms_lost             total=15
+    near_miss                  total=127
+    out_of_window              total=680
+    invention_itt by pass  r1=0.4836(n=50)  r2=0.4727(n=49)  r3=0.4652(n=50)
+      spread across passes 0.0184   sd=0.0093
+######## outputs/merged_qprec_20261006/fp8_s_a2_s1
+  note: 1 row(s) in fp8_s_a2_s1 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: cs07
+
+### fp8_s_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=149   mutes=2
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2641  95% CI=[0.2164, 0.3141]       n=50/50
+    invention_both_spoke       mean=   0.2510  95% CI=[0.2054, 0.2967]       n=50/50
+    near_miss_rate             mean=   0.0114  95% CI=[0.0073, 0.0158]       n=50/50
+    out_of_window_rate         mean=   0.0829  95% CI=[0.0653, 0.1014]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1308  95% CI=[0.0998, 0.1638]       n=50/50
+    grounding                  mean=   0.9993  95% CI=[0.9980, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.0966  95% CI=[0.0808, 0.1138]       n=50/50
+    retrieved                  mean= 115.8933  95% CI=[104.1733, 127.3000]   n=50/50
+    keywords_emitted           mean=  33.8867  95% CI=[31.2533, 36.8533]     n=50/50
+    cited                      mean=   8.1933  95% CI=[7.4533, 8.9933]       n=50/50
+    overrun                    total=8
+    schema_violation           total=0
+    platforms_lost             total=9
+    near_miss                  total=54
+    out_of_window              total=400
+    invention_itt by pass  r1=0.2352(n=50)  r2=0.2661(n=50)  r3=0.2861(n=49)
+      spread across passes 0.0509   sd=0.0256
+######## outputs/merged_qprec_20261006/bf16_s_a2_s1
+  note: 1 row(s) in bf16_s_a2_s1 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: cs07
+
+### bf16_s_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=149   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2486  95% CI=[0.1982, 0.3037]       n=50/50
+    invention_both_spoke       mean=   0.2486  95% CI=[0.1982, 0.3037]       n=50/50
+    near_miss_rate             mean=   0.0122  95% CI=[0.0072, 0.0180]       n=50/50
+    out_of_window_rate         mean=   0.0887  95% CI=[0.0683, 0.1103]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1459  95% CI=[0.1077, 0.1891]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1261  95% CI=[0.0935, 0.1657]       n=50/50
+    retrieved                  mean= 110.8133  95% CI=[96.0733, 126.0600]    n=50/50
+    keywords_emitted           mean=  32.9433  95% CI=[29.7467, 36.4033]     n=50/50
+    cited                      mean=   8.7400  95% CI=[7.3867, 10.5067]      n=50/50
+    overrun                    total=13
+    schema_violation           total=0
+    platforms_lost             total=18
+    near_miss                  total=58
+    out_of_window              total=386
+    invention_itt by pass  r1=0.2428(n=50)  r2=0.2687(n=49)  r3=0.2378(n=50)
+      spread across passes 0.0309   sd=0.0166
+######## outputs/s1dec5090_qwen_s_a2_s1
+  note: 1 row(s) in s1dec5090_qwen_s_a2_s1 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: cs07
+
+### s1dec5090_qwen_s_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=149   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2487  95% CI=[0.2013, 0.2992]       n=50/50
+    invention_both_spoke       mean=   0.2487  95% CI=[0.2013, 0.2992]       n=50/50
+    near_miss_rate             mean=   0.0128  95% CI=[0.0073, 0.0195]       n=50/50
+    out_of_window_rate         mean=   0.0862  95% CI=[0.0675, 0.1060]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1430  95% CI=[0.1067, 0.1840]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1179  95% CI=[0.0922, 0.1486]       n=50/50
+    retrieved                  mean= 109.5367  95% CI=[95.9367, 123.5567]    n=50/50
+    keywords_emitted           mean=  32.6200  95% CI=[29.6733, 35.8733]     n=50/50
+    cited                      mean=   8.6733  95% CI=[7.6467, 9.9400]       n=50/50
+    overrun                    total=17
+    schema_violation           total=0
+    platforms_lost             total=19
+    near_miss                  total=57
+    out_of_window              total=364
+    invention_itt by pass  r1=0.2324(n=49)  r2=0.2607(n=50)  r3=0.2556(n=50)
+      spread across passes 0.0283   sd=0.0151
+######## outputs/merged_qprec_20261006/fp8_s_a3
+
+### fp8_s_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=3
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.3494  95% CI=[0.2950, 0.4071]       n=50/50
+    invention_both_spoke       mean=   0.3365  95% CI=[0.2832, 0.3907]       n=50/50
+    near_miss_rate             mean=   0.0162  95% CI=[0.0117, 0.0212]       n=50/50
+    out_of_window_rate         mean=   0.1037  95% CI=[0.0848, 0.1233]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.2007  95% CI=[0.1602, 0.2416]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.0992  95% CI=[0.0785, 0.1230]       n=50/50
+    retrieved                  mean=  94.9400  95% CI=[81.9533, 108.0200]    n=50/50
+    keywords_emitted           mean=  33.0400  95% CI=[30.8467, 35.2133]     n=50/50
+    cited                      mean=   5.3133  95% CI=[4.6333, 6.1200]       n=50/50
+    overrun                    total=25
+    schema_violation           total=15
+    platforms_lost             total=41
+    near_miss                  total=79
+    out_of_window              total=467
+    invention_itt by pass  r1=0.3676(n=50)  r2=0.3458(n=50)  r3=0.3346(n=50)
+      spread across passes 0.0330   sd=0.0168
+######## outputs/merged_qprec_20261006/bf16_s_a3
+
+### bf16_s_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=7
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.3923  95% CI=[0.3364, 0.4517]       n=50/50
+    invention_both_spoke       mean=   0.3598  95% CI=[0.3059, 0.4133]       n=50/50
+    near_miss_rate             mean=   0.0182  95% CI=[0.0109, 0.0271]       n=50/50
+    out_of_window_rate         mean=   0.1053  95% CI=[0.0815, 0.1311]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.2041  95% CI=[0.1573, 0.2536]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1128  95% CI=[0.0843, 0.1445]       n=50/50
+    retrieved                  mean=  82.0867  95% CI=[69.9200, 94.6600]     n=50/50
+    keywords_emitted           mean=  29.7933  95% CI=[27.2533, 32.3800]     n=50/50
+    cited                      mean=   5.0800  95% CI=[4.5133, 5.6467]       n=50/50
+    overrun                    total=33
+    schema_violation           total=20
+    platforms_lost             total=56
+    near_miss                  total=80
+    out_of_window              total=444
+    invention_itt by pass  r1=0.4392(n=50)  r2=0.3551(n=50)  r3=0.3825(n=50)
+      spread across passes 0.0841   sd=0.0429
+######## outputs/s1dec5090_qwen_s_a3
+
+### s1dec5090_qwen_s_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=8
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.4261  95% CI=[0.3648, 0.4908]       n=50/50
+    invention_both_spoke       mean=   0.4025  95% CI=[0.3463, 0.4576]       n=49/50
+    near_miss_rate             mean=   0.0169  95% CI=[0.0105, 0.0248]       n=49/50
+    out_of_window_rate         mean=   0.0991  95% CI=[0.0789, 0.1203]       n=49/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.2082  95% CI=[0.1632, 0.2546]       n=49/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=49/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1159  95% CI=[0.0883, 0.1477]       n=49/50
+    retrieved                  mean=  83.5733  95% CI=[69.8667, 97.6000]     n=50/50
+    keywords_emitted           mean=  31.7867  95% CI=[28.5400, 34.9400]     n=50/50
+    cited                      mean=   5.0400  95% CI=[4.4000, 5.7133]       n=50/50
+    overrun                    total=27
+    schema_violation           total=20
+    platforms_lost             total=50
+    near_miss                  total=83
+    out_of_window              total=480
+    invention_itt by pass  r1=0.4026(n=50)  r2=0.4191(n=50)  r3=0.4567(n=50)
+      spread across passes 0.0542   sd=0.0278
+######## outputs/merged_qprec_20261006/fp8_s_a2_sw
+
+### fp8_s_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2653  95% CI=[0.2091, 0.3266]       n=50/50
+    invention_both_spoke       mean=   0.2653  95% CI=[0.2091, 0.3266]       n=50/50
+    near_miss_rate             mean=   0.0075  95% CI=[0.0037, 0.0120]       n=50/50
+    out_of_window_rate         mean=   0.0821  95% CI=[0.0607, 0.1056]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1360  95% CI=[0.0975, 0.1785]       n=50/50
+    grounding                  mean=   0.9975  95% CI=[0.9925, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1250  95% CI=[0.0986, 0.1569]       n=50/50
+    retrieved                  mean= 100.1333  95% CI=[86.6933, 113.0133]    n=50/50
+    keywords_emitted           mean=  28.3000  95% CI=[26.0000, 30.5267]     n=50/50
+    cited                      mean=   8.3000  95% CI=[7.6000, 9.0200]       n=50/50
+    overrun                    total=14
+    schema_violation           total=0
+    platforms_lost             total=17
+    near_miss                  total=34
+    out_of_window              total=302
+    invention_itt by pass  r1=0.2713(n=50)  r2=0.2751(n=50)  r3=0.2494(n=50)
+      spread across passes 0.0258   sd=0.0139
+######## outputs/merged_qprec_20261006/bf16_s_a2_sw
+
+### bf16_s_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2937  95% CI=[0.2324, 0.3571]       n=50/50
+    invention_both_spoke       mean=   0.2937  95% CI=[0.2324, 0.3571]       n=50/50
+    near_miss_rate             mean=   0.0108  95% CI=[0.0055, 0.0169]       n=50/50
+    out_of_window_rate         mean=   0.0896  95% CI=[0.0685, 0.1116]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1686  95% CI=[0.1211, 0.2213]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1388  95% CI=[0.0996, 0.1865]       n=50/50
+    retrieved                  mean= 102.2600  95% CI=[87.1600, 117.2733]    n=50/50
+    keywords_emitted           mean=  31.4800  95% CI=[28.4867, 34.7067]     n=50/50
+    cited                      mean=   8.2867  95% CI=[7.2400, 9.7067]       n=50/50
+    overrun                    total=5
+    schema_violation           total=0
+    platforms_lost             total=11
+    near_miss                  total=50
+    out_of_window              total=389
+    invention_itt by pass  r1=0.2894(n=50)  r2=0.2931(n=50)  r3=0.2985(n=50)
+      spread across passes 0.0091   sd=0.0046
+######## outputs/s1dec5090_qwen_s_a2_sw
+
+### s1dec5090_qwen_s_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=False   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2891  95% CI=[0.2279, 0.3534]       n=50/50
+    invention_both_spoke       mean=   0.2891  95% CI=[0.2279, 0.3534]       n=50/50
+    near_miss_rate             mean=   0.0099  95% CI=[0.0047, 0.0158]       n=50/50
+    out_of_window_rate         mean=   0.0890  95% CI=[0.0676, 0.1117]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.1656  95% CI=[0.1179, 0.2185]       n=50/50
+    grounding                  mean=   0.9983  95% CI=[0.9950, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1353  95% CI=[0.1002, 0.1777]       n=50/50
+    retrieved                  mean= 103.3000  95% CI=[87.8933, 118.7733]    n=50/50
+    keywords_emitted           mean=  31.2933  95% CI=[28.2733, 34.3867]     n=50/50
+    cited                      mean=   8.6867  95% CI=[7.6333, 9.9200]       n=50/50
+    overrun                    total=10
+    schema_violation           total=0
+    platforms_lost             total=16
+    near_miss                  total=46
+    out_of_window              total=376
+    invention_itt by pass  r1=0.2850(n=50)  r2=0.2796(n=50)  r3=0.3028(n=50)
+      spread across passes 0.0232   sd=0.0121
+######## outputs/merged_qprec_20261006/fp8_s_a3_p1
+
+### fp8_s_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=8
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.5624  95% CI=[0.5098, 0.6134]       n=50/50
+    invention_both_spoke       mean=   0.5379  95% CI=[0.4856, 0.5890]       n=50/50
+    near_miss_rate             mean=   0.0250  95% CI=[0.0177, 0.0330]       n=50/50
+    out_of_window_rate         mean=   0.1102  95% CI=[0.0941, 0.1260]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3052  95% CI=[0.2503, 0.3621]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1299  95% CI=[0.1063, 0.1568]       n=50/50
+    retrieved                  mean=  62.6400  95% CI=[51.2000, 74.8867]     n=50/50
+    keywords_emitted           mean=  35.9800  95% CI=[33.4667, 38.4667]     n=50/50
+    cited                      mean=   5.2133  95% CI=[4.5933, 5.8867]       n=50/50
+    overrun                    total=23
+    schema_violation           total=18
+    platforms_lost             total=51
+    near_miss                  total=127
+    out_of_window              total=606
+    invention_itt by pass  r1=0.5433(n=50)  r2=0.5748(n=50)  r3=0.5691(n=50)
+      spread across passes 0.0316   sd=0.0168
+######## outputs/merged_qprec_20261006/bf16_s_a3_p1
+
+### bf16_s_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=4
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.5339  95% CI=[0.4756, 0.5892]       n=50/50
+    invention_both_spoke       mean=   0.5211  95% CI=[0.4673, 0.5732]       n=50/50
+    near_miss_rate             mean=   0.0277  95% CI=[0.0195, 0.0369]       n=50/50
+    out_of_window_rate         mean=   0.1192  95% CI=[0.1018, 0.1367]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3047  95% CI=[0.2531, 0.3593]       n=50/50
+    grounding                  mean=   0.9969  95% CI=[0.9911, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1297  95% CI=[0.1046, 0.1566]       n=50/50
+    retrieved                  mean=  67.2533  95% CI=[55.0533, 81.0600]     n=50/50
+    keywords_emitted           mean=  36.9467  95% CI=[33.9800, 39.9600]     n=50/50
+    cited                      mean=   5.6133  95% CI=[4.9133, 6.3400]       n=50/50
+    overrun                    total=18
+    schema_violation           total=18
+    platforms_lost             total=45
+    near_miss                  total=147
+    out_of_window              total=663
+    invention_itt by pass  r1=0.5329(n=50)  r2=0.5468(n=50)  r3=0.5219(n=50)
+      spread across passes 0.0249   sd=0.0125
+######## outputs/s1dec5090_qwen_s_a3_p1
+
+### s1dec5090_qwen_s_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_only inject=False   n=150   mutes=4
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.5410  95% CI=[0.4850, 0.5969]       n=50/50
+    invention_both_spoke       mean=   0.5327  95% CI=[0.4794, 0.5850]       n=50/50
+    near_miss_rate             mean=   0.0308  95% CI=[0.0225, 0.0400]       n=50/50
+    out_of_window_rate         mean=   0.1143  95% CI=[0.0950, 0.1347]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.3065  95% CI=[0.2519, 0.3645]       n=50/50
+    grounding                  mean=   0.9975  95% CI=[0.9927, 1.0000]       n=49/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1389  95% CI=[0.1144, 0.1635]       n=49/50
+    retrieved                  mean=  64.5067  95% CI=[52.2933, 78.0467]     n=50/50
+    keywords_emitted           mean=  36.2867  95% CI=[33.4200, 39.2667]     n=50/50
+    cited                      mean=   5.6267  95% CI=[4.8667, 6.4067]       n=50/50
+    overrun                    total=22
+    schema_violation           total=17
+    platforms_lost             total=51
+    near_miss                  total=158
+    out_of_window              total=623
+    invention_itt by pass  r1=0.5438(n=50)  r2=0.5298(n=50)  r3=0.5494(n=50)
+      spread across passes 0.0196   sd=0.0101
+######## outputs/merged_qprec_20261006/fp8_i_a2
+  note: 19 row(s) in fp8_i_a2 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: arts05, comm02, cs06, health05, lang01, lang03, +13 more
+
+### fp8_i_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=131   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (49), not rows
+    invention_itt              mean=   0.2012  95% CI=[0.1593, 0.2442]       n=49/49
+    invention_both_spoke       mean=   0.2012  95% CI=[0.1593, 0.2442]       n=49/49
+    near_miss_rate             mean=   0.0097  95% CI=[0.0059, 0.0138]       n=49/49
+    out_of_window_rate         mean=   0.0037  95% CI=[0.0015, 0.0064]       n=49/49
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0048  95% CI=[0.0019, 0.0085]       n=49/49
+    grounding                  mean=   0.9977  95% CI=[0.9943, 1.0000]       n=49/49
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1220  95% CI=[0.0957, 0.1537]       n=49/49
+    retrieved                  mean= 105.5952  95% CI=[92.2517, 119.8810]    n=49/49
+    keywords_emitted           mean=  34.2653  95% CI=[31.1735, 37.5306]     n=49/49
+    cited                      mean=   9.5136  95% CI=[7.5204, 13.0034]      n=49/49
+    overrun                    total=2
+    schema_violation           total=0
+    platforms_lost             total=3
+    near_miss                  total=42
+    out_of_window              total=16
+    invention_itt by pass  r1=0.1984(n=45)  r2=0.2056(n=43)  r3=0.2198(n=43)
+      spread across passes 0.0214   sd=0.0109
+######## outputs/merged_qprec_20261006/bf16_i_a2
+  note: 16 row(s) in bf16_i_a2 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: arts01, comm02, comm05, cs06, edu02, edu03, +10 more
+
+### bf16_i_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=134   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (47), not rows
+    invention_itt              mean=   0.2436  95% CI=[0.2003, 0.2871]       n=47/47
+    invention_both_spoke       mean=   0.2436  95% CI=[0.2003, 0.2871]       n=47/47
+    near_miss_rate             mean=   0.0170  95% CI=[0.0106, 0.0242]       n=47/47
+    out_of_window_rate         mean=   0.0056  95% CI=[0.0017, 0.0120]       n=47/47
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0082  95% CI=[0.0023, 0.0182]       n=47/47
+    grounding                  mean=   0.9972  95% CI=[0.9916, 1.0000]       n=47/47
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1172  95% CI=[0.0967, 0.1402]       n=47/47
+    retrieved                  mean=  99.1206  95% CI=[86.3723, 112.5355]    n=47/47
+    keywords_emitted           mean=  35.7128  95% CI=[32.6915, 38.9716]     n=47/47
+    cited                      mean=   8.0532  95% CI=[7.5816, 8.5426]       n=47/47
+    overrun                    total=1
+    schema_violation           total=0
+    platforms_lost             total=4
+    near_miss                  total=75
+    out_of_window              total=30
+    invention_itt by pass  r1=0.2444(n=44)  r2=0.2344(n=47)  r3=0.2604(n=43)
+      spread across passes 0.0261   sd=0.0132
+######## outputs/s1dec5090_qwen_i_a2
+  note: 18 row(s) in s1dec5090_qwen_i_a2 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: arts01, comm02, comm05, cs07, edu02, edu03, +12 more
+
+### s1dec5090_qwen_i_a2
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=132   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (47), not rows
+    invention_itt              mean=   0.2379  95% CI=[0.1916, 0.2858]       n=47/47
+    invention_both_spoke       mean=   0.2379  95% CI=[0.1916, 0.2858]       n=47/47
+    near_miss_rate             mean=   0.0109  95% CI=[0.0065, 0.0159]       n=47/47
+    out_of_window_rate         mean=   0.0045  95% CI=[0.0017, 0.0079]       n=47/47
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0060  95% CI=[0.0022, 0.0106]       n=47/47
+    grounding                  mean=   0.9982  95% CI=[0.9947, 1.0000]       n=47/47
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1251  95% CI=[0.1005, 0.1518]       n=47/47
+    retrieved                  mean= 101.5674  95% CI=[88.4184, 114.9787]    n=47/47
+    keywords_emitted           mean=  35.3652  95% CI=[32.3546, 38.5780]     n=47/47
+    cited                      mean=   8.7624  95% CI=[7.7872, 10.1241]      n=47/47
+    overrun                    total=1
+    schema_violation           total=0
+    platforms_lost             total=4
+    near_miss                  total=49
+    out_of_window              total=21
+    invention_itt by pass  r1=0.2314(n=45)  r2=0.2552(n=44)  r3=0.2520(n=43)
+      spread across passes 0.0237   sd=0.0129
+######## outputs/merged_qprec_20261006/fp8_i_a2_s1
+  note: 4 row(s) in fp8_i_a2_s1 were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: biz03, edu01, health03, health05
+
+### fp8_i_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=146   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.0600  95% CI=[0.0420, 0.0800]       n=50/50
+    invention_both_spoke       mean=   0.0600  95% CI=[0.0420, 0.0800]       n=50/50
+    near_miss_rate             mean=   0.0054  95% CI=[0.0021, 0.0095]       n=50/50
+    out_of_window_rate         mean=   0.0049  95% CI=[0.0018, 0.0086]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0062  95% CI=[0.0022, 0.0110]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1167  95% CI=[0.1000, 0.1350]       n=50/50
+    retrieved                  mean=  84.1067  95% CI=[75.6533, 92.7167]     n=50/50
+    keywords_emitted           mean=  27.4733  95% CI=[24.2133, 30.8833]     n=50/50
+    cited                      mean=   7.5600  95% CI=[7.0767, 8.0567]       n=50/50
+    overrun                    total=2
+    schema_violation           total=0
+    platforms_lost             total=3
+    near_miss                  total=39
+    out_of_window              total=28
+    invention_itt by pass  r1=0.0724(n=47)  r2=0.0486(n=49)  r3=0.0586(n=50)
+      spread across passes 0.0238   sd=0.0120
+######## outputs/merged_qprec_20261006/bf16_i_a2_s1
+
+### bf16_i_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.0614  95% CI=[0.0402, 0.0846]       n=50/50
+    invention_both_spoke       mean=   0.0614  95% CI=[0.0402, 0.0846]       n=50/50
+    near_miss_rate             mean=   0.0031  95% CI=[0.0009, 0.0059]       n=50/50
+    out_of_window_rate         mean=   0.0093  95% CI=[0.0010, 0.0240]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0114  95% CI=[0.0010, 0.0301]       n=50/50
+    grounding                  mean=   0.9990  95% CI=[0.9971, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1222  95% CI=[0.0998, 0.1507]       n=50/50
+    retrieved                  mean=  87.7000  95% CI=[77.6200, 98.2000]     n=50/50
+    keywords_emitted           mean=  27.1867  95% CI=[23.3867, 31.4800]     n=50/50
+    cited                      mean=   8.0400  95% CI=[7.4933, 8.6400]       n=50/50
+    overrun                    total=3
+    schema_violation           total=0
+    platforms_lost             total=4
+    near_miss                  total=23
+    out_of_window              total=55
+    invention_itt by pass  r1=0.0565(n=50)  r2=0.0695(n=50)  r3=0.0581(n=50)
+      spread across passes 0.0130   sd=0.0071
+######## outputs/s1dec5090_qwen_i_a2_s1
+
+### s1dec5090_qwen_i_a2_s1
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=150   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.0816  95% CI=[0.0503, 0.1174]       n=50/50
+    invention_both_spoke       mean=   0.0816  95% CI=[0.0503, 0.1174]       n=50/50
+    near_miss_rate             mean=   0.0033  95% CI=[0.0010, 0.0061]       n=50/50
+    out_of_window_rate         mean=   0.0100  95% CI=[0.0015, 0.0250]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0123  95% CI=[0.0017, 0.0313]       n=50/50
+    grounding                  mean=   0.9990  95% CI=[0.9971, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1378  95% CI=[0.1052, 0.1795]       n=50/50
+    retrieved                  mean=  86.2533  95% CI=[74.9400, 97.9200]     n=50/50
+    keywords_emitted           mean=  27.1467  95% CI=[23.0200, 31.8933]     n=50/50
+    cited                      mean=   7.9000  95% CI=[7.3867, 8.4400]       n=50/50
+    overrun                    total=3
+    schema_violation           total=0
+    platforms_lost             total=4
+    near_miss                  total=22
+    out_of_window              total=59
+    invention_itt by pass  r1=0.0751(n=50)  r2=0.0881(n=50)  r3=0.0815(n=50)
+      spread across passes 0.0130   sd=0.0065
+######## outputs/merged_qprec_20261006/fp8_i_a3
+
+### fp8_i_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=5
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.1134  95% CI=[0.0780, 0.1548]       n=50/50
+    invention_both_spoke       mean=   0.0828  95% CI=[0.0597, 0.1075]       n=50/50
+    near_miss_rate             mean=   0.0064  95% CI=[0.0026, 0.0110]       n=50/50
+    out_of_window_rate         mean=   0.0135  95% CI=[0.0054, 0.0240]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0202  95% CI=[0.0078, 0.0365]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1067  95% CI=[0.0863, 0.1293]       n=50/50
+    retrieved                  mean=  72.9867  95% CI=[63.1400, 82.6467]     n=50/50
+    keywords_emitted           mean=  23.2200  95% CI=[20.5267, 25.8533]     n=50/50
+    cited                      mean=   5.1733  95% CI=[4.6467, 5.7133]       n=50/50
+    overrun                    total=12
+    schema_violation           total=48
+    platforms_lost             total=62
+    near_miss                  total=33
+    out_of_window              total=55
+    invention_itt by pass  r1=0.0777(n=50)  r2=0.1185(n=50)  r3=0.1441(n=50)
+      spread across passes 0.0665   sd=0.0335
+######## outputs/merged_qprec_20261006/bf16_i_a3
+
+### bf16_i_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=4
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.1282  95% CI=[0.0879, 0.1712]       n=50/50
+    invention_both_spoke       mean=   0.1028  95% CI=[0.0699, 0.1374]       n=50/50
+    near_miss_rate             mean=   0.0060  95% CI=[0.0028, 0.0098]       n=50/50
+    out_of_window_rate         mean=   0.0161  95% CI=[0.0051, 0.0313]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0208  95% CI=[0.0064, 0.0416]       n=50/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1043  95% CI=[0.0776, 0.1395]       n=50/50
+    retrieved                  mean=  78.1733  95% CI=[66.9400, 89.1467]     n=50/50
+    keywords_emitted           mean=  24.8467  95% CI=[21.5400, 28.3200]     n=50/50
+    cited                      mean=   4.9267  95% CI=[4.3600, 5.5467]       n=50/50
+    overrun                    total=11
+    schema_violation           total=53
+    platforms_lost             total=65
+    near_miss                  total=38
+    out_of_window              total=84
+    invention_itt by pass  r1=0.1051(n=50)  r2=0.1276(n=50)  r3=0.1518(n=50)
+      spread across passes 0.0466   sd=0.0233
+######## outputs/s1dec5090_qwen_i_a3
+
+### s1dec5090_qwen_i_a3
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=8
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.1713  95% CI=[0.1153, 0.2367]       n=50/50
+    invention_both_spoke       mean=   0.1262  95% CI=[0.0875, 0.1696]       n=49/50
+    near_miss_rate             mean=   0.0085  95% CI=[0.0047, 0.0130]       n=49/50
+    out_of_window_rate         mean=   0.0203  95% CI=[0.0064, 0.0378]       n=49/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0272  95% CI=[0.0083, 0.0514]       n=49/50
+    grounding                  mean=   1.0000  95% CI=[1.0000, 1.0000]       n=49/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.0983  95% CI=[0.0761, 0.1236]       n=49/50
+    retrieved                  mean=  75.3200  95% CI=[63.6733, 86.7467]     n=50/50
+    keywords_emitted           mean=  24.8933  95% CI=[21.4400, 28.2800]     n=50/50
+    cited                      mean=   4.7333  95% CI=[4.1133, 5.3867]       n=50/50
+    overrun                    total=9
+    schema_violation           total=54
+    platforms_lost             total=65
+    near_miss                  total=41
+    out_of_window              total=108
+    invention_itt by pass  r1=0.1568(n=50)  r2=0.1498(n=50)  r3=0.2074(n=50)
+      spread across passes 0.0576   sd=0.0314
+######## outputs/merged_qprec_20261006/fp8_i_a2_sw
+  note: 1 row(s) in fp8_i_a2_sw were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: q03
+
+### fp8_i_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=149   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.0696  95% CI=[0.0425, 0.1019]       n=50/50
+    invention_both_spoke       mean=   0.0696  95% CI=[0.0425, 0.1019]       n=50/50
+    near_miss_rate             mean=   0.0044  95% CI=[0.0011, 0.0092]       n=50/50
+    out_of_window_rate         mean=   0.0087  95% CI=[0.0016, 0.0178]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0099  95% CI=[0.0020, 0.0201]       n=50/50
+    grounding                  mean=   0.9932  95% CI=[0.9845, 0.9993]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1402  95% CI=[0.1200, 0.1606]       n=50/50
+    retrieved                  mean=  70.8000  95% CI=[61.4667, 80.6133]     n=50/50
+    keywords_emitted           mean=  22.7633  95% CI=[19.1000, 27.1467]     n=50/50
+    cited                      mean=   7.8167  95% CI=[7.1333, 8.5933]       n=50/50
+    overrun                    total=3
+    schema_violation           total=0
+    platforms_lost             total=3
+    near_miss                  total=17
+    out_of_window              total=37
+    invention_itt by pass  r1=0.0669(n=49)  r2=0.0703(n=50)  r3=0.0729(n=50)
+      spread across passes 0.0060   sd=0.0030
+######## outputs/merged_qprec_20261006/bf16_i_a2_sw
+  note: 3 row(s) in bf16_i_a2_sw were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: biz06
+
+### bf16_i_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=147   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (49), not rows
+    invention_itt              mean=   0.0506  95% CI=[0.0319, 0.0728]       n=49/49
+    invention_both_spoke       mean=   0.0506  95% CI=[0.0319, 0.0728]       n=49/49
+    near_miss_rate             mean=   0.0020  95% CI=[0.0005, 0.0039]       n=49/49
+    out_of_window_rate         mean=   0.0108  95% CI=[0.0026, 0.0219]       n=49/49
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0123  95% CI=[0.0027, 0.0259]       n=49/49
+    grounding                  mean=   0.9975  95% CI=[0.9932, 1.0000]       n=49/49
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1336  95% CI=[0.1141, 0.1551]       n=49/49
+    retrieved                  mean=  74.5374  95% CI=[63.3333, 87.0408]     n=49/49
+    keywords_emitted           mean=  22.5442  95% CI=[18.8707, 26.9184]     n=49/49
+    cited                      mean=   7.5510  95% CI=[7.0476, 8.0612]       n=49/49
+    overrun                    total=2
+    schema_violation           total=0
+    platforms_lost             total=5
+    near_miss                  total=13
+    out_of_window              total=42
+    invention_itt by pass  r1=0.0556(n=49)  r2=0.0518(n=49)  r3=0.0443(n=49)
+      spread across passes 0.0113   sd=0.0057
+######## outputs/s1dec5090_qwen_i_a2_sw
+  note: 3 row(s) in s1dec5090_qwen_i_a2_sw were never measured (status in ['arm_failed', 'cell_failed']) and are excluded from n: biz06
+
+### s1dec5090_qwen_i_a2_sw
+    model=qwen-2.5-7b-instruct arm=2 sweep=v5 variant=- inject=True   n=147   mutes=0
+    multi-pass: passes averaged per query; CI and n are over QUERIES (49), not rows
+    invention_itt              mean=   0.0464  95% CI=[0.0277, 0.0689]       n=49/49
+    invention_both_spoke       mean=   0.0464  95% CI=[0.0277, 0.0689]       n=49/49
+    near_miss_rate             mean=   0.0017  95% CI=[0.0003, 0.0035]       n=49/49
+    out_of_window_rate         mean=   0.0102  95% CI=[0.0019, 0.0225]       n=49/49
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0118  95% CI=[0.0019, 0.0273]       n=49/49
+    grounding                  mean=   0.9985  95% CI=[0.9954, 1.0000]       n=49/49
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1432  95% CI=[0.1185, 0.1743]       n=49/49
+    retrieved                  mean=  74.3537  95% CI=[63.1429, 86.8367]     n=49/49
+    keywords_emitted           mean=  22.0068  95% CI=[18.6054, 26.0272]     n=49/49
+    cited                      mean=   7.9796  95% CI=[7.2585, 8.7959]       n=49/49
+    overrun                    total=2
+    schema_violation           total=0
+    platforms_lost             total=5
+    near_miss                  total=11
+    out_of_window              total=34
+    invention_itt by pass  r1=0.0447(n=49)  r2=0.0487(n=49)  r3=0.0457(n=49)
+      spread across passes 0.0040   sd=0.0021
+######## outputs/merged_qprec_20261006/fp8_i_a3_p1
+
+### fp8_i_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=3
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2229  95% CI=[0.1754, 0.2748]       n=50/50
+    invention_both_spoke       mean=   0.2070  95% CI=[0.1618, 0.2566]       n=50/50
+    near_miss_rate             mean=   0.0115  95% CI=[0.0077, 0.0156]       n=50/50
+    out_of_window_rate         mean=   0.0042  95% CI=[0.0020, 0.0068]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0064  95% CI=[0.0027, 0.0112]       n=50/50
+    grounding                  mean=   0.9990  95% CI=[0.9971, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.0970  95% CI=[0.0818, 0.1138]       n=50/50
+    retrieved                  mean=  80.3200  95% CI=[69.4467, 91.6000]     n=50/50
+    keywords_emitted           mean=  28.7733  95% CI=[26.0933, 31.5467]     n=50/50
+    cited                      mean=   5.2200  95% CI=[4.6600, 5.8333]       n=50/50
+    overrun                    total=5
+    schema_violation           total=58
+    platforms_lost             total=66
+    near_miss                  total=52
+    out_of_window              total=21
+    invention_itt by pass  r1=0.2288(n=50)  r2=0.2666(n=50)  r3=0.1733(n=50)
+      spread across passes 0.0933   sd=0.0469
+######## outputs/merged_qprec_20261006/bf16_i_a3_p1
+
+### bf16_i_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=4
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2228  95% CI=[0.1672, 0.2846]       n=50/50
+    invention_both_spoke       mean=   0.2002  95% CI=[0.1504, 0.2528]       n=49/50
+    near_miss_rate             mean=   0.0104  95% CI=[0.0057, 0.0158]       n=49/50
+    out_of_window_rate         mean=   0.0051  95% CI=[0.0022, 0.0084]       n=49/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0076  95% CI=[0.0036, 0.0123]       n=49/50
+    grounding                  mean=   0.9915  95% CI=[0.9762, 1.0000]       n=49/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1008  95% CI=[0.0812, 0.1237]       n=49/50
+    retrieved                  mean=  82.7867  95% CI=[70.3600, 95.1867]     n=50/50
+    keywords_emitted           mean=  29.4933  95% CI=[26.1600, 32.7867]     n=50/50
+    cited                      mean=   5.5933  95% CI=[4.9800, 6.2200]       n=50/50
+    overrun                    total=4
+    schema_violation           total=50
+    platforms_lost             total=57
+    near_miss                  total=51
+    out_of_window              total=23
+    invention_itt by pass  r1=0.2459(n=50)  r2=0.2186(n=50)  r3=0.2038(n=50)
+      spread across passes 0.0421   sd=0.0214
+######## outputs/s1dec5090_qwen_i_a3_p1
+
+### s1dec5090_qwen_i_a3_p1
+    model=qwen-2.5-7b-instruct arm=3 sweep=v5 variant=spec_plus_candidate_injection inject=True   n=150   mutes=1
+    multi-pass: passes averaged per query; CI and n are over QUERIES (50), not rows
+    invention_itt              mean=   0.2325  95% CI=[0.1775, 0.2896]       n=50/50
+    invention_both_spoke       mean=   0.2297  95% CI=[0.1762, 0.2854]       n=50/50
+    near_miss_rate             mean=   0.0090  95% CI=[0.0048, 0.0141]       n=50/50
+    out_of_window_rate         mean=   0.0103  95% CI=[0.0044, 0.0177]       n=50/50
+                               ^ read with out_of_window_conditional -- the specified form is not arm-comparable when invalid rates differ (R24a)
+    out_of_window_conditional  mean=   0.0157  95% CI=[0.0067, 0.0266]       n=50/50
+    grounding                  mean=   0.9967  95% CI=[0.9900, 1.0000]       n=50/50
+                               ^ read with citation_coverage -- grounding is 1.0 on a row that cited one course of eighty-two (R24b)
+    citation_coverage          mean=   0.1196  95% CI=[0.0971, 0.1457]       n=50/50
+    retrieved                  mean=  75.0267  95% CI=[63.0733, 87.5800]     n=50/50
+    keywords_emitted           mean=  28.3800  95% CI=[25.4333, 31.2733]     n=50/50
+    cited                      mean=   5.8333  95% CI=[5.2400, 6.4667]       n=50/50
+    overrun                    total=1
+    schema_violation           total=55
+    platforms_lost             total=59
+    near_miss                  total=36
+    out_of_window              total=47
+    invention_itt by pass  r1=0.2172(n=50)  r2=0.2176(n=50)  r3=0.2627(n=50)
+      spread across passes 0.0455   sd=0.0262

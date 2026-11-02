@@ -1,0 +1,17 @@
+{
+ "commit": "b3153b8dcfcd504bca565aeac84f538485ead6ad",
+ "data_sha256": {
+  "documents/CourseraDataset_clean.json": "02e33e114dd8a17572923a807bfd62eb7c5f745834e545a960484f599066264c",
+  "documents/CourseraDataset_EN_with_keywords.json": "b05bbea2267cf092f056a50e227374cae36d7fd6e8edd38a7727d74e429e133d",
+  "documents/EdxDataset-Clean.json": "a8d0bb56a4a2d901b17747537ff387c8d25e358f0fb28fc25d58ab2a19f30cb8",
+  "documents/EdxDataset_with_keywords.json": "c0c47dcb66e68bab2f461b3b18d41013f467819e5780888dc45bdd1173204591",
+  "embeddings/all/coursera.csv": "ff5ec48eb23a79b7fc32333867e06a8a96071fc9cd5e6f01e36205225b7a42cb",
+  "embeddings/all/edx.csv": "545a0637b23d6c83ecf0be9e34879e5fce18a913a985ad9f6add94f9b8eeb5e9",
+  "embeddings/coursera.jsonl": "d0f23361aba618e011e7eedf7cf1717294e3dec892a363d7c52f461547f1e11c",
+  "embeddings/coursera.meta.json": "82b75e19286deacf3ea3e9be45424fa8b634186abe1a6e5f33af8e944b3200e3",
+  "embeddings/coursera.npy": "ec07d566fd98478ae1b3432a90a65d0eccbe213ff8a87483a4f6240db57b10cc",
+  "embeddings/edx.jsonl": "a9bf4efe6e5a66d4abd22b9c7ccc824fdf81a54f421ee8ffa84fbf2585eec40c",
+  "embeddings/edx.meta.json": "36e654e15f7e76fb2085601353b44d451b0b93e69d92b653baf9a001c6e5396f",
+  "embeddings/edx.npy": "8cc4a82bcd34535e3f7b07ff241e9f97f02dc7e9127cfbd7751fe5769ed51e26"
+ }
+}

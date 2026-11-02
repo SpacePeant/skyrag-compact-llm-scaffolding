@@ -1,0 +1,80 @@
+[project]
+name = "skyrag"
+version = "0.2.0"
+description = "Separated Keyword Retrieval Augmentation Generation System"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "SkyRag Refactor Team" }
+]
+
+dependencies = [
+    "httpx>=0.27.0",
+    # Imported at runtime by src/skyrag/llm/ollama.py. It was absent from this list,
+    # so a clean install had a working OpenRouter arm and an Ollama arm that died on
+    # `import requests` -- one half of the backend comparison, missing.
+    "requests>=2.31.0",
+    # Imported by scripts/fingerprint_keyword_fill_model.py.
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=2.5.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    # Imported by scripts/aggregate_arms.py (Wilcoxon, Cohen's d_z) and by
+    # src/skyrag/stats.py (TOST, bootstrap intervals). It was absent from this
+    # list and resolved only transitively, through
+    # sentence-transformers -> scikit-learn -> scipy. That edge is not ours to
+    # rely on: it is an implementation detail of a package we pin loosely, and
+    # the day it changes the entire statistical layer of the paper stops
+    # importing -- on a machine where every test still passes, because the tests
+    # import it the same accidental way. Declared 2026-08-21.
+    "scipy>=1.11.0",
+    # Imported by scripts/plot_figures.py, which renders every figure in
+    # Paper #1 from `outputs/` through metric functions imported from
+    # scripts/aggregate_arms.py. Declared here rather than behind an extra for the
+    # same reason scipy was: a figure that cannot be regenerated from a clean
+    # checkout is a figure the paper cannot defend.
+    "matplotlib>=3.8.0",
+    "tqdm>=4.66.0",
+    # Imported by scripts/prepare_corpus.py, which rebuilds the course corpus from
+    # its two pinned Hugging Face datasets. It resolved only transitively through
+    # sentence-transformers, so a clean install would have failed at step 2 of the
+    # README's Quick Start -- the corpus build -- which is the exact failure the
+    # `requests` and `python-dotenv` entries above were added to prevent.
+    #
+    # It is used rather than plain urllib on purpose: the edX half is 5,203
+    # individually fetched page files, an interrupted fetch leaves a contiguous
+    # hole and says nothing, and that is how the shipped catalogue came to be
+    # missing 26 courses. `huggingface_hub` resumes and verifies.
+    "huggingface_hub>=0.23.0",
+]
+# `openai` was declared here and imported nowhere -- the OpenRouter backend speaks to
+# the endpoint with httpx directly. Removed for the same reason as the two below:
+# an unused dependency in the manifest is what makes a reader reach for its idioms.
+#
+# pydantic and pydantic-settings were declared here and imported nowhere. Removed
+# rather than left in place: their presence is what made the evaluator guard with
+# `hasattr(config, "model_copy")`, a pydantic idiom against a dataclass, which was
+# always False and silently mutated the caller's config on every sweep (task 1.3).
+# A dependency the code does not use is a standing invitation to that mistake.
+
+[project.scripts]
+skyrag = "skyrag.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]

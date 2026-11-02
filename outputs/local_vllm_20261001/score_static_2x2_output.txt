@@ -1,0 +1,17 @@
+| model | arm2 | pv | arm2_s1 | pv_s1 |  (ITT; as-treated in brackets; silent)
+| llama | 0.5614 [0.5334; 3] | 0.5095 [0.4426; 6] | 0.5248 [0.4945; 3] | 0.4390 [0.4156; 2] |
+   outcomes: {'arm2': {'overrun_or_error': 18, 'ok': 82}, 'pv': {'ok': 72, 'violation': 16, 'overrun_or_error': 12}, 'arm2_s1': {'overrun_or_error': 15, 'ok': 85}, 'pv_s1': {'ok': 85, 'overrun_or_error': 12, 'violation': 3}}
+| qwen | 0.4735 [0.4735; 0] | 0.5532 [0.5532; 0] | 0.2726 [0.2726; 0] | 0.4214 [0.3845; 3] |
+   outcomes: {'arm2': {'ok': 98, 'overrun_or_error': 2}, 'pv': {'ok': 88, 'violation': 5, 'overrun_or_error': 7}, 'arm2_s1': {'ok': 91, 'overrun_or_error': 9}, 'pv_s1': {'ok': 84, 'overrun_or_error': 11, 'violation': 5}}
+
+llama:
+- S2 schema alone (pv - arm2): -0.0519 (n=50), 95% CI (-0.1378, 0.0366)
+- S1 schema alone (arm2_s1 - arm2): -0.0366 (n=50), 95% CI (-0.1195, 0.0468)
+- both = paper Arm3 - Arm2 (pv_s1 - arm2): -0.1224 (n=50), 95% CI (-0.2204, -0.0239)
+- S2 schema given S1 schema (pv_s1 - arm2_s1): -0.0858 (n=50), 95% CI (-0.1811, 0.0107)
+
+qwen:
+- S2 schema alone (pv - arm2): +0.0797 (n=50), 95% CI (0.0393, 0.1226)
+- S1 schema alone (arm2_s1 - arm2): -0.2009 (n=50), 95% CI (-0.259, -0.1433)
+- both = paper Arm3 - Arm2 (pv_s1 - arm2): -0.0521 (n=50), 95% CI (-0.1206, 0.0172)
+- S2 schema given S1 schema (pv_s1 - arm2_s1): +0.1488 (n=50), 95% CI (0.0761, 0.2246)

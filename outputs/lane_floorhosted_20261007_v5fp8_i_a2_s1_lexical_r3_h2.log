@@ -1,0 +1,93 @@
+📊 Running SkyRag Evaluation Subsystem:
+  Backend   : openrouter
+  Models    : meta-llama/llama-3.1-8b-instruct
+  Embedder  : all-mpnet-base-v2
+  Queries   : 25 query/queries
+  Pipelines : skyrag
+  Platforms : coursera, edx (10092 courses)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15184.04it/s]
+Batches:   0%|          | 0/32 [00:00<?, ?it/s]Batches:   3%|▎         | 1/32 [00:00<00:15,  1.97it/s]Batches:   6%|▋         | 2/32 [00:00<00:14,  2.08it/s]Batches:   9%|▉         | 3/32 [00:01<00:12,  2.30it/s]Batches:  12%|█▎        | 4/32 [00:01<00:11,  2.51it/s]Batches:  16%|█▌        | 5/32 [00:02<00:10,  2.65it/s]Batches:  19%|█▉        | 6/32 [00:02<00:09,  2.85it/s]Batches:  22%|██▏       | 7/32 [00:02<00:07,  3.27it/s]Batches:  25%|██▌       | 8/32 [00:02<00:06,  3.46it/s]Batches:  28%|██▊       | 9/32 [00:03<00:06,  3.43it/s]Batches:  31%|███▏      | 10/32 [00:03<00:06,  3.44it/s]Batches:  34%|███▍      | 11/32 [00:03<00:06,  3.38it/s]Batches:  38%|███▊      | 12/32 [00:03<00:05,  3.52it/s]Batches:  41%|████      | 13/32 [00:04<00:05,  3.47it/s]Batches:  44%|████▍     | 14/32 [00:04<00:05,  3.59it/s]Batches:  47%|████▋     | 15/32 [00:04<00:04,  3.85it/s]Batches:  50%|█████     | 16/32 [00:05<00:04,  3.70it/s]Batches:  53%|█████▎    | 17/32 [00:05<00:04,  3.45it/s]Batches:  56%|█████▋    | 18/32 [00:05<00:03,  3.55it/s]Batches:  59%|█████▉    | 19/32 [00:05<00:03,  3.65it/s]Batches:  62%|██████▎   | 20/32 [00:06<00:03,  3.72it/s]Batches:  66%|██████▌   | 21/32 [00:06<00:02,  3.77it/s]Batches:  69%|██████▉   | 22/32 [00:06<00:02,  3.99it/s]Batches:  72%|███████▏  | 23/32 [00:06<00:02,  4.17it/s]Batches:  75%|███████▌  | 24/32 [00:07<00:01,  4.09it/s]Batches:  78%|███████▊  | 25/32 [00:07<00:01,  4.22it/s]Batches:  81%|████████▏ | 26/32 [00:07<00:01,  4.11it/s]Batches:  84%|████████▍ | 27/32 [00:07<00:01,  4.06it/s]Batches:  88%|████████▊ | 28/32 [00:08<00:01,  3.99it/s]Batches:  91%|█████████ | 29/32 [00:08<00:00,  3.94it/s]Batches:  94%|█████████▍| 30/32 [00:08<00:00,  4.10it/s]Batches:  97%|█████████▋| 31/32 [00:08<00:00,  4.02it/s]Batches: 100%|██████████| 32/32 [00:08<00:00,  3.61it/s]
+Batches:   0%|          | 0/32 [00:00<?, ?it/s]Batches:   3%|▎         | 1/32 [00:00<00:17,  1.80it/s]Batches:   6%|▋         | 2/32 [00:01<00:14,  2.01it/s]Batches:   9%|▉         | 3/32 [00:01<00:14,  2.07it/s]Batches:  12%|█▎        | 4/32 [00:01<00:12,  2.27it/s]Batches:  16%|█▌        | 5/32 [00:02<00:10,  2.50it/s]Batches:  19%|█▉        | 6/32 [00:02<00:09,  2.65it/s]Batches:  22%|██▏       | 7/32 [00:02<00:09,  2.66it/s]Batches:  25%|██▌       | 8/32 [00:03<00:08,  2.77it/s]Batches:  28%|██▊       | 9/32 [00:03<00:07,  2.94it/s]Batches:  31%|███▏      | 10/32 [00:03<00:06,  3.16it/s]Batches:  34%|███▍      | 11/32 [00:04<00:06,  3.24it/s]Batches:  38%|███▊      | 12/32 [00:04<00:05,  3.58it/s]Batches:  41%|████      | 13/32 [00:04<00:05,  3.52it/s]Batches:  44%|████▍     | 14/32 [00:04<00:05,  3.22it/s]Batches:  47%|████▋     | 15/32 [00:05<00:04,  3.40it/s]Batches:  50%|█████     | 16/32 [00:05<00:04,  3.54it/s]Batches:  53%|█████▎    | 17/32 [00:05<00:04,  3.64it/s]Batches:  56%|█████▋    | 18/32 [00:06<00:03,  3.55it/s]Batches:  59%|█████▉    | 19/32 [00:06<00:03,  3.65it/s]Batches:  62%|██████▎   | 20/32 [00:06<00:03,  3.89it/s]Batches:  66%|██████▌   | 21/32 [00:06<00:02,  3.72it/s]Batches:  69%|██████▉   | 22/32 [00:07<00:02,  3.62it/s]Batches:  72%|███████▏  | 23/32 [00:07<00:02,  3.69it/s]Batches:  75%|███████▌  | 24/32 [00:07<00:02,  3.77it/s]Batches:  78%|███████▊  | 25/32 [00:07<00:01,  3.81it/s]Batches:  81%|████████▏ | 26/32 [00:08<00:01,  3.85it/s]Batches:  84%|████████▍ | 27/32 [00:08<00:01,  3.72it/s]Batches:  88%|████████▊ | 28/32 [00:08<00:01,  3.97it/s]Batches:  91%|█████████ | 29/32 [00:08<00:00,  3.96it/s]Batches:  94%|█████████▍| 30/32 [00:09<00:00,  3.96it/s]Batches:  97%|█████████▋| 31/32 [00:09<00:00,  3.95it/s]Batches: 100%|██████████| 32/32 [00:09<00:00,  3.40it/s]
+  Query vec : real embedder
+  Run id    : 20261007T051805Z   skyrag 0.0.0+unknown
+  Sweep ver : v5
+  Precision : fp8
+  Stage 1   : schema
+  Sampling  : temperature=0.0 seed=34 max_tokens=4096
+  Embedder  : all-mpnet-base-v2 on cpu
+  Routing   : deepinfra
+  Pinned    : none -- every role runs on the cell's own model
+
+⏳ Running 25 cells (1 x 25 queries x 1 arms x 1 pipelines):
+  [  1/25] r1 comm02 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=281 cited=10  sel=57.5s gen=22.7s total=98.8s
+  [  2/25] r1 comm03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=218 cited=10  sel=47.5s gen=23.3s total=90.3s
+  [  3/25] r1 comm04 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=427 cited=38  sel=66.8s gen=210.0s total=302.0s
+  [  4/25] r1 comm05 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=247 cited=10  sel=61.9s gen=19.9s total=93.8s
+  [  5/25] r1 sci01 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=177 cited=10  sel=54.1s gen=28.8s total=99.1s
+  [  6/25] r1 sci02 meta-llama/llama-3.1-8b-instruct skyrag ...  partial_retrieval  retrieved=186 cited=118  sel=95.4s gen=171.4s total=284.4s
+  [  7/25] r1 sci03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=171 cited=12  sel=81.2s gen=25.3s total=125.6s
+  [  8/25] r1 sci04 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=141 cited=10  sel=63.5s gen=19.5s total=96.9s
+  [  9/25] r1 sci05 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=112 cited=30  sel=30.8s gen=41.0s total=82.4s
+  [ 10/25] r1 arts01 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=173 cited=10  sel=76.8s gen=19.3s total=109.3s
+  [ 11/25] r1 arts02 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=367 cited=12  sel=70.1s gen=49.6s total=134.4s
+  [ 12/25] r1 arts03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=71 cited=10  sel=10.3s gen=23.7s total=47.8s
+  [ 13/25] r1 arts04 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=339 cited=24  sel=101.6s gen=53.6s total=169.5s
+  [ 14/25] r1 arts05 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=148 cited=6  sel=17.4s gen=16.5s total=53.8s
+  [ 15/25] r1 edu01 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=116 cited=10  sel=21.9s gen=26.4s total=65.0s
+  [ 16/25] r1 edu02 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=115 cited=10  sel=23.8s gen=18.0s total=59.8s
+  [ 17/25] r1 edu03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=411 cited=6  sel=96.3s gen=20.2s total=136.2s
+  [ 18/25] r1 edu04 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=78 cited=10  sel=29.6s gen=33.4s total=82.0s
+  [ 19/25] r1 law01 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=156 cited=10  sel=29.4s gen=24.1s total=79.1s
+  [ 20/25] r1 law02 meta-llama/llama-3.1-8b-instruct skyrag ...  partial_retrieval  retrieved=51 cited=10  sel=244.4s gen=36.3s total=304.2s
+  [ 21/25] r1 law03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=182 cited=10  sel=38.7s gen=27.9s total=91.1s
+  [ 22/25] r1 law04 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=163 cited=20  sel=48.6s gen=73.7s total=143.7s
+  [ 23/25] r1 lang01 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=106 cited=18  sel=21.3s gen=72.9s total=113.5s
+  [ 24/25] r1 lang02 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=285 cited=15  sel=109.7s gen=52.8s total=184.7s
+  [ 25/25] r1 lang03 meta-llama/llama-3.1-8b-instruct skyrag ...  ok  retrieved=92 cited=5  sel=25.1s gen=30.9s total=78.6s
+📈 Benchmark Execution Results Summary:
+  25 cells -- too many to lay out side by side. Read them per cell in the exported CSV; aggregates are under 'Run integrity'.
+
+🔍 Run integrity:
+  grounding accuracy (mean)  : 1.0 over 25/25 run(s) that retrieved and cited something
+  runs citing nothing        : 0   (excluded from the mean, not scored 1.0)
+  paths written from memory  : 0   (non-empty path, nothing retrieved -- ungrounded by construction)
+  runs aborted, no retrieval : 0   (generation LLM not called)
+  runs w/ backend errors     : 0   (infrastructure, not model capability)
+  runs w/ empty selections   : 0   (model chose nothing)
+  runs w/ unparseable sel.   : 1   (answered fully, garbage out -- counts against the model)
+  runs w/ overrun selections : 1   (ignored the keyword cap -- counts against the model)
+  runs w/ truncated sel.     : 0   (budget below a compliant answer -- ours, not the model's)
+  runs w/ no vocabulary      : 0   (platform had no keywords -- corpus, not the model)
+  cells that failed outright : 0   (backend raised; recorded as a row, not lost)
+  tokens: expansion stage    : 15853   (over 25/25 run(s) that reported usage)
+  tokens: selection stage    : 84400
+  tokens: generation stage   : 461583   (O4's like-for-like slice; was the ONLY stage counted before X1)
+  tokens: whole pipeline     : 561836   (over 25/25 run(s) with every stage reported)
+  path length (mean chars)   : 4386.0   (max 20146; R22's verbosity control on O1)
+  path length (mean words)   : 689.3   (crude whitespace count, by design -- a monotone length proxy)
+  R11 token efficiency ratio : 4.3%   (project-defined: generation output / whole-pipeline spend)
+  R11 tokens per cited course: 1949.9856   (project-defined: end-to-end cost of one recommendation)
+  runs on incomplete corpus  : 0   (a requested platform had no dataset)
+  keywords emitted / kept    : 2017 / 1717   (the denominator for the three rates below)
+  M2.1 invalid keyword rate  : 11.2%   (invented -- absent from the corpus)
+  M2.2 near-miss rate        : 2.3%   (real concept, botched transcription; NOT repaired)
+  M2.3 out-of-window rate    : 1.4%   (real, outside the window shown -- harness limit, not the model)
+  M2.3 conditional (R24a)    : 1.6%   (of 1745 REAL keywords named -- the arm-comparable form)
+  cited / retrieved (mean)   : 17.36 / 192.52   (M3.2's numerator and denominator -- the ratio moves with both)
+  M3.2 citation coverage     : 10.7%   (of the courses handed to the model, how many it cited)
+  retrieval score (mean)     : 0.2527   (similarity of what the keywords pulled; no reference set needed)
+  cited-set redundancy       : 0.0735   (keyword overlap among cited courses; 1.0 = all the same topics)
+  ILS, embedding cosine      : 0.5746   (Ziegler 2005; the line above is the same metric over labels)
+  context nDCG@10            : 0.9849   (Jarvelin 2002; ordering the model reads vs the ideal. NOT recall)
+  ^ fraction at ceiling      : nDCG 0.08   (R24c: near 1.0 = saturated, measures the harness not the arms)
+  ^ nDCG 5th pct / n < 0.95  : 0.9677 / 0   (the tail, where positional interleave costs ranking)
+  generation-stage seconds   : 1141.179   (O4's like-for-like slice; excludes retrieval and selection)
+  selection-stage seconds    : 1523.596   (the stage a substitution experiment actually varies; 0 for naive)
+  expansion-stage seconds    : 457.971   (query expansion + step-back)
+  hallucinated keywords      : 225   (absent from the corpus, exactly and after folding)
+  near-miss keywords         : 47   (M2.2 -- real concept, botched transcription; NOT repaired)
+  out-of-window keywords     : 28   (real, outside the window shown)
+  cleaned-out keywords       : 0   (real, removed as publishers -- not hallucinations)
+
+✅ Exported evaluation CSV  -> /home/jovyan/work/TA-Sean-Matthew/skyrag/outputs/floorhosted_20261007_v5fp8_i_a2_s1_lexical_r3_h2/benchmark_eval.csv
+✅ Exported evaluation JSON -> /home/jovyan/work/TA-Sean-Matthew/skyrag/outputs/floorhosted_20261007_v5fp8_i_a2_s1_lexical_r3_h2/benchmark_eval.json

@@ -1,0 +1,11 @@
+{
+  "title": "When Scaffolding Beats Scale: code and benchmark",
+  "description": "Code, analysis scripts, the 50-query benchmark and the per-query results for the study \"When Scaffolding Beats Scale: A Compact Language Model Against an Unassisted Larger Model in Catalogue-Grounded Course Recommendation\". Code is MIT; the per-query results are CC BY 4.0 (see LICENSE-DATA.md).",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Matthew, Sean", "affiliation": "Universitas Ciputra Surabaya"},
+    {"name": "Suryaputra, Adi", "affiliation": "Universitas Ciputra Surabaya"}
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}

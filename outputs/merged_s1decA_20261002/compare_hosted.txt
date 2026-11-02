@@ -1,0 +1,127 @@
+######## flat_plain -> array_plain
+
+### PAIRED  flat_plain  ->  array_plain
+    matched on query_id: n=50  (of 150 and 150 rows)
+    repeats averaged per query before pairing: 3 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.7087 ->   0.8372  delta=+0.1284 [+0.0703, +0.1832]     dz=-0.625 p=0.0001 n=50
+    invention_both_spoke     0.5649 ->   0.6437  delta=+0.0788 [+0.0177, +0.1410]     dz=-0.399 p=0.0118 n=39
+    near_miss_rate           0.0260 ->   0.0218  delta=-0.0041 [-0.0141, +0.0056]     dz=+0.128 p=0.7186 n=39
+    out_of_window_rate       0.1424 ->   0.1078  delta=-0.0347 [-0.0606, -0.0094]     dz=+0.420 p=0.0168 n=39
+    out_of_window_conditional   0.3912 ->   0.3185  delta=-0.0727 [-0.1373, -0.0061]     dz=+0.346 p=0.0361 n=39
+    grounding                0.9968 ->   1.0000  delta=+0.0032 [+0.0002, +0.0080]     dz=-0.243 p=0.0679 n=39
+    citation_coverage        0.4150 ->   0.2648  delta=-0.1502 [-0.2189, -0.0800]     dz=+0.664 p=0.0002 n=39
+    retrieved               36.5667 ->  20.8933  delta=-15.6733 [-23.8933, -6.5267]    dz=+0.497 p=0.0002 n=50
+    keywords_emitted        27.7200 ->  16.4200  delta=-11.3000 [-17.2467, -5.1467]    dz=+0.524 p=0.0009 n=50
+    cited                   13.0267 ->   4.6867  delta=-8.3400 [-11.6733, -4.9933]    dz=+0.692 p=0.0000 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=0.9952 (lower 0.9952, upper 0.0000)
+      mean difference -0.1284 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.
+######## flat_arm3 -> array_arm3
+
+### PAIRED  flat_arm3  ->  array_arm3
+    matched on query_id: n=50  (of 150 and 150 rows)
+    repeats averaged per query before pairing: 3 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.5552 ->   0.8732  delta=+0.3180 [+0.2469, +0.3896]     dz=-1.237 p=0.0000 n=50
+    invention_both_spoke     0.4628 ->   0.7228  delta=+0.2600 [+0.1805, +0.3411]     dz=-0.995 p=0.0000 n=41
+    near_miss_rate           0.0108 ->   0.0172  delta=+0.0065 [-0.0015, +0.0145]     dz=-0.237 p=0.2275 n=41
+    out_of_window_rate       0.1057 ->   0.0756  delta=-0.0301 [-0.0569, -0.0044]     dz=+0.350 p=0.0384 n=41
+    out_of_window_conditional   0.2895 ->   0.3129  delta=+0.0234 [-0.0695, +0.1171]     dz=-0.077 p=0.6351 n=41
+    grounding                0.9939 ->   1.0000  delta=+0.0061 [+0.0003, +0.0142]     dz=-0.273 p=0.0679 n=38
+    citation_coverage        0.4034 ->   0.2336  delta=-0.1698 [-0.2516, -0.0879]     dz=+0.645 p=0.0022 n=38
+    retrieved               69.6400 ->  16.6333  delta=-53.0067 [-70.2133, -36.9133]   dz=+0.887 p=0.0000 n=50
+    keywords_emitted        33.1200 ->  17.2667  delta=-15.8533 [-21.5133, -10.3267]   dz=+0.777 p=0.0000 n=50
+    cited                   24.4333 ->   2.6733  delta=-21.7600 [-28.8067, -15.2800]   dz=+0.880 p=0.0000 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=1.0000 (lower 1.0000, upper 0.0000)
+      mean difference -0.3180 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.
+######## paper_array_1pass -> array_arm3_3pass
+
+### PAIRED  paper_array_1pass  ->  array_arm3_3pass
+    matched on query_id: n=50  (of 50 and 150 rows)
+    repeats averaged per query before pairing: 1 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.8305 ->   0.8732  delta=+0.0427 [-0.0267, +0.1160]     dz=-0.165 p=0.5763 n=50
+    invention_both_spoke     0.6819 ->   0.7344  delta=+0.0526 [-0.0535, +0.1651]     dz=-0.199 p=0.4245 n=22
+    near_miss_rate           0.0148 ->   0.0127  delta=-0.0021 [-0.0104, +0.0053]     dz=+0.108 p=0.7220 n=22
+    out_of_window_rate       0.0663 ->   0.0822  delta=+0.0159 [-0.0237, +0.0555]     dz=-0.168 p=0.5016 n=22
+    out_of_window_conditional   0.3086 ->   0.3421  delta=+0.0335 [-0.0715, +0.1337]     dz=-0.133 p=0.3144 n=22
+    grounding                1.0000 ->   1.0000  delta=+0.0000 [+0.0000, +0.0000]     dz=  n/a p=nan n=21
+    citation_coverage        0.2346 ->   0.2232  delta=-0.0113 [-0.0752, +0.0493]     dz=+0.074 p=0.8813 n=21
+    retrieved               24.8600 ->  16.6333  delta=-8.2267 [-20.8733, +3.2933]    dz=+0.186 p=0.7217 n=50
+    keywords_emitted        20.6800 ->  17.2667  delta=-3.4133 [-10.3533, +3.2867]    dz=+0.137 p=0.4261 n=50
+    cited                    4.9200 ->   2.6733  delta=-2.2467 [-5.8067, +0.3333]     dz=+0.196 p=0.1900 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=0.4218 (lower 0.4218, upper 0.0074)
+      mean difference -0.0427 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      CAVEAT: repeats_per_cell=1: the paired differences conflate query heterogeneity with run-to-run noise, and this instrument has returned different recommendation sets across repeated runs of the same cell. The verdict is not quotable until DEC-3 sets a repeat count and L5 runs it.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.
+######## array_plain -> array_arm3
+
+### PAIRED  array_plain  ->  array_arm3
+    matched on query_id: n=50  (of 150 and 150 rows)
+    repeats averaged per query before pairing: 3 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.8372 ->   0.8732  delta=+0.0360 [-0.0071, +0.0795]     dz=-0.231 p=0.1370 n=50
+    invention_both_spoke     0.6292 ->   0.7376  delta=+0.1084 [+0.0504, +0.1689]     dz=-0.627 p=0.0014 n=33
+    near_miss_rate           0.0200 ->   0.0167  delta=-0.0034 [-0.0129, +0.0062]     dz=+0.115 p=0.4019 n=33
+    out_of_window_rate       0.1124 ->   0.0681  delta=-0.0443 [-0.0734, -0.0156]     dz=+0.517 p=0.0122 n=33
+    out_of_window_conditional   0.3173 ->   0.2901  delta=-0.0272 [-0.1071, +0.0526]     dz=+0.114 p=0.5052 n=33
+    grounding                1.0000 ->   1.0000  delta=+0.0000 [+0.0000, +0.0000]     dz=  n/a p=nan n=32
+    citation_coverage        0.2376 ->   0.2493  delta=+0.0116 [-0.0623, +0.0844]     dz=-0.054 p=0.6247 n=32
+    retrieved               20.8933 ->  16.6333  delta=-4.2600 [-11.0800, +2.3267]    dz=+0.176 p=0.2060 n=50
+    keywords_emitted        16.4200 ->  17.2667  delta=+0.8467 [-3.8800, +5.3800]     dz=-0.051 p=0.5179 n=50
+    cited                    4.6867 ->   2.6733  delta=-2.0133 [-4.2400, -0.0667]     dz=+0.268 p=0.2532 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=0.2639 (lower 0.2639, upper 0.0001)
+      mean difference -0.0360 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.
+######## arm2 -> arm2_V1rewrite
+
+### PAIRED  arm2  ->  arm2_V1rewrite
+    matched on query_id: n=50  (of 150 and 150 rows)
+    repeats averaged per query before pairing: 3 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.6666 ->   0.7040  delta=+0.0375 [-0.0174, +0.0936]     dz=-0.183 p=0.2491 n=50
+    invention_both_spoke     0.6477 ->   0.6869  delta=+0.0392 [-0.0159, +0.0944]     dz=-0.195 p=0.1543 n=50
+    near_miss_rate           0.0172 ->   0.0172  delta=+0.0000 [-0.0043, +0.0045]     dz=-0.003 p=0.9384 n=50
+    out_of_window_rate       0.1061 ->   0.1026  delta=-0.0035 [-0.0221, +0.0152]     dz=+0.052 p=0.6597 n=50
+    out_of_window_conditional   0.3760 ->   0.3976  delta=+0.0216 [-0.0251, +0.0701]     dz=-0.123 p=0.4724 n=50
+    grounding                0.9924 ->   0.9961  delta=+0.0037 [-0.0038, +0.0126]     dz=-0.126 p=0.4544 n=50
+    citation_coverage        0.2223 ->   0.2180  delta=-0.0042 [-0.0526, +0.0440]     dz=+0.024 p=0.7721 n=50
+    retrieved               78.9333 ->  76.1067  delta=-2.8267 [-21.5600, +14.6867]   dz=+0.042 p=0.6834 n=50
+    keywords_emitted        73.8933 ->  77.9467  delta=+4.0533 [-6.4333, +14.6333]    dz=-0.107 p=0.3667 n=50
+    cited                   11.1867 ->  10.7267  delta=-0.4600 [-3.4000, +2.1333]     dz=+0.045 p=0.8614 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=0.3330 (lower 0.3330, upper 0.0020)
+      mean difference -0.0375 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.
+######## arm2_V4rewrite -> arm2_V1rewrite
+
+### PAIRED  arm2_V4rewrite  ->  arm2_V1rewrite
+    matched on query_id: n=50  (of 150 and 150 rows)
+    repeats averaged per query before pairing: 3 and 3 passes -- n is QUERIES, not rows
+    invention_itt            0.5252 ->   0.7040  delta=+0.1788 [+0.1242, +0.2332]     dz=-0.904 p=0.0000 n=50
+    invention_both_spoke     0.5164 ->   0.6869  delta=+0.1705 [+0.1225, +0.2194]     dz=-0.977 p=0.0000 n=50
+    near_miss_rate           0.0089 ->   0.0172  delta=+0.0083 [+0.0046, +0.0123]     dz=-0.595 p=0.0001 n=50
+    out_of_window_rate       0.0921 ->   0.1026  delta=+0.0105 [-0.0053, +0.0261]     dz=-0.185 p=0.2451 n=50
+    out_of_window_conditional   0.2732 ->   0.3976  delta=+0.1244 [+0.0723, +0.1745]     dz=-0.660 p=0.0000 n=50
+    grounding                0.9984 ->   0.9961  delta=-0.0023 [-0.0068, +0.0019]     dz=+0.144 p=0.2930 n=50
+    citation_coverage        0.2143 ->   0.2180  delta=+0.0038 [-0.0392, +0.0421]     dz=-0.025 p=0.2780 n=50
+    retrieved              124.9667 ->  76.1067  delta=-48.8600 [-64.5333, -34.1400]   dz=+0.894 p=0.0000 n=50
+    keywords_emitted        70.1133 ->  77.9467  delta=+7.8333 [+0.0533, +15.3267]    dz=-0.277 p=0.0657 n=50
+    cited                   19.3467 ->  10.7267  delta=-8.6200 [-14.2667, -3.4200]    dz=+0.437 p=0.0424 n=50
+
+    TOST on invention_itt, margin +/-0.05
+      NOT SHOWN EQUIVALENT   p=1.0000 (lower 1.0000, upper 0.0000)
+      mean difference -0.1788 over n=50 pairs
+      NOTE: this is an absence, not equivalence. Report as 'did not close the gap', never 'is equivalent to'.
+      margin provenance: Fixed 2026-09-04, before any repeat run and before any TOST on M2.1 was computed. Delta = 0.05 on the invalid keyword rate, applied to the paired between-condition difference under intention-to-treat. Grounds: one-eighth of the measured Arm 1 - Arm 2 gap. Llama 3.1-70B scores 0.2851 and Llama 3.1-8B 0.6902 under ITT (n=50 each), a gap of 0.4050; an intervention moving invention by less than 0.05 has closed under 12.3% of the distance to the larger model, which cannot justify adoption -- still less given the same intervention costs 40-60% of retrieval in both families tested. HONESTY NOTE, weaker than O1's provenance and stated rather than hidden: this margin was fixed AFTER conditions A and B had run, so the observed A-vs-B difference (-0.0270) was known when it was chosen. Two things defend it. It is derived from the Arm 1 - Arm 2 gap, which is independent of the A-vs-B contrast it will be applied to. And it is a margin the current data FAILS -- the paired 95% CI is [-0.1204, +0.0673], outside both +/-0.05 and +/-0.10 -- so it cannot have been chosen to manufacture an equivalence verdict. +/-0.15 would have delivered one and was rejected for that reason.

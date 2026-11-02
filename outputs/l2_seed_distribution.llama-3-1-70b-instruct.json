@@ -1,0 +1,144 @@
+{
+  "probe": "L2 redesigned -- seed distribution comparison",
+  "supersedes": "the single-draw-per-seed L2, which is underpowered whenever same-seed repeats disagree (see L3)",
+  "model": "meta-llama/llama-3.1-70b-instruct",
+  "provider": "deepinfra",
+  "draws_per_seed": 5,
+  "seeds": [
+    34,
+    99
+  ],
+  "within_seed_identical": {
+    "hits": 0,
+    "pairs": 20,
+    "rate": 0.0
+  },
+  "between_seed_identical": {
+    "hits": 0,
+    "pairs": 25,
+    "rate": 0.0
+  },
+  "modes_equal": false,
+  "modal_counts": {
+    "34": 1,
+    "99": 1
+  },
+  "pooled_distinct": 10,
+  "verdict": "indeterminate_decoder_too_noisy",
+  "calls": {
+    "34": [
+      {
+        "label": "s34r1",
+        "seed": 34,
+        "text": "Here are the 8 subfields of machine learning, along with a brief description of the problem each solves:\n\n1. **Supervised Learning**: Given a labeled dataset, learn a mapping between input data and output labels, so that the model can make predictions on new, unseen data.\n2. **Unsupervised Learning**: Discover patterns or structure in unlabeled data, such as clustering or dimensionality reduction, without any prior knowledge of the expected output.\n3. **Reinforcement Learning**: Learn to make decisions in an environment by trial and error, receiving feedback in the form of rewards or penalties, to maximize a long-term goal.\n4. **Semi-Supervised Learning**: Use a combination of labeled and unlabeled data to train a model, where the labeled data is used to guide the learning process, but the majority of the data is unlabeled.\n5. **Transfer Learning**: Leverage pre-trained models and fine-tune them on a new task, to adapt to a new problem or domain, rather than training from scratch.\n6. **Meta-Learning**: Learn to learn new tasks quickly, by training a model to learn from a few examples, so that it can adapt to new tasks with minimal additional training data.\n7. **Imitation Learning**: Learn to imitate the behavior of an expert or a system, by learning from demonstrations or examples, rather than through trial and error.\n8. **Active Learning**: Select the most informative data points to label, in order to train a model with the least amount of labeled data, by actively choosing the most uncertain or representative examples.\n\nNote that these subfields are not mutually exclusive, and many machine learning problems involve a combination of two or more of these subfields.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 350,
+        "finish_reason": "stop",
+        "latency_ms": 52868.22,
+        "chars": 1693
+      },
+      {
+        "label": "s34r2",
+        "seed": 34,
+        "text": "1. **Natural Language Processing (NLP)**: NLP deals with the interaction between computers and human language, enabling computers to understand, generate, and process human language.\n2. **Computer Vision**: Computer vision solves the problem of enabling computers to interpret and understand visual data from images and videos.\n3. **Robotics**: Robotics deals with the design and control of robots that can perform tasks that typically require human intelligence, such as movement and manipulation of objects.\n4. **Expert Systems**: Expert systems solve the problem of mimicking human decision-making in specific domains, such as medical diagnosis or financial analysis.\n5. **Speech Recognition**: Speech recognition deals with the problem of enabling computers to recognize and transcribe human speech.\n6. **Machine Learning**: Machine learning solves the problem of enabling computers to learn from data and improve their performance on a task without being explicitly programmed.\n7. **Neural Networks**: Neural networks deal with the problem of modeling complex relationships between inputs and outputs using a network of interconnected nodes (neurons) that process and transform the data.\n8. **Evolutionary Computation**: Evolutionary computation solves the problem of finding optimal solutions to complex problems by simulating the process of natural evolution, such as through genetic algorithms or evolution strategies.\n\nNote that these subfields are not mutually exclusive, and there is often overlap between them.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 272,
+        "finish_reason": "stop",
+        "latency_ms": 12373.86,
+        "chars": 1522
+      },
+      {
+        "label": "s34r3",
+        "seed": 34,
+        "text": "1. **Natural Language Processing (NLP)**: NLP deals with the interaction between computers and human language, enabling computers to understand, generate, and process human language.\n2. **Computer Vision**: Computer vision solves the problem of enabling computers to interpret and understand visual data from images and videos.\n3. **Robotics**: Robotics deals with the problem of enabling computers to interact with and control physical devices, such as robots, to perform tasks in the physical world.\n4. **Speech Recognition**: Speech recognition solves the problem of enabling computers to recognize and transcribe human speech into text.\n5. **Expert Systems**: Expert systems deal with the problem of mimicking human decision-making in specific domains, such as medical diagnosis or financial analysis.\n6. **Machine Learning**: Machine learning solves the problem of enabling computers to learn from data and improve their performance on a task without being explicitly programmed.\n7. **Neural Networks**: Neural networks deal with the problem of enabling computers to learn and represent complex patterns in data using a network of interconnected nodes (neurons).\n8. **Evolutionary Computation**: Evolutionary computation solves the problem of enabling computers to search for optimal solutions to complex problems using principles of natural evolution, such as genetic algorithms.\n\nNote that these subfields are not mutually exclusive, and there is often overlap between them.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 268,
+        "finish_reason": "stop",
+        "latency_ms": 6969.47,
+        "chars": 1481
+      },
+      {
+        "label": "s34r4",
+        "seed": 34,
+        "text": "1. **Natural Language Processing (NLP)**: NLP deals with the interaction between computers and human language, enabling computers to understand, generate, and process human language.\n2. **Computer Vision**: Computer vision solves the problem of enabling computers to interpret and understand visual data from images and videos.\n3. **Robotics**: Robotics deals with the problem of enabling computers to interact with and control physical devices, such as robots, to perform tasks in the physical world.\n4. **Expert Systems**: Expert systems solve the problem of mimicking human decision-making in specific domains, such as medical diagnosis or financial analysis.\n5. **Speech Recognition**: Speech recognition deals with the problem of enabling computers to recognize and transcribe human speech.\n6. **Machine Learning**: Machine learning solves the problem of enabling computers to learn from data and improve their performance on a task without being explicitly programmed.\n7. **Neural Networks**: Neural networks deal with the problem of enabling computers to model complex relationships between inputs and outputs using artificial neural networks.\n8. **Evolutionary Computation**: Evolutionary computation solves the problem of using principles of natural evolution, such as genetic algorithms, to search for optimal solutions to complex problems.\n\nNote that these subfields are not mutually exclusive, and there is often overlap between them.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 260,
+        "finish_reason": "stop",
+        "latency_ms": 7446.91,
+        "chars": 1446
+      },
+      {
+        "label": "s34r5",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a brief description of the problem each solves:\n\n1. **Natural Language Processing (NLP)**: Solves the problem of enabling computers to understand, interpret, and generate human language, such as text or speech.\n2. **Computer Vision**: Solves the problem of enabling computers to interpret and understand visual data from images and videos, such as object recognition and image classification.\n3. **Reinforcement Learning**: Solves the problem of training agents to make decisions in complex, uncertain environments by learning from trial and error and maximizing rewards.\n4. **Time Series Analysis**: Solves the problem of analyzing and forecasting data that varies over time, such as predicting stock prices or weather patterns.\n5. **Recommendation Systems**: Solves the problem of suggesting relevant items to users based on their past behavior and preferences, such as product recommendations on e-commerce websites.\n6. **Anomaly Detection**: Solves the problem of identifying unusual patterns or outliers in data, such as detecting credit card fraud or network intrusions.\n7. **Clustering**: Solves the problem of grouping similar data points into clusters, such as customer segmentation or image segmentation.\n8. **Transfer Learning**: Solves the problem of adapting pre-trained models to new, related tasks, such as using a pre-trained image classification model to classify new images.\n\nEach of these subfields has its own set of techniques and applications, but they all rely on machine learning algorithms to solve complex problems.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 304,
+        "finish_reason": "stop",
+        "latency_ms": 7583.0,
+        "chars": 1607
+      }
+    ],
+    "99": [
+      {
+        "label": "s99r1",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a brief description of the problem each solves:\n\n1. **Natural Language Processing (NLP)**: Solves the problem of enabling computers to understand, interpret, and generate human language, such as text or speech.\n2. **Computer Vision**: Solves the problem of enabling computers to interpret and understand visual data from images and videos, such as object recognition and image classification.\n3. **Reinforcement Learning**: Solves the problem of training agents to make decisions in complex, dynamic environments, such as game playing or robotics, by learning from trial and error.\n4. **Time Series Analysis**: Solves the problem of analyzing and forecasting data that varies over time, such as stock prices or weather patterns.\n5. **Recommendation Systems**: Solves the problem of suggesting relevant items or products to users based on their past behavior and preferences.\n6. **Anomaly Detection**: Solves the problem of identifying unusual patterns or outliers in data, such as detecting credit card fraud or network intrusions.\n7. **Clustering**: Solves the problem of grouping similar data points or objects into clusters, such as customer segmentation or image segmentation.\n8. **Transfer Learning**: Solves the problem of adapting pre-trained models to new, related tasks or domains, such as using a pre-trained image classification model to classify new types of images.\n\nEach of these subfields has its own set of techniques, algorithms, and applications, but they all fall under the broader umbrella of machine learning.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 309,
+        "finish_reason": "stop",
+        "latency_ms": 9420.36,
+        "chars": 1596
+      },
+      {
+        "label": "s99r2",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a brief description of the problem each solves:\n\n1. **Natural Language Processing (NLP)**: Solves the problem of enabling computers to understand, interpret, and generate human language, such as text or speech.\n2. **Computer Vision**: Solves the problem of enabling computers to interpret and understand visual data from images and videos, such as object recognition and image classification.\n3. **Reinforcement Learning**: Solves the problem of training agents to make decisions in complex, dynamic environments, such as game playing or robotics, by learning from trial and error.\n4. **Time Series Analysis**: Solves the problem of forecasting and predicting future values in a sequence of data that varies over time, such as stock prices or weather patterns.\n5. **Recommendation Systems**: Solves the problem of suggesting relevant items or products to users based on their past behavior and preferences, such as personalized product recommendations.\n6. **Anomaly Detection**: Solves the problem of identifying unusual patterns or outliers in data that do not conform to expected behavior, such as detecting credit card fraud or network intrusions.\n7. **Clustering**: Solves the problem of grouping similar data points or objects into categories or clusters, such as customer segmentation or image clustering.\n8. **Transfer Learning**: Solves the problem of adapting pre-trained models to new, related tasks or domains, such as using a pre-trained image classification model to classify images in a new dataset.\n\nEach of these subfields has its own set of techniques, algorithms, and applications, but they all fall under the broader umbrella of machine learning.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 331,
+        "finish_reason": "stop",
+        "latency_ms": 11569.4,
+        "chars": 1731
+      },
+      {
+        "label": "s99r3",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a brief description of the problem each solves:\n\n1. **Natural Language Processing (NLP)**: Solves the problem of enabling computers to understand, interpret, and generate human language, such as text or speech.\n2. **Computer Vision**: Solves the problem of enabling computers to interpret and understand visual data from images and videos, such as object recognition and image classification.\n3. **Reinforcement Learning**: Solves the problem of training agents to make decisions in complex, uncertain environments by learning from trial and error and receiving rewards or penalties.\n4. **Time Series Analysis**: Solves the problem of analyzing and forecasting data that varies over time, such as predicting stock prices or weather patterns.\n5. **Recommendation Systems**: Solves the problem of suggesting relevant items to users based on their past behavior and preferences, such as product recommendations on e-commerce websites.\n6. **Anomaly Detection**: Solves the problem of identifying unusual patterns or outliers in data that may indicate errors, fraud, or other unusual events.\n7. **Clustering**: Solves the problem of grouping similar data points into clusters, such as customer segmentation or image segmentation.\n8. **Transfer Learning**: Solves the problem of adapting pre-trained models to new, related tasks with limited training data, such as using a pre-trained image classification model to classify new images.\n\nEach of these subfields has its own set of techniques, algorithms, and applications, and they often overlap or are used in combination to solve complex problems.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 314,
+        "finish_reason": "stop",
+        "latency_ms": 9273.5,
+        "chars": 1658
+      },
+      {
+        "label": "s99r4",
+        "seed": 99,
+        "text": "1. **Natural Language Processing (NLP)**: NLP solves the problem of enabling computers to understand, interpret, and generate human language, such as text or speech.\n2. **Computer Vision**: Computer Vision solves the problem of enabling computers to interpret and understand visual data from images and videos.\n3. **Robotics**: Robotics solves the problem of enabling computers to control and interact with physical devices, such as robots, to perform tasks in the physical world.\n4. **Expert Systems**: Expert Systems solve the problem of mimicking human decision-making in specific domains, such as medical diagnosis or financial analysis.\n5. **Speech Recognition**: Speech Recognition solves the problem of enabling computers to recognize and transcribe human speech into text.\n6. **Machine Learning**: Machine Learning solves the problem of enabling computers to learn from data and improve their performance on a task without being explicitly programmed.\n7. **Computer Vision and Image Processing**: Computer Vision and Image Processing solve the problem of enabling computers to process, analyze, and understand visual data from images and videos.\n8. **Human-Computer Interaction**: Human-Computer Interaction solves the problem of designing interfaces and systems that are easy and natural for humans to use and interact with.\n\nNote that these subfields are not mutually exclusive, and there is often overlap between them.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 262,
+        "finish_reason": "stop",
+        "latency_ms": 8127.96,
+        "chars": 1429
+      },
+      {
+        "label": "s99r5",
+        "seed": 99,
+        "text": "1. **Natural Language Processing (NLP)**: NLP deals with the interaction between computers and human language, enabling computers to understand, generate, and process human language.\n2. **Computer Vision**: Computer vision solves the problem of enabling computers to interpret and understand visual data from images and videos.\n3. **Robotics**: Robotics deals with the problem of designing and building robots that can perform tasks that typically require human intelligence, such as movement and manipulation of objects.\n4. **Expert Systems**: Expert systems solve the problem of mimicking human decision-making in specific domains, such as medical diagnosis or financial analysis.\n5. **Speech Recognition**: Speech recognition deals with the problem of enabling computers to recognize and transcribe human speech.\n6. **Machine Learning**: Machine learning solves the problem of enabling computers to learn from data and improve their performance on a task without being explicitly programmed.\n7. **Neural Networks**: Neural networks deal with the problem of modeling complex relationships between inputs and outputs using artificial neural networks inspired by the human brain.\n8. **Evolutionary Computation**: Evolutionary computation solves the problem of finding optimal solutions to complex problems by simulating the process of natural evolution, such as through genetic algorithms.\n\nNote that these subfields are not mutually exclusive, and there is often overlap between them.",
+        "model": "meta-llama/llama-3.1-70b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 263,
+        "finish_reason": "stop",
+        "latency_ms": 6795.38,
+        "chars": 1485
+      }
+    ]
+  }
+}

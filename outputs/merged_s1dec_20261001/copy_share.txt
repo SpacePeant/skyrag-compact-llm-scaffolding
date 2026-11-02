@@ -1,0 +1,28 @@
+| setup | context | cell | rewrite words (median) | invented copied from rewrite |
+|---|---|---|---|---|
+| hosted LLaMA | static | a2_sw | 48 | 709/5248 = 13.5% |
+| hosted LLaMA | static | a2_s1 | 31 | 414/5902 = 7.0% |
+| hosted LLaMA | static | a3_p1 | 104 | 1451/2528 = 57.4% |
+| hosted LLaMA | injection | a2_sw | 48 | 664/2106 = 31.5% |
+| hosted LLaMA | injection | a2_s1 | 31 | 279/1507 = 18.5% |
+| hosted LLaMA | injection | a3_p1 | 104 | 1178/1736 = 67.9% |
+| 5090 LLaMA | static | a2 | 97 | 1515/8918 = 17.0% |
+| 5090 LLaMA | static | a2_sw | 39 | 468/5868 = 8.0% |
+| 5090 LLaMA | static | a2_s1 | 50 | 378/5212 = 7.3% |
+| 5090 LLaMA | static | a3_p1 | 98 | 1617/3024 = 53.5% |
+| 5090 LLaMA | static | a3 | 51 | 593/2583 = 23.0% |
+| 5090 LLaMA | injection | a2 | 97 | 1204/1795 = 67.1% |
+| 5090 LLaMA | injection | a2_sw | 39 | 405/1064 = 38.1% |
+| 5090 LLaMA | injection | a2_s1 | 50 | 191/1188 = 16.1% |
+| 5090 LLaMA | injection | a3_p1 | 98 | 1162/1401 = 82.9% |
+| 5090 LLaMA | injection | a3 | 49 | 208/482 = 43.2% |
+| 5090 Qwen | static | a2 | 66 | 1394/2261 = 61.7% |
+| 5090 Qwen | static | a2_sw | 26 | 345/1353 = 25.5% |
+| 5090 Qwen | static | a2_s1 | 36 | 259/1332 = 19.4% |
+| 5090 Qwen | static | a3_p1 | 66 | 1902/2835 = 67.1% |
+| 5090 Qwen | static | a3 | 37 | 561/1835 = 30.6% |
+| 5090 Qwen | injection | a2 | 67 | 833/1029 = 81.0% |
+| 5090 Qwen | injection | a2_sw | 27 | 64/150 = 42.7% |
+| 5090 Qwen | injection | a2_s1 | 38 | 85/451 = 18.8% |
+| 5090 Qwen | injection | a3_p1 | 66 | 739/955 = 77.4% |
+| 5090 Qwen | injection | a3 | 37 | 129/436 = 29.6% |

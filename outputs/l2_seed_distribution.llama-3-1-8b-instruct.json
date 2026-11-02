@@ -1,0 +1,144 @@
+{
+  "probe": "L2 redesigned -- seed distribution comparison",
+  "supersedes": "the single-draw-per-seed L2, which is underpowered whenever same-seed repeats disagree (see L3)",
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "provider": "deepinfra",
+  "draws_per_seed": 5,
+  "seeds": [
+    34,
+    99
+  ],
+  "within_seed_identical": {
+    "hits": 14,
+    "pairs": 20,
+    "rate": 0.7
+  },
+  "between_seed_identical": {
+    "hits": 15,
+    "pairs": 25,
+    "rate": 0.6
+  },
+  "modes_equal": true,
+  "modal_counts": {
+    "34": 5,
+    "99": 3
+  },
+  "pooled_distinct": 2,
+  "verdict": "mixed",
+  "calls": {
+    "34": [
+      {
+        "label": "s34r1",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 53493.35,
+        "chars": 1832
+      },
+      {
+        "label": "s34r2",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 13590.22,
+        "chars": 1832
+      },
+      {
+        "label": "s34r3",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 20547.48,
+        "chars": 1832
+      },
+      {
+        "label": "s34r4",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 14619.47,
+        "chars": 1832
+      },
+      {
+        "label": "s34r5",
+        "seed": 34,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 18211.39,
+        "chars": 1832
+      }
+    ],
+    "99": [
+      {
+        "label": "s99r1",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between inputs and outputs based on labeled training data, so that the model can make predictions on new, unseen data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns, relationships, or structure in data without prior knowledge of the expected output, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning to make decisions in an environment where the goal is to maximize a reward signal, often used in robotics, game playing, or autonomous systems.\n4. **Deep Learning**: This subfield solves the problem of learning complex, hierarchical representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, or time series forecasting.\n5. **Transfer Learning**: This subfield solves the problem of leveraging knowledge gained from one task or domain to improve performance on a different, but related, task or domain, often used for adapting pre-trained models to new datasets or tasks.\n6. **Active Learning**: This subfield solves the problem of selecting the most informative samples from a large dataset to query or label, often used for reducing the need for labeled data, improving model performance, or speeding up the learning process.\n7. **Explainable Machine Learning**: This subfield solves the problem of providing transparent, interpretable, and understandable explanations for the decisions made by machine learning models, often used for building trust, identifying biases, or improving model performance.\n8. **Multi-Task Learning**: This subfield solves the problem of learning multiple related tasks simultaneously, often used for improving model performance, reducing overfitting, or leveraging shared knowledge across tasks.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 380,
+        "finish_reason": "stop",
+        "latency_ms": 29498.73,
+        "chars": 2048
+      },
+      {
+        "label": "s99r2",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 14900.05,
+        "chars": 1832
+      },
+      {
+        "label": "s99r3",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 13316.71,
+        "chars": 1832
+      },
+      {
+        "label": "s99r4",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between input data and target outputs, where the goal is to make predictions based on labeled training data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns or relationships in data without prior knowledge of the target outputs, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning optimal actions in a given environment, where the goal is to maximize a reward signal or minimize a penalty.\n4. **Deep Learning**: This subfield solves the problem of learning complex representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, and other tasks.\n5. **Transfer Learning**: This subfield solves the problem of leveraging pre-trained models and adapting them to new tasks or domains, reducing the need for extensive retraining and improving generalization.\n6. **Natural Language Processing (NLP)**: This subfield solves the problem of understanding and generating human language, including tasks such as text classification, sentiment analysis, machine translation, and dialogue systems.\n7. **Computer Vision**: This subfield solves the problem of interpreting and understanding visual data from images and videos, including tasks such as object detection, image classification, and scene understanding.\n8. **Robotics and Control**: This subfield solves the problem of learning to control and interact with physical systems, including tasks such as autonomous navigation, robotic manipulation, and human-robot interaction.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 336,
+        "finish_reason": "stop",
+        "latency_ms": 16038.85,
+        "chars": 1832
+      },
+      {
+        "label": "s99r5",
+        "seed": 99,
+        "text": "Here are eight distinct subfields of machine learning, along with a one-sentence description of what problem each solves:\n\n1. **Supervised Learning**: This subfield solves the problem of learning a mapping between inputs and outputs based on labeled training data, so that the model can make predictions on new, unseen data.\n2. **Unsupervised Learning**: This subfield solves the problem of discovering patterns, relationships, or structure in data without prior knowledge of the expected output, often used for clustering, dimensionality reduction, or anomaly detection.\n3. **Reinforcement Learning**: This subfield solves the problem of learning to make decisions in an environment where the goal is to maximize a reward signal, often used in robotics, game playing, or autonomous systems.\n4. **Deep Learning**: This subfield solves the problem of learning complex, hierarchical representations of data using multi-layer neural networks, often used for image and speech recognition, natural language processing, or time series forecasting.\n5. **Transfer Learning**: This subfield solves the problem of leveraging knowledge gained from one task or domain to improve performance on a different, but related, task or domain, often used for adapting pre-trained models to new datasets or tasks.\n6. **Active Learning**: This subfield solves the problem of selecting the most informative samples from a large dataset to query or label, often used for reducing the need for labeled data, improving model performance, or speeding up the learning process.\n7. **Explainable Machine Learning**: This subfield solves the problem of providing transparent, interpretable, and understandable explanations for the decisions made by machine learning models, often used for building trust, identifying biases, or improving model performance.\n8. **Multi-Task Learning**: This subfield solves the problem of learning multiple related tasks simultaneously, often used for improving model performance, reducing overfitting, or leveraging shared knowledge across tasks.",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "prompt_tokens": 46,
+        "completion_tokens": 380,
+        "finish_reason": "stop",
+        "latency_ms": 28275.68,
+        "chars": 2048
+      }
+    ]
+  }
+}

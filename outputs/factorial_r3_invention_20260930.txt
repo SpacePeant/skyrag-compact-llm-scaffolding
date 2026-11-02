@@ -1,0 +1,87 @@
+# 2x3 factorial analysis
+
+## Cells
+
+  static.L0      fact_20260923_v5fp8_s_l0_r1 [50 rows], fact_20260923_v5fp8_s_l0_r2 [50 rows], fact_20260923_v5fp8_s_l0_r3_resumed [50 rows]
+  static.L1      fact_20260923_v5fp8_s_l1_r1 [50 rows], fact_20260923_v5fp8_s_l1_r2 [50 rows], fact_20260923_v5fp8_s_l1_r3_resumed [50 rows]
+  static.L2      fact_20260923_v5fp8_s_l2_r1 [50 rows], fact_20260923_v5fp8_s_l2_r2 [50 rows], fact_20260923_v5fp8_s_l2_r3_resumed [50 rows]
+  inject.L0      fact_20260923_v5fp8_i_l0_r1 [50 rows], fact_20260923_v5fp8_i_l0_r2 [50 rows], fact_20260923_v5fp8_i_l0_r3 [50 rows]
+  inject.L1      fact_20260923_v5fp8_i_l1_r1 [50 rows], fact_20260923_v5fp8_i_l1_r2 [50 rows], fact_20260923_v5fp8_i_l1_r3 [50 rows]
+  inject.L2      fact_20260923_v5fp8_i_l2_r1 [50 rows], fact_20260923_v5fp8_i_l2_r2 [50 rows], fact_20260923_v5fp8_i_l2_r3 [50 rows]
+
+## Cell descriptives — invention
+
+  cell            rows  ITT n  ITT macro  AT n  AT macro    micro  mutes
+  static.L0        150     50     0.6666    50    0.6477   0.6868      7
+  static.L1        150     50     0.5552    50    0.4691   0.4807     26
+  static.L2        150     50     0.6763    50    0.5871   0.5877     32
+  inject.L0        150     50     0.3860    50    0.3701   0.3567      4
+  inject.L1        150     50     0.3812    49    0.2022   0.2184     32
+  inject.L2        150     50     0.3111    49    0.2312   0.2334     16
+
+  ITT and As-Treated are different cohorts and are never pooled (ledger 3.1). (macro = mean of per-query rates; micro = pooled ratio)
+
+## ITT — invention
+
+### Main effect: context [ITT]
+
+  context (static vs inject)                   n= 50  p=2.24e-12  dz=+1.414  
+
+### Main effect: format [ITT]
+
+  format (L0/L1/L2)                            n= 50  p=0.162  dz=-  
+    L0 vs L1                                   n= 50  p=0.03717  dz=+0.295  Holm p=0.1115
+    L0 vs L2                                   n= 50  p=0.2531  dz=+0.204  Holm p=0.5062
+    L1 vs L2                                   n= 50  p=0.3622  dz=-0.123  Holm p=0.5062
+
+### Interaction [ITT]
+
+  interaction: context x (L1 - L0)             n= 50  p=0.1381  dz=+0.268  Holm p=0.1381
+  interaction: context x (L2 - L0)             n= 50  p=0.03997  dz=-0.231  Holm p=0.07994
+
+### Equivalence of the interaction contrasts (TOST, margin +/-0.05)
+
+  interaction: context x (L1 - L0)             n= 50  not shown equivalent
+      mean difference    +0.10660   margin +/-0.05   alpha 0.05
+      p_lower 0.003832   p_upper 0.8402   p 0.8402   n_pairs 50
+  interaction: context x (L2 - L0)             n= 50  not shown equivalent
+      mean difference    -0.08460   margin +/-0.05   alpha 0.05
+      p_lower 0.7464   p_upper 0.006132   p 0.7464   n_pairs 50
+
+  Margin provenance: DEC-11 pre-registered +/-0.05
+  A non-significant Wilcoxon above is NOT evidence of additivity; only an
+  EQUIVALENT verdict here is, and only at the margin named.
+
+## AT — invention
+
+### Main effect: context [AT]
+
+  context (static vs inject)                   n= 48  p=2.132e-14  dz=+1.962  
+
+### Main effect: format [AT]
+
+  format (L0/L1/L2)                            n= 48  p=6.819e-06  dz=-  
+    L0 vs L1                                   n= 49  p=3.184e-07  dz=+0.879  Holm p=9.551e-07
+    L0 vs L2                                   n= 49  p=0.0001526  dz=+0.631  Holm p=0.0003052
+    L1 vs L2                                   n= 48  p=0.005905  dz=-0.418  Holm p=0.005905
+
+### Interaction [AT]
+
+  interaction: context x (L1 - L0)             n= 49  p=0.8437  dz=+0.010  Holm p=0.8437
+  interaction: context x (L2 - L0)             n= 49  p=0.01309  dz=-0.364  Holm p=0.02618
+
+### Equivalence of the interaction contrasts (TOST, margin +/-0.05)
+
+  interaction: context x (L1 - L0)             n= 49  not shown equivalent
+      mean difference    +0.00330   margin +/-0.05   alpha 0.05
+      p_lower 0.128   p_upper 0.1594   p 0.1594   n_pairs 49
+  interaction: context x (L2 - L0)             n= 49  not shown equivalent
+      mean difference    -0.09170   margin +/-0.05   alpha 0.05
+      p_lower 0.8739   p_upper 0.000132   p 0.8739   n_pairs 49
+
+  Margin provenance: DEC-11 pre-registered +/-0.05
+  A non-significant Wilcoxon above is NOT evidence of additivity; only an
+  EQUIVALENT verdict here is, and only at the margin named.
+
+---
+Pre-registered: tests fixed before the data landed. Wilcoxon per Section 3.5; Friedman for the 3-level axis; Holm within each family.

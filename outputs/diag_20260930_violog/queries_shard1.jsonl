@@ -1,0 +1,17 @@
+{"id": "q01", "domain": "computer_science", "query": "I want to learn data science in 6 months"}
+{"id": "q04", "domain": "computer_science", "query": "Cybersecurity, network defense, and ethical hacking"}
+{"id": "cs07", "domain": "computer_science", "query": "Teach me mobile app development from scratch, Android first"}
+{"id": "math02", "domain": "mathematics", "query": "Linear algebra and probability, enough to follow machine learning papers"}
+{"id": "math05", "domain": "mathematics", "query": "Help me build up to differential equations from high school algebra"}
+{"id": "biz03", "domain": "business_finance", "query": "I am starting a company and need entrepreneurship and fundraising fundamentals"}
+{"id": "biz06", "domain": "business_finance", "query": "Supply chain and operations management for a manufacturing role"}
+{"id": "health03", "domain": "health_medicine", "query": "Introduction to psychology and mental health for a support worker"}
+{"id": "comm01", "domain": "communication_leadership", "query": "I want to become a confident public speaker and presenter"}
+{"id": "comm04", "domain": "communication_leadership", "query": "Business writing and professional communication for non-native English speakers"}
+{"id": "sci02", "domain": "science_engineering", "query": "Introductory physics and mechanics for an adult returning to study"}
+{"id": "sci05", "domain": "science_engineering", "query": "Organic chemistry, enough to prepare for a medical school entrance exam"}
+{"id": "arts03", "domain": "arts_humanities", "query": "Introduction to philosophy and ethical reasoning"}
+{"id": "edu01", "domain": "education", "query": "I am a new teacher and want to learn classroom teaching methods"}
+{"id": "edu04", "domain": "education", "query": "Educational assessment and measuring student learning"}
+{"id": "law03", "domain": "law_policy", "query": "Public policy analysis and governance for a civil service career"}
+{"id": "lang02", "domain": "language", "query": "Learn Chinese from beginner level for business travel"}

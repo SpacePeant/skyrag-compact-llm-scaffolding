@@ -1,0 +1,202 @@
+{
+ "q01": {
+  "text": "I want to learn data science with a focus on data analysis, machine learning, and statistics for data science at an intermediate level over a period of 6 months.",
+  "schema_ok": true
+ },
+ "q02": {
+  "text": "I am a beginner and I am looking for a path that covers machine learning and deep learning using Python. I am interested in projects and algorithms and the duration should be around 6-12 months.",
+  "schema_ok": true
+ },
+ "q03": {
+  "text": "I am looking for a full-stack web development course that covers Python and JavaScript. I have some experience with both languages and want to learn how to build complete web applications. The course should be around 6-12 months long.",
+  "schema_ok": true
+ },
+ "q04": {
+  "text": "I am looking for a course that covers cybersecurity, network defense, and ethical hacking. I am a beginner and would prefer a course that is around 6 months long.",
+  "schema_ok": true
+ },
+ "q05": {
+  "text": "I am looking for information on cloud computing infrastructure and DevOps deployment. I am intermediate level and would like to know about the typical duration of such projects.",
+  "schema_ok": true
+ },
+ "cs06": {
+  "text": "As a backend developer with experience in SQL and Spark, I am interested in learning more about data engineering and the ETL processes involved in transforming and processing large datasets.",
+  "schema_ok": true
+ },
+ "cs07": {
+  "text": "I am a beginner and I want to learn mobile app development starting with Android. The course should cover the basics and be suitable for someone with no prior experience. It should take around 3-6 months to complete.",
+  "schema_ok": true
+ },
+ "cs08": {
+  "text": "I am looking to gain a thorough understanding of databases, specifically focusing on relational design, indexing methods, and query tuning. I am at an intermediate level and am interested in a course that covers these topics in detail over a period of 6-8 weeks.",
+  "schema_ok": true
+ },
+ "math01": {
+  "text": "I need to relearn calculus before starting an engineering degree. I am looking for resources that cover essential calculus concepts and are suitable for someone with some prior knowledge. The course should be around 6 months long to ensure a thorough understanding of the material.",
+  "schema_ok": true
+ },
+ "math02": {
+  "text": "I need a background in linear algebra and probability to understand machine learning papers. I am looking for a course that covers these topics at an intermediate level and lasts between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "math03": {
+  "text": "I am looking for a statistics course that focuses on interpreting research studies rather than programming. I am a beginner and would prefer a course that lasts between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "math04": {
+  "text": "I am a beginner in computer science and I am looking for resources on discrete mathematics and logic to help me get started. I am interested in materials that are suitable for beginners and cover the basics of these topics.",
+  "schema_ok": true
+ },
+ "math05": {
+  "text": "I need to understand the foundational concepts of differential equations, building upon my high school algebra knowledge. I am looking for a course that covers the necessary prerequisites and spans approximately 6 months.",
+  "schema_ok": true
+ },
+ "biz01": {
+  "text": "I want to learn financial accounting well enough to read a company's annual report. I am a beginner and looking for a course that covers the basics and goes into detail about financial statements and their analysis. The course should be around 6-12 months long.",
+  "schema_ok": true
+ },
+ "biz02": {
+  "text": "I am a small business owner looking to improve my digital marketing and social media strategy. I need information on the prerequisite skills and the duration of the course to get started.",
+  "schema_ok": true
+ },
+ "biz03": {
+  "text": "I am a beginner in entrepreneurship and need to understand the fundamentals of starting a company, including the basics of entrepreneurship, fundraising strategies, and the duration required for these processes.",
+  "schema_ok": true
+ },
+ "biz04": {
+  "text": "I am looking for a project management course that covers the basics and progresses to agile delivery. The course should be suitable for beginners and have a duration of around 6 months.",
+  "schema_ok": true
+ },
+ "biz05": {
+  "text": "I am looking to transition my career into banking and need to understand corporate finance and investment analysis. What are the prerequisite skills and courses I should take? Additionally, how long will it take to become proficient in these areas?",
+  "schema_ok": true
+ },
+ "biz06": {
+  "text": "I am looking for a course in supply chain and operations management specifically for a manufacturing role. I am a mid-level professional with 5 years of experience and I am interested in a course that lasts between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "health01": {
+  "text": "I am looking for information on nutrition and healthy eating based on solid evidence. I am a beginner and would like to know the basics before moving to more advanced topics. The course or resource should be around 2-3 hours long.",
+  "schema_ok": true
+ },
+ "health02": {
+  "text": "I am looking for an introductory course on public health and epidemiology that is suitable for non-clinicians. The course should cover the basics and have a duration of around 6-8 weeks.",
+  "schema_ok": true
+ },
+ "health03": {
+  "text": "I am looking for an introductory course in psychology and mental health that is suitable for a support worker. The course should cover basic psychological theories and common mental health conditions, as well as the specific responsibilities of a support worker. The course duration should be around 6 months.",
+  "schema_ok": true
+ },
+ "health04": {
+  "text": "Understanding anatomy and physiology is essential preparation for a nursing programme. This course will cover the basics of human anatomy and physiology and how they relate to nursing practice. The programme is designed for students with a high school diploma and lasts approximately one year.",
+  "schema_ok": true
+ },
+ "health05": {
+  "text": "I am looking to gain a deeper understanding of global health systems and healthcare policy, particularly at an intermediate level. The course should cover the basics of international health organizations and their roles in shaping healthcare policies. I am interested in a course that lasts between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "comm01": {
+  "text": "I am looking to improve my public speaking and presentation skills to become more confident. I need a course or program that covers techniques for building confidence and effective communication strategies. The course should be suitable for beginners and last between 6 to 12 weeks.",
+  "schema_ok": true
+ },
+ "comm02": {
+  "text": "I am new to management and I am looking to improve my negotiation and persuasion skills. Can you recommend any courses or resources that are suitable for beginners and how long they typically take to complete?",
+  "schema_ok": true
+ },
+ "comm03": {
+  "text": "I am looking to enhance my leadership skills specifically for a small technical team. I am at an intermediate level and am interested in a program that lasts between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "comm04": {
+  "text": "I am an intermediate level non-native English speaker looking to improve my business writing and professional communication skills. I am willing to dedicate around 6 months to this course.",
+  "schema_ok": true
+ },
+ "comm05": {
+  "text": "I am looking for resources on conflict resolution and difficult conversations at work. I am a mid-level manager and would like to know more about the best practices and strategies for handling these situations. The course or material should be around 2-3 hours long.",
+  "schema_ok": true
+ },
+ "sci01": {
+  "text": "I am looking to learn about climate science and the energy transition. I am a beginner and would prefer a course that lasts between 3 to 6 months.",
+  "schema_ok": true
+ },
+ "sci02": {
+  "text": "I am an adult looking to return to my studies and I am interested in introductory physics and mechanics courses. I am a beginner in this field and would like to know if there are any prerequisite skills I should have before starting. Additionally, I would like to know the typical duration of such courses.",
+  "schema_ok": true
+ },
+ "sci03": {
+  "text": "Molecular biology and genetics for beginners, covering introductory concepts and foundational knowledge, suitable for those with no prior experience in the field.",
+  "schema_ok": true
+ },
+ "sci04": {
+  "text": "I am looking for a beginner-level course in electrical engineering that covers circuits, signals, and electronics. The course should be around 6-12 months long.",
+  "schema_ok": true
+ },
+ "sci05": {
+  "text": "I need to understand organic chemistry well enough to prepare for a medical school entrance exam. I am at a beginner to intermediate level and looking for resources that cover the necessary topics in a detailed manner. The course should be around 6-8 weeks long to fit my study schedule.",
+  "schema_ok": true
+ },
+ "arts01": {
+  "text": "I am a beginner and I want to learn music theory and start composing. I am looking for a course that covers the basics of music theory and provides guidance on how to start composing music. The course should be around 6-12 months long.",
+  "schema_ok": true
+ },
+ "arts02": {
+  "text": "Explore modern world history focusing on the industrial revolution and its impact up to the present day. Suitable for intermediate learners and lasting approximately 6 months.",
+  "schema_ok": true
+ },
+ "arts03": {
+  "text": "This course introduces philosophical concepts and ethical reasoning, suitable for beginners with no prior knowledge. The course duration is approximately 6 weeks.",
+  "schema_ok": true
+ },
+ "arts04": {
+  "text": "I am a beginner and I want to learn creative writing and storytelling techniques to write fiction. I am looking for a course that covers the basics and provides practical exercises to improve my skills. The course should be around 6-12 weeks long.",
+  "schema_ok": true
+ },
+ "arts05": {
+  "text": "I am a complete beginner and I am looking for photography and visual design courses that cover the basics. I am interested in a course that will provide me with the necessary skills and knowledge to start my journey in these fields. The course should be around 6-8 weeks long.",
+  "schema_ok": true
+ },
+ "edu01": {
+  "text": "As a new teacher, I am looking to learn about classroom teaching methods, including classroom management techniques, beginner teaching strategies, and effective lesson planning. I am at a beginner level and am interested in a course that will last between 3 to 6 months.",
+  "schema_ok": true
+ },
+ "edu02": {
+  "text": "I am looking for information on instructional design and building online courses. I am a beginner and would like to know the best practices and the overall process involved in developing an online course.",
+  "schema_ok": true
+ },
+ "edu03": {
+  "text": "I am looking for effective teaching methods and strategies to teach mathematics to primary school children. I am a teacher with 5 years of experience and I am interested in learning about different techniques and approaches that can help me improve my teaching skills and make mathematics more engaging for young learners.",
+  "schema_ok": true
+ },
+ "edu04": {
+  "text": "I am looking for resources on educational assessment and measuring student learning. I am at an intermediate level and would like to know about the duration of typical courses or programs focused on this topic.",
+  "schema_ok": true
+ },
+ "law01": {
+  "text": "I am a non-lawyer and I want to learn about the basics of the legal system, legal terms, and how to understand legal documents. I am looking for a course that is suitable for beginners and can be completed within a few weeks.",
+  "schema_ok": true
+ },
+ "law02": {
+  "text": "I am looking for resources on human rights and international humanitarian law. I am a beginner and would like to know more about the legal framework and how it applies in conflict situations. The course should be around 6-8 hours long.",
+  "schema_ok": true
+ },
+ "law03": {
+  "text": "I am looking for resources on public policy analysis and governance to prepare for a career in the civil service. I am at an intermediate level and would like to know about the typical duration of training and the key skills needed for this field.",
+  "schema_ok": true
+ },
+ "law04": {
+  "text": "I am looking for information on sustainability, environmental policy, and corporate responsibility. I am a mid-level manager and would like to understand the basics before diving into more detailed topics. The course should be around 6-8 hours long.",
+  "schema_ok": true
+ },
+ "lang01": {
+  "text": "I am looking to enhance my English grammar and academic writing skills, and I am at an intermediate level. I am interested in a course that will last between 6 to 12 months.",
+  "schema_ok": true
+ },
+ "lang02": {
+  "text": "I want to learn Chinese from a beginner level to improve my skills for business travel. I am looking for a course that covers basic Chinese phrases and vocabulary relevant to travel and business meetings. The course should be around 6-12 months long to help me achieve my goals.",
+  "schema_ok": true
+ },
+ "lang03": {
+  "text": "I am looking for courses or materials that will help me improve my English for professional communication in a technical workplace. I am a beginner and would prefer a course that lasts between 3 to 6 months.",
+  "schema_ok": true
+ }
+}
